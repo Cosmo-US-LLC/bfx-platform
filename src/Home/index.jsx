@@ -29,15 +29,25 @@ import PressMediaSec from './PressMediaSec';
 import TraderReviewsSec from './TraderReviewsSec';
 import FaqSec from './FAQSec';
 import TheUltimateSec from './TheUltimateSec';
+import HowToStart from './HowToStart';
 
 function Home() {
     return (
       <div className="">
         <Herosection />
-        <WalletSec />
         <NextGenerationSec />
+        <HowToStart/>
         <TradeOverSec/>
         <OneAppSec />
+        <WallStreetSec />
+        <TradeLikeSec />
+        <TopAssetsSec />
+        <OurAwardSec />
+        <PressMediaSec />
+        <TraderReviewsSec />
+        <FaqSec />
+        <TheUltimateSec />
+        {/* <WalletSec />
         <EarnOnSec />
         <HowDoesItSec />
         <ExclusiveBenefitsSec/>
@@ -47,9 +57,6 @@ function Home() {
         <StandoutSec/>
         <HyperGrowthSec />
         <GatewaySec />
-        <WallStreetSec />
-        <TradeLikeSec />
-        <TopAssetsSec />
         <LiveNewSec />
         <SecurityBuiltSec />
         <StreamlinedSec />
@@ -57,12 +64,7 @@ function Home() {
         <TokenAllocationSec />
         <TokenDetailsSec />
         <RoadmapSec />
-        <OurAwardSec />
-        <ExpertsworkingSec />
-        <PressMediaSec />
-        <TraderReviewsSec />
-        <FaqSec />
-        <TheUltimateSec />
+        <ExpertsworkingSec /> */}
       </div>
     );
   }

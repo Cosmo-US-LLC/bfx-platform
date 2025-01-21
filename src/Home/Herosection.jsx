@@ -13,25 +13,21 @@ function Herosection() {
         <div className="space-y-[35px]">
           <div>
             <h4 className="text-[18px]  leading-[100%] font-[400] text-center text-[#000] tracking-[-1px] capitalize">
-              Access all Global financial markets in one place
+            Maximize Your Trading Potential
             </h4>
             <h2 className="pt-6 pb-8 text-[64px] font-[700] leading-[100.375%] tracking-[-1px] text-[#000] text-center">
-              The Ultimate <br /> Trading Platform
+              Trade Crypto <br /> Forex, Stocks and More
             </h2>
             <p className="text-[18px] max-w-[865px] w-[100%] mx-auto font-[400] leading-[166.667%] text-center text-[#000] tracking-[-0.32px] ">
-              Trade Crypto, Forex, ETFs, Stocks, Futures, Options, Bonds,
-              Indices, CFDs, and more with BlockchainFX, featuring over 500
-              assets. Secure early access to this all-in-one trading platform by
-              holding $BFX  and earn up to 25,000 USDT daily staking rewards
-              from collected trading fees. 
+            Explore global markets with BlockchainFX, the all-in-one trading platform. Trade Crypto, Forex, ETFs, Stocks, Indices, ETFs, Futures, Options, Bonds Commodities and CFDs across 500+ assets. Elevate your trading game with state-of-the-art analysis tools and indicators. Start trading smarter today.
             </p>
           </div>
           <div className="flex justify-center items-center space-x-[17px]">
-            <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[18px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[152px] w-[100%] h-[58px]">
-              Buy $BFX
+            <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[18px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[210px] w-[100%] h-[58px]">
+              Start Trading Now
             </button>
-            <button className="hover:text-white hover:bg-[#E5AE00] px-[12px] text-black bg-transparent text-[18px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px] max-w-[152px] w-[100%] h-[58px]">
-              Beta Trading
+            <button className="hover:text-white hover:bg-[#E5AE00] px-[12px] text-black bg-transparent text-[18px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px] max-w-[210px] w-[100%] h-[58px]">
+              Free Demo Account
             </button>
           </div>
           <div className="flex justify-center pt-[20px]">

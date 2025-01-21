@@ -34,31 +34,31 @@ function MobileHome() {
     return (
       <div className="">
         <MobileHero />
-        <MobileWalletSec />
+        {/* <MobileWalletSec /> */}
         <MobNextGenerationSec />
         <MobileTradeOverSec />
         <MobileOneAppSec />
-        <MobileEarnOnSec />
-        <MobHowDoesItSec />
-        <MobExclusiveSec />
-        <MobilePremiumSec />
-        <MobHowToBuySec />
-        <MobileLessThanSec />
-        <MobStandoutSec />
-        <MobHyperGrowthSec />
-        <MobileGatewaySec />
+        {/* <MobileEarnOnSec /> */}
+        {/* <MobHowDoesItSec /> */}
+        {/* <MobExclusiveSec /> */}
+        {/* <MobilePremiumSec /> */}
+        {/* <MobHowToBuySec /> */}
+        {/* <MobileLessThanSec /> */}
+        {/* <MobStandoutSec /> */}
+        {/* <MobHyperGrowthSec /> */}
+        {/* <MobileGatewaySec /> */}
         <MobileWallStreetSec />
         <MobTadeLikeSec />
         <MobTopAssetsSec />
-        <MobLiveNewSec />
-        <MobSecurityBuiltSec />
-        <MobStreamlinedSec />
-        <MobWhatIsSec />
-        <MobTokenAllocationSec />
-        <MobTokenDetailsSec />
-        <MobRoadmapSec />
+        {/* <MobLiveNewSec /> */}
+        {/* <MobSecurityBuiltSec /> */}
+        {/* <MobStreamlinedSec /> */}
+        {/* <MobWhatIsSec /> */}
+        {/* <MobTokenAllocationSec /> */}
+        {/* <MobTokenDetailsSec /> */}
+        {/* <MobRoadmapSec /> */}
         <MobOurAwardSec />
-        <MobExpertsworkingSec />
+        {/* <MobExpertsworkingSec /> */}
         <MobPressMediaSec />
         <MobTraderReviewsSec />
         <MobFaqSec />

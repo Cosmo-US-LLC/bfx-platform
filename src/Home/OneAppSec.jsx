@@ -47,14 +47,15 @@ function OneAppSec() {
             Everything In One Apps
           </h3>
           <p className="text-[18px] text-[#181A20] font-[400] leading-[127.778%] leading-[-0.32px] text-start">
-            An innovative, modern and intuitive trading platform
+            An innovative, clean and intuitive trading platform
           </p>
           <div className="">
             {items.map((item, index) => (
               <div
                 key={index}
                 className={`py-[30px] pr-5 border-b last:border-none   transition-all duration-300 ${
-                  index === activeIndex ? "bg-white" : "bg-white"
+                  // index === activeIndex ? "bg-white" : "bg-white"
+                  ""
                 }`}
               >
                 <div
@@ -101,8 +102,8 @@ function OneAppSec() {
             ))}
           </div>
         </div>
-        <div className="w-[48%]">
-          <img src={oneimg} className="absolute right-0" alt="" />
+        <div className="w-[50%]">
+          <img src={oneimg} className="absolute -right-[20px] h-[740px] object-contain" alt="" />
         </div>
       </div>
      </div>

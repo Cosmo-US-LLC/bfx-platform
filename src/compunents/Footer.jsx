@@ -38,21 +38,21 @@ function Footer() {
           <div className='max-w-[150px] w-[100%] pt-[15px]'>
             <ul>
               <li className='text-[#000] text-[16px] font-[600] leading-[108.333%]  list-disc'>
-              Quick links
-                <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "how-to-buy", 90)} >How to Buy</a>
-                <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "what-is-bfx", 90)}>What is BFX</a>
-                <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "roadmap", 90)} >Roadmap</a>
-                <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "tokenomics", 90)} >Token Allocation</a>
+              Legal
+                <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "how-to-buy", 90)} >AML</a>
+                <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "what-is-bfx", 90)}>KYC</a>
+                <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "roadmap", 90)} >General Fees</a>
+                {/* <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "tokenomics", 90)} >Token Allocation</a> */}
               </li>
             </ul>
           </div>
           <div className='max-w-[200px] w-[100%] pt-[15px]'>
           <ul className=' w-[100%]'>
               <li className='text-[#000] text-[16px] list-disc font-[600] leading-[108.333%]'>
-              Docs
+              Policies
                 <a className='text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]' href="">Terms of Service </a>
-                <a className='text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]' href="">Privacy  Policy </a>
-                <a className='text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]' href="">Token Sale Agreement</a>
+                <a className='text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]' href="">Payment Policy </a>
+                <a className='text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]' href="">Order Execution Policy</a>
               </li>
             </ul>
           </div>
@@ -100,21 +100,21 @@ function Footer() {
         <div className='max-w-[150px] w-[100%] '>
             <ul>
               <li className='text-[#000] text-[16px] font-[600] leading-[108.333%]  list-disc'>
-              Quick links
-                <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "how-to-buy", 90)} >How to Buy</a>
-                <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "what-is-bfx", 90)}>What is BFX</a>
-                <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "roadmap", 90)} >Roadmap</a>
-                <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "tokenomics", 90)} >Token Allocation</a>
+              Legal
+                <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "how-to-buy", 90)} >AML</a>
+                <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "what-is-bfx", 90)}>KYC</a>
+                <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "roadmap", 90)} >General Fees</a>
+                {/* <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "tokenomics", 90)} >Token Allocation</a> */}
               </li>
             </ul>
           </div>
           <div className='max-w-[200px] w-[100%] '>
           <ul className=' w-[100%]'>
               <li className='text-[#000] text-[16px] list-disc font-[600] leading-[108.333%]'>
-              Docs
+              Policies
                 <a className='text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]' href="">Terms of Service </a>
-                <a className='text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]' href="">Privacy  Policy </a>
-                <a className='text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]' href="">Token Sale Agreement</a>
+                <a className='text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]' href="">Payment Policy </a>
+                <a className='text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]' href="">Order Execution Policy</a>
               </li>
             </ul>
           </div>
@@ -135,8 +135,8 @@ function Footer() {
         </div>
         <div className='border-t border-b border-[#000] py-[18px]'>
           <p className='text-[10px] font-[400] text-[#000] leading-[190%]'>
-          Cryptocurrency may be unregulated in your jurisdiction, and its value can fluctuate, leading to potential gains or losses. Any profits might be subject to capital gains or other taxes, depending on your local laws. The content on this platform does not constitute an offer, recommendation, or financial advice to buy, sell, or engage in any cryptocurrency transactions. You are solely responsible for assessing whether a transaction aligns with your personal goals, financial circumstances, and risk tolerance. We strongly recommend consulting trusted and licensed legal, tax, or financial professionals before making any decisions. <br /><br />
-          Trading cryptocurrencies carries significant risks, including the potential for partial or total loss of your funds. Thorough research is crucial. Dreamcars does not guarantee any performance, outcome, or return of capital for any cryptocurrency mentioned on this platform. By using this platform, you agree to our Terms of Service, Privacy Policy, Cookie Policy, and any applicable token sale agreements. The platform's content is not intended for use in jurisdictions where its distribution or use would violate local laws or regulations.
+          The services on this website are not available to the citizens and/or residents of the USA and to the residents of the following countries: Canada, Switzerland, Australia, Israel, Palestine, Japan, Sudan, Syria, Iran, North Korea, Republic of the Marshall Islands, Puerto Rico, Liberia, New Zealand, the Russian Federation and/or any country of the European Economic Area (EEA). <br /><br />
+          Operations offered on this website may have an increased level of risk. By purchasing services and tools from this website, you can suffer significant losses or completely lose the funds from your guaranteed trading account. Please evaluate all risks and consult with an independent adviser before trading.
           </p>
         </div>
         <div className='flex justify-between'>

@@ -13,7 +13,11 @@ function NextGenerationSec() {
   return (
     <div className="pt-[70px] pb-[53px] bg-[#FBFBFB]">
       <div className="max-w-[1220px]  w-[100%] mx-auto space-y-[90px]">
-        <h3 className="text-[50px] font-[700] leading-[114%] leading-[-1px] text-center">Next Generation Trading Experience</h3>
+        <h3 className="text-[50px] font-[700] leading-[114%] text-center">
+          The Ultimate
+          <br />
+          Trading Experience
+        </h3>
        <div className="space-y-[50px]">
        <div className="flex justify-center items-center space-x-[5rem]">
             <div className="flex flex-col min-w-[185px] items-center space-y-[20px]">
@@ -80,11 +84,11 @@ function NextGenerationSec() {
             </div>
         </div>
         <div className="flex justify-center items-center space-x-[17px]">
-            <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[18px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[152px] w-[100%] h-[58px]">
-              Buy $BFX
+            <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[18px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[210px] w-[100%] h-[58px]">
+              Start Trading Now
             </button>
-            <button className="hover:text-white hover:bg-[#E5AE00] px-[12px] text-black bg-transparent text-[18px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px] max-w-[152px] w-[100%] h-[58px]">
-              Beta Trading
+            <button className="hover:text-white hover:bg-[#E5AE00] px-[12px] text-black bg-transparent text-[18px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px] max-w-[210px] w-[100%] h-[58px]">
+              Free Demo Account
             </button>
           </div>
        </div>

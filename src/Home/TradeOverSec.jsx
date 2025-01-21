@@ -9,7 +9,7 @@ const cardData = [
     {
         img:takeimg1,
         title:"Crypto",
-        subtitle:"Trade BTC, ETH, SOL, PEPE, DOGE, and more with leverage and advanced trading tools."
+        subtitle:"Trade BTC, ETH, SOL, PEPE, DOGE, and more using professional trading tools."
     },
     {
         img:takeimg2,
@@ -29,15 +29,15 @@ const cardData = [
     {
         img:takeimg5,
         title:"Indices",
-        subtitle:"Dow Jones, S&P500, Nasdaq, DAX, CAC, Trade the most popular indices."
+        subtitle:"Dow Jones, S&P500,Nasdaq, DAX, CAC, Trade the mostpopular indices."
     },
 ]
 
 function TradeOverSec() {
   return (
-    <div className="pt-[40px] pb-[50px]">
+    <div className="pt-[40px] pb-[50px] bg-[#fff]">
       <div className="max-w-[1220px]  w-[100%] mx-auto space-y-[56px]">
-        <h3 className="text-[50px] font-[700] leading-[114%] leading-[-1px] text-center">Trade over 500 different assets</h3>
+        <h3 className="text-[50px] font-[700] leading-[114%] text-center">Trade over 500 different assets</h3>
        <div className="flex justify-center space-x-[14px]">
       {
         cardData.map((item) => (

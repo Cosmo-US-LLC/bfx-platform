@@ -16,7 +16,7 @@ import swpbtnr from "../assets/TraderReviewsSec/arw.svg";
 
 function TraderReviewsSec() {
   return (
-    <div className="pt-[77px]  max-w-[1440px] mx-auto space-y-[35px] bg-[#FAFAFA]">
+    <div className="py-[77px]  max-w-[1440px] mx-auto space-y-[35px] bg-[#FAFAFA]">
       <div className=" relative space-y-[40px] w-[100%]  ">
         <div className="space-y-[30px]">
           <h3 className="text-[50px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">

@@ -14,8 +14,8 @@ const FaqItem = ({ question, answer, isOpen, handleClick }) => {
   return (
     <div className="mb-[20px]">
       <div
-       className={`border flex justify-between py-[10px] px-[10px] bg-[#FFF] rounded-[4px] items-center cursor-pointer ${
-        isOpen ? "border-[#000]" : "border-[#000]"
+       className={`border flex justify-between py-[10px] px-[10px] rounded-[4px] items-center cursor-pointer ${
+        isOpen ? "border-[#000] bg-[#FFF]" : "border-[#E1E1E1] bg-[#f8f8f8]"
       }  border-solid`}
         onClick={handleClick}
       >
