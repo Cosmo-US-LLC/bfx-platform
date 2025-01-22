@@ -29,6 +29,7 @@ import MobPressMediaSec from './MobPressMediaSec';
 import MobTraderReviewsSec from './MobTraderReviewsSec';
 import MobFaqSec from './MobFaqSec';
 import MobTheUltimateSec from './MobTheUltimateSec';
+import MobileHowToStart from './MobileHowToStart';
 
 function MobileHome() {
     return (
@@ -36,6 +37,7 @@ function MobileHome() {
         <MobileHero />
         {/* <MobileWalletSec /> */}
         <MobNextGenerationSec />
+        <MobileHowToStart />
         <MobileTradeOverSec />
         <MobileOneAppSec />
         {/* <MobileEarnOnSec /> */}

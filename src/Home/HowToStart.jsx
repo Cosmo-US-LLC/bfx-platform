@@ -6,8 +6,8 @@ import practice from "../assets/HowToStart/practice.svg";
 function HowToStart() {
   return (
     <div>
-      <div className="pt-[55px] space-y-[35px] pb-[85px] bg-[#FFF]">
-        <div className="max-w-5xl space-y-[60px] w-[100%] mx-auto ">
+      <div className="pt-[55px] space-y-[55px] pb-[105px] bg-[#FFF]">
+        <div className="max-w-5xl space-y-[100px] w-[100%] mx-auto ">
           <div className="space-y-[30px]">
             <h3 className="text-[50px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
               How To Start

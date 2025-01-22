@@ -4,7 +4,6 @@ import Navbar from './compunents/Navbar';
 import Footer from './compunents/Footer';
 import MobileHome from './MobileHome';
 
-
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 700);
 

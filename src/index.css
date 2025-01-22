@@ -11,25 +11,33 @@ code {
   font-family: "Inter", serif;
 }
 
-.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
-display: none !important;
-}
-.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
   display: none !important;
-  }
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  display: none !important;
+}
 
-  .bgwhat{
-    background-image: url(../src/assets/WhatIsSec/bg.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-  }
-  .cardimg{
-    background-image: url(../src/assets/ExpertsworkingSec/expert.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-  }
-  .bgtheylt{
-    background-image: url(../src/assets/TheUltimateSec/bg.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-  }
+.bgwhat {
+  background-image: url(../src/assets/WhatIsSec/bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.cardimg {
+  background-image: url(../src/assets/ExpertsworkingSec/expert.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.bgtheylt {
+  background-image: url(../src/assets/TheUltimateSec/bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.bgtheyltMb {
+  background-image: url(../src/assets/TheUltimateSec/bg2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

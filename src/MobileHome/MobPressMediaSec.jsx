@@ -11,11 +11,27 @@ import medai2 from "../assets/Press&Media/media (2).svg";
 import medai3 from "../assets/Press&Media/media (3).svg";
 
 function MobPressMediaSec() {
+  const press = [
+    {
+      img: "/mobile/press/bitcoin.png",
+      body: "BlockchainFX can be described as a hybrid of Binance and Robinhood, delivering a seamless trading experience with exceptional speed and simplicity, powered by instant crypto deposits and trading."
+    },
+    {
+      img: "/mobile/press/coin.svg",
+      body: "BFX is pioneering a new era of cryptocurrency by seamlessly connecting it to global markets such as Forex, Commodities, and ETFs. This unprecedented integration creates endless trading opportunities for traders."
+    },
+    {
+      img: "/mobile/press/finbold.svg",
+      body: "BlockchainFX gives 560 million crypto users direct access to global financial markets, enabling seamless transitions across asset classes like Silver and BTC in seconds with advanced trading tools."
+    }
+  ]
+
   return (
-    <div className="pt-[24px] bg-[#FAFAFA] pb-[24px]"
-    style={{
-        background:"rgba(250, 250, 250, 0.98)"
-    }}
+    <div
+      className="bg-[#FAFAFA] py-[42px]"
+      style={{
+        background: "rgba(250, 250, 250, 0.98)",
+      }}
     >
       <div className=" relative space-y-[20px] w-[90%] mx-auto ">
         <div className="space-y-[20px]">
@@ -35,42 +51,20 @@ function MobPressMediaSec() {
             loop={false}
             className="mySwiper"
           >
-             <SwiperSlide>
-                <div className="bg-[#fff] max-w-[284px] mx-auto rounded-[8px]  px-[20px] py-[37px] w-[100%] border border-[#9D9D9D]">
-            <div className="space-y-[32px]">
-              <div className="flex items-center justify-center h-[30px]">
-                <img src={medai1} className="h-[20px]" alt="" />
-              </div>
-              <p className="text-[15px] text-center leading-[144.529%] font-[400]">
-              BlockchainFX can be described as a hybrid of Binance and Robinhood, delivering a seamless trading experience with exceptional speed and simplicity, powered by instant crypto deposits and trading.
-              </p>
-            </div>
-          </div>
+            {press?.map((item, id) => (
+              <SwiperSlide key={id} className="border-transparent">
+                <div className="bg-[#fff] max-w-[284px] border-transparent mx-auto rounded-[5.7px] px-[14px] py-[30px] w-[100%] border border-[#F1F1F1]">
+                  <div className={`${id == 1 ? "space-y-[13px]" : "space-y-[13px]"}`}>
+                    <div className="flex items-center justify-center h-[30px]">
+                      <img src={item.img} className={`${id == 1 ? "h-[28px]" : "h-[18px]"}`} alt="" />
+                    </div>
+                    <p className="text-[15px] text-center leading-[21.6px] font-[400]">
+                      {item.body}
+                    </p>
+                  </div>
+                </div>
               </SwiperSlide>
-              <SwiperSlide>
-              <div className="bg-[#FBFBFB] max-w-[284px] mx-auto rounded-[8px]  px-[20px] py-[37px] w-[100%] border border-[#9D9D9D]">
-            <div className="space-y-[32px]">
-              <div className="flex items-center justify-center h-[30px]">
-                <img src={medai2} className="h-[50px]" alt="" />
-              </div>
-              <p className="text-[15px] text-center leading-[144.529%] font-[400]">
-              BFX is pioneering a new era of cryptocurrency by seamlessly connecting it to global markets such as Forex, Commodities, and ETFs. This unprecedented integration creates endless trading opportunities for traders.
-              </p>
-            </div>
-          </div>
-              </SwiperSlide>
-              <SwiperSlide>
-              <div className="bg-[#fff] max-w-[284px] mx-auto rounded-[8px]  px-[20px] py-[37px] w-[100%] border border-[#9D9D9D]">
-            <div className="space-y-[32px]">
-              <div className="flex items-center justify-center h-[30px]">
-                <img src={medai3} className="h-[30px]" alt="" />
-              </div>
-              <p className="text-[15px] text-center leading-[144.529%] font-[400]">
-              BlockchainFX gives 560 million crypto users direct access to global financial markets, enabling seamless transitions across asset classes like Silver and BTC in seconds with advanced trading tools.
-              </p>
-            </div>
-          </div>
-              </SwiperSlide>
+            ))}
           </Swiper>
           <button className="swiper-button-prev rotate-[180deg]  absolute z-10 !left-[0%] !top-[53%] transform -translate-y-1/2">
             <img className="w-[50.545px] h-[30.545px] " src={swpbtn} alt="" />
