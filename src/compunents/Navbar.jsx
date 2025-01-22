@@ -93,35 +93,35 @@ function Navbar() {
         <div className="space-x-[27px] 2xl:flex xl:flex lg:flex md:flex sm:hidden hidden items-center">
           <a
             className="text-[16px] font-[500] text-[#000]"
-            onClick={(e) => handleScroll(e, "what-is-bfx", 90)}
+            onClick={(e) => handleScroll(e, "start", 90)}
             href=""
           >
             Quick Start
           </a>
           <a
             className="text-[16px] font-[500] text-[#000]"
-            onClick={(e) => handleScroll(e, "how-to-buy", 90)}
+            onClick={(e) => handleScroll(e, "demo", 90)}
             href=""
           >
             Free Demo Account
           </a>
           <a
             className="text-[16px] font-[500] text-[#000]"
-            onClick={(e) => handleScroll(e, "roadmap", 90)}
+            onClick={(e) => handleScroll(e, "features", 90)}
             href=""
           >
             Features
           </a>
           <a
             className="text-[16px] font-[500] text-[#000]"
-            onClick={(e) => handleScroll(e, "tokenomics", 90)}
+            onClick={(e) => handleScroll(e, "awards", 90)}
             href=""
           >
             Awards
           </a>
           <a
             className="text-[16px] font-[500] text-[#000]"
-            onClick={(e) => handleScroll(e, "win", 90)}
+            onClick={(e) => handleScroll(e, "reviews", 90)}
             href=""
           >
             Reviews

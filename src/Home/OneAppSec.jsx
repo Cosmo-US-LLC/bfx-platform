@@ -39,14 +39,14 @@ function OneAppSec() {
   };
 
   return (
-    <div className="pt-[40px] pb-[50px] ">
+    <div id="features" className="overflow-hidden pt-[40px] pb-[50px] ">
      <div className="max-w-[1400px] w-[100%] mx-auto relative">
      <div className="max-w-[1220px] flex justify-between w-[100%] mx-auto space-y-[56px]">
         <div className="w-[50%] max-w-[581px] space-y-[32px]">
-          <h3 className="text-[50px] font-[700] leading-[114%] text-[#181A20] leading-[-1px] text-start">
+          <h3 className="text-[50px] font-[700] leading-[114%] text-[#181A20] tracking-[-1px] text-start">
             Everything In One Apps
           </h3>
-          <p className="text-[18px] text-[#181A20] font-[400] leading-[127.778%] leading-[-0.32px] text-start">
+          <p className="text-[18px] text-[#181A20] font-[400] leading-[127.778%] tracking-[-0.32px] text-start">
             An innovative, clean and intuitive trading platform
           </p>
           <div className="">
@@ -102,8 +102,15 @@ function OneAppSec() {
             ))}
           </div>
         </div>
-        <div className="w-[50%]">
-          <img src={oneimg} className="absolute -right-[20px] h-[740px] object-contain" alt="" />
+        <div className="w-[50%] overflow-visible">
+          <div className="w-[200%] h-full" style={{
+            background: 'url(/desktop/app.png)',
+            backgroundPosition: 'left',
+            backgroundSize: 'auto 100%',
+            backgroundRepeat: 'no-repeat'
+          }}>
+            {/* <img src={"/desktop/app.png"} className="absolute -right-[20px] h-[740px] object-left" alt="" style={{objectFit: "50% 50%"}} /> */}
+          </div>
         </div>
       </div>
      </div>

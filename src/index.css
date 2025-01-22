@@ -35,6 +35,12 @@ code {
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+.bgtheylt1 {
+  background-image: url(../src/assets/TheUltimateSec/bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 .bgtheyltMb {
   background-image: url(../src/assets/TheUltimateSec/bg2.png);

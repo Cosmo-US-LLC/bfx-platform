@@ -5,7 +5,7 @@ import practice from "../assets/HowToStart/practice.svg";
 
 function HowToStart() {
   return (
-    <div>
+    <div id="start">
       <div className="pt-[55px] space-y-[55px] pb-[105px] bg-[#FFF]">
         <div className="max-w-5xl space-y-[100px] w-[100%] mx-auto ">
           <div className="space-y-[30px]">
@@ -64,10 +64,10 @@ function HowToStart() {
         </div>
       </div>
 
-      <div className="bg-[#FBFBFB] py-[45px]">
+      <div id="demo" className="bg-[#FBFBFB] py-[45px]">
         <div className="max-w-5xl mx-auto grid grid-cols-2">
           <div className="space-y-[23px]">
-            <h2 className="text-[35px] font-[500] leading-[35px]">
+            <h2 className="text-[35px] font-[500] leading-[35px] tracking-[-1px]">
               Open A Demo Account{" "}
               <span className="font-[700] text-[#E5AE00]">For Free</span>
             </h2>

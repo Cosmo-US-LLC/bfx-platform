@@ -62,40 +62,40 @@ const FaqItem = ({ question, answer, isOpen, handleClick }) => {
 const FaqSec = () => {
   const faqData = [
     {
-      question: "What is BlockchainFX?",
+      question: "How can I start?",
       answer:
-        "BlockchainFX is an international multi-asset trading platform offering a wide range of trading opportunities, including Forex, Crypto, ETFs, and more, with advanced technical tools and risk management features.",
+        "Getting started is quick and easy! Sign up on the BlockchainFX platform, create your account, and make a deposit. Once you’re set up, you can start trading right away.",
     },
     {
-      question: "What is BFX?",
+      question: "Can I start with a demo account?",
       answer:
-        "BFX is the native token of the BlockchainFX platform, enabling early access, staking rewards in BFX and USDT, and providing access to premium features, as well as participation in the platform's ecosystem.",
+        "Yes! BlockchainFX provides a demo account so you can practice trading strategies and explore the platform without any financial risk.",
     },
     {
-      question: "What is a Crypto Pre-Sale?",
+      question: "What’s the best way to trade?",
       answer:
-        "A crypto pre-sale is an early opportunity to purchase a new cryptocurrency or token before it becomes publicly available, typically at a significantly lower price than the official launch price on exchanges.",
+        "The best trading approach depends on your goals and experience. Beginners should start small and focus on understanding market trends. BlockchainFX offers tools, insights, and educational resources to help you trade confidently and effectively.",
     },
     {
-      question: "What is the goal of the Pre-Sale?",
+      question: "What does BlockchainFX offer?",
       answer:
-        "The goal of the pre-sale is to sell all tokens allocated for this phase while raising funds to enhance the platform and fuel its growth. These funds will be continuously reinvested into project development and marketing to attract more users. We aim to reach 25,000 daily traders and achieve multi-million dollar daily trading volume during the pre-sale. At the same time, we’re building a loyal and growing community, rewarding early participants with discounted tokens, and generating awareness ahead of the official launch.",
+        "BlockchainFX is a versatile trading platform with features like real-time market data and access to over 500 tradable assets. Enjoy analytical tools, an intuitive interface, and dedicated 24/7 customer support to enhance your trading journey.",
     },
     {
-      question: "Where can I see my tokens?",
+      question: "Is BlockchainFX secure?",
       answer:
-        "You can view your tokens in your dashboard wallet. Just connect with the wallet you used to purchase on presale.blockchainfx.com and click on the top right corner to see your holdings.",
+        "Absolutely! BlockchainFX prioritizes the security of your funds and personal information. The platform uses advanced encryption, two-factor authentication (2FA), and robust protocols to ensure a safe trading environment.",
     },
-    {
-      question: "Are my tokens safe?",
-      answer:
-        "The safety of your tokens during the pre-sale is guaranteed through our smart contract. Additionally, the BFX token has been audited by CertiK, the leading Blockchain Security Enterprise.",
-    },
-    {
-      question: "How to claim your BFX?",
-      answer:
-        "Once the pre-sale ends, you will be able to claim your BFX tokens in your dashboard wallet on presale.blockchainfx.com.",
-    },
+    // {
+    //   question: "Are my tokens safe?",
+    //   answer:
+    //     "The safety of your tokens during the pre-sale is guaranteed through our smart contract. Additionally, the BFX token has been audited by CertiK, the leading Blockchain Security Enterprise.",
+    // },
+    // {
+    //   question: "How to claim your BFX?",
+    //   answer:
+    //     "Once the pre-sale ends, you will be able to claim your BFX tokens in your dashboard wallet on presale.blockchainfx.com.",
+    // },
   ];
   const [openItems, setOpenItems] = useState([]);
 
