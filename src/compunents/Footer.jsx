@@ -31,7 +31,7 @@ function Footer() {
           <div className="flex justify-between w-[60%]">
             <div className="max-w-[245px] space-y-[10px] w-[100%]">
               <img src={logo} alt="" />
-              <p className="text-[#000] text-[14px] font-[400] leading-[200%]">
+              <p className="text-[#000] text-[14px] font-[400] leading-[200%] tracking-tight">
                 Experience all-in-one trading with BlockchainFX: Trade Crypto,
                 Forex, ETFs, Stocks, Indices, CFDs, and more with access to over
                 500 assets.
@@ -40,27 +40,34 @@ function Footer() {
             <div className="max-w-[150px] w-[100%] pt-[15px]">
               <ul className="max-md:list-none">
                 <li className="text-[#000] text-[16px] font-[600] leading-[108.333%]  list-disc">
-                  Legal
+                  Quick Links
                   <a
                     className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]"
                     href=""
-                    onClick={(e) => handleScroll(e, "how-to-buy", 90)}
+                    onClick={(e) => handleScroll(e, "faq", 90)}
                   >
-                    AML
+                    FAQ
                   </a>
                   <a
                     className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]"
                     href=""
-                    onClick={(e) => handleScroll(e, "what-is-bfx", 90)}
+                    onClick={(e) => handleScroll(e, "features", 90)}
                   >
-                    KYC
+                    Features
                   </a>
                   <a
                     className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]"
                     href=""
-                    onClick={(e) => handleScroll(e, "roadmap", 90)}
+                    onClick={(e) => handleScroll(e, "reviews", 90)}
                   >
-                    General Fees
+                    Reviews
+                  </a>
+                  <a
+                    className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]"
+                    href=""
+                    onClick={(e) => handleScroll(e, "demo", 90)}
+                  >
+                    Demo Account
                   </a>
                   {/* <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "tokenomics", 90)} >Token Allocation</a> */}
                 </li>
