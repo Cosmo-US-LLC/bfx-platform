@@ -5,7 +5,7 @@ import oneicon3 from "../assets/OneAppSec/oneicon (2).svg";
 import oneicon4 from "../assets/OneAppSec/oneicon (3).svg";
 import iconapon from "../assets/OneAppSec/iconopen (1).svg";
 import iconcls from "../assets/OneAppSec/iconopen (2).svg";
-import oneimg from "../assets/OneAppSec/imgonecec.png";
+// import oneimg from "../assets/OneAppSec/imgonecec.png";
 
 const items = [
   {
@@ -62,7 +62,7 @@ function OneAppSec() {
                   className="flex justify-between cursor-pointer"
                   onClick={() => handleToggle(index)}
                 >
-                  <div className="flex w-[100%] justify-between items-center space-x-4 space-y-[15px]">
+                  <div className="flex w-[100%] justify-between items-center space-x-4">
                     <div>
                       <img
                         src={item.icon}
@@ -70,9 +70,9 @@ function OneAppSec() {
                         className="w-[100px] h-[100px]"
                       />
                     </div>
-                    <div className="w-[80%]">
+                    <div className="w-[80%] space-y-1">
                       <div className="flex justify-between items-center">
-                        <h3 className="text-[20px] font-[600] text-[#000]">
+                        <h3 className="text-[20px] font-[600] text-[#000] leading-[34px]">
                           {item.title}
                         </h3>
                         <div>
@@ -84,7 +84,7 @@ function OneAppSec() {
                         </div>
                       </div>
                       <p
-                        className={`mt-[16px] text-[18px] font-[400] text-[#000] max-w-[400px] overflow-hidden transition-all duration-300 ${
+                        className={`text-[18px] leading-[30px] font-[400] text-[#000] max-w-[400px] overflow-hidden transition-all duration-300 ${
                           index === activeIndex
                             ? "max-h-[200px] opacity-100"
                             : "max-h-0 opacity-0"
