@@ -14,7 +14,7 @@ function PressMediaSec() {
           </h3>
         </div>
         <div className="flex justify-between">
-          <div className="bg-[#fff] max-w-[393px] rounded-[8px]  px-[20px] py-[37px] w-[100%] border border-[#9D9D9D]">
+          <div className="bg-[#fff] max-w-[393px] rounded-[8px]  px-[20px] py-[37px] w-[100%] border border-[#F1F1F1]">
             <div className="space-y-[32px]">
               <div className="flex items-center justify-center h-[30px]">
                 <img src={medai1} className="h-[30px]" alt="" />
@@ -24,7 +24,7 @@ function PressMediaSec() {
               </p>
             </div>
           </div>
-          <div className="bg-[#FBFBFB] max-w-[393px] rounded-[8px]  px-[20px] py-[37px] w-[100%] border border-[#9D9D9D]">
+          <div className="bg-[#FBFBFB] max-w-[393px] rounded-[8px]  px-[20px] py-[37px] w-[100%] border border-[#F1F1F1]">
             <div className="space-y-[32px]">
               <div className="flex items-center justify-center h-[30px]">
                 <img src={medai2} className="h-[50px]" alt="" />
@@ -34,7 +34,7 @@ function PressMediaSec() {
               </p>
             </div>
           </div>
-          <div className="bg-[#fff] max-w-[393px] rounded-[8px]  px-[20px] py-[37px] w-[100%] border border-[#9D9D9D]">
+          <div className="bg-[#fff] max-w-[393px] rounded-[8px]  px-[20px] py-[37px] w-[100%] border border-[#F1F1F1]">
             <div className="space-y-[32px]">
               <div className="flex items-center justify-center h-[30px]">
                 <img src={medai3} className="h-[30px]" alt="" />

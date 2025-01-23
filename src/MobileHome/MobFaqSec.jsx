@@ -100,7 +100,7 @@ const MobFaqSec = () => {
               FAQs
             </h2>
             <p className="text-[15px] font-[400] text-[#000] text-center">
-              Find answers to some of the most common questions.
+            Our answers to some<br />of the most common questions.
             </p>
           </div>
           <div className="2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[100%] w-[100%] mx-auto">

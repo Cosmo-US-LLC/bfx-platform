@@ -1,4 +1,5 @@
 import React from "react";
+import nexticn0 from "../assets/NextGen/nwxticon (10).svg"
 import nexticn1 from "../assets/NextGen/nwxticon (9).svg"
 import nexticn2 from "../assets/NextGen/nwxticon (8).svg"
 import nexticn3 from "../assets/NextGen/nwxticon (7).svg"
@@ -34,7 +35,7 @@ function NextGenerationSec() {
             </div>
             <div className="flex flex-col min-w-[137px] items-center space-y-[20px]">
                 <div className="min-h-[60px]">
-                <img src={nexticn3} alt="" />
+                <img src={nexticn0} alt="" />
                 </div>
                 <p className="text-[20px] text-[#000] text-center leading-[140%] font-[400] tracking-[-0.32px]">Ultra <br /> Tight Spreads</p>
             </div>

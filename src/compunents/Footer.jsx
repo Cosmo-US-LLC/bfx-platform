@@ -242,7 +242,7 @@ function Footer() {
               <img src={socil2} alt="" />
               <img src={socil3} alt="" />
             </div>
-            <div className="space-y-[5px]">
+            <div className="space-y-[6px]">
               <h4 className="text-[#202020] text-[12px] font-[400] leading-[108.333%]">
                 Contact E-Mail:{" "}
               </h4>

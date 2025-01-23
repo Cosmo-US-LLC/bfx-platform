@@ -4,7 +4,7 @@ import fobicn from "../assets/herosection/forbes-ar21 1.svg"
 import herobnr2 from "../assets/herosection/bnrhero (4).svg"
 import herobnr3 from "../assets/herosection/bnrhero (3).svg"
 import herobnr4 from "../assets/herosection/bnrhero (2).svg"
-import herobnr5 from "../assets/herosection/bnrhero (1).svg"
+import herobnr5 from "../assets/herosection/binance.png"
 
 function MobileHero() {
   return (
@@ -32,7 +32,7 @@ function MobileHero() {
           </div>
           <div>
             <div className="flex justify-center mb-1.5">
-              <img src={heroimg} alt="" />
+              <img src={"/mobile/hero_mob.png"} alt="" />
             </div>
             <div className="border border-neutral-400 rounded-[6px] py-[12px] px-[13px]">
               <h3 className="text-center text-[15px] font-[600]">Featured In:</h3>
