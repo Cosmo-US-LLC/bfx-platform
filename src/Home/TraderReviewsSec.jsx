@@ -110,14 +110,14 @@ function TraderReviewsSec() {
           
           <div className="max-w-[880px] w-[100%]">
             <div className="relative">
-              <div className="absolute z-0 overflow-visible w-[364px] left-0 top-0 h-full">
-                <div className="w-[340px] h-[400px] rounded-t-[30px] bg-[#181a20] absolute bottom-0 right-3"></div>
+              <div className="absolute z-0 overflow-visible w-[403px] left-0 top-0 h-full">
+                <div className="w-[380px] h-[440px] rounded-t-[50px] bg-[#181a20] absolute bottom-0 right-3"></div>
               </div>
-              <div className="absolute z-20 overflow-visible w-[364px] left-0 top-0 h-full">
+              <div className="absolute z-20 overflow-visible w-[403px] left-0 top-0 h-full">
                 <img
-                  src={"/mobile/reviews/mobile.png"}
+                  src={"/desktop/mobile.png"}
                   alt=""
-                  className="w-[364px] object-contain absolute bottom-0 right-1"
+                  className="w-[403px] object-contain absolute bottom-0 right-1"
                 />
               </div>
               <div className="h-[40px] absolute !right-[135px] -top-[65px] w-[110px]">
@@ -143,12 +143,14 @@ function TraderReviewsSec() {
                   prevEl: ".swiper-button-prev",
                 }}
                 modules={[Navigation]}
+                spaceBetween={80}
+                // centeredSlides={true}
                 loop={true}
                 className="mySwiper"
               >
                 {comments?.map((cmt, id) => (
-                  <SwiperSlide key={id} className="">
-                    <div className="py-[45px] pb-[51px] min-h-[338px] flex flex-col justify-between pl-[40px] pr-[16px] border-[#9D9D9D] bg-[#181A20] rounded-[4px] w-[353.45px] space-y-[30px]">
+                  <SwiperSlide key={id} className="pl-3 pb-5">
+                    <div className="py-[45px] pb-[51px] min-h-[338px] mr-10 flex flex-col justify-between pl-[40px] pr-[16px] border-[#9D9D9D] bg-[#181A20] rounded-[4px] w-[353.45px] space-y-[30px]">
                       <p className="text-[16px] font-[400] leading-[175%] text-[#fff]">
                         {cmt.text}
                       </p>
