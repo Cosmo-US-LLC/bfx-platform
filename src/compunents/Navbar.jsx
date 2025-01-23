@@ -80,7 +80,7 @@ function Navbar() {
   };
 
   return (
-    <div className="fixed w-[100%] bg-[#FBFBFB] md:bg-white z-[999]">
+    <div className="fixed w-[100%] bg-[#FBFBFB] z-[999]">
       <div className="2xl:h-[109px] xl:h-[109px] lg:h-[109px] md:h-[109px] sm:h-[64px] h-[64px] max-w-[1220px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] mx-auto flex items-center justify-between">
         <div className="flex items-center space-x-3">
           <div className="2xl:hidden xl:hidden lg:hidden md:hidden sm:block block">
