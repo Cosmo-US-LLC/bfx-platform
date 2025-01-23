@@ -21,7 +21,7 @@ function TradeLikeSec() {
               management tools. Trade with the precision of a professional Wall
               Street trader.
             </p>
-            <div className="flex justify-center items-center space-x-[17px]">
+            <div className="flex justify-start items-center space-x-[17px]">
               <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[18px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[210px] w-[100%] h-[58px]">
                 Start Trading Now
               </button>
