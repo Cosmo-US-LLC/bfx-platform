@@ -31,7 +31,7 @@ function Herosection() {
             </button>
           </div>
           <div className="flex justify-center pt-[20px]">
-            <img src={heroimg} alt="" />
+            <img src={'/desktop/devices.png'} alt="" className="w-[620px]" />
           </div>
           <div className="flex justify-center space-x-[52px] border rounded-[20px] pt-[30px] pb-[35px]">
             <img src={herobnr1} alt="" />
