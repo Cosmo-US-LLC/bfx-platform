@@ -24,7 +24,7 @@ function MobNextGenerationSec() {
               className="h-[40px]"
             />
             <p className="text-[15px] text-[#000] text-center leading-[140%] font-[400] tracking-[-0.32px]">
-              Team with 25 Years <br /> Of Experience
+              25 Years <br /> Of Experience
             </p>
           </div>
           <div className="flex flex-col min-w-[122px] items-center space-y-[10px]">
