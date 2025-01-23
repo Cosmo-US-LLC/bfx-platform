@@ -73,13 +73,13 @@ function MobileHowToStart() {
       </div>
       <div className="bg-[#FBFBFB] px-[19px] py-[30px]">
         <div className="space-y-[12px] text-center">
-          <h2 className="text-[24px] font-[500]">
+          <h2 className="text-[24px] font-[500] tracking-[-1px]">
             Open A Demo Account{" "}
             <span className="text-[#E5AE00] font-[700]">
               For Free
             </span>
           </h2>
-          <p className="text-[15px] leading-[23px]">
+          <p className="text-[15px] leading-[10px]">
           Make your first step into the world of trading.
           </p>
         </div>

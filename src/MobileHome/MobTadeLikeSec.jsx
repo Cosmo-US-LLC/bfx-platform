@@ -13,7 +13,7 @@ function MobTadeLikeSec() {
       <div className="w-[90%] mx-auto">
         <div className="space-y-[32px]">
           <div className="space-y-[20px]">
-            <h3 className="text-[32px] text-center font-[700] leading-[40px] text-[#181A20] tracking-[-1px]">
+            <h3 className="text-[32px] text-center font-[700] leading-[40px] text-[#181A20] tracking-[-1px] capitalize">
               Trade Like a Pro
             </h3>
             <p className="text-[15px] text-center px-2 font-[400] leading-[130%] text-[#181A20] tracking-[-0.32px]">

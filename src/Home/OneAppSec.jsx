@@ -44,7 +44,7 @@ function OneAppSec() {
      <div className="max-w-[1220px] flex justify-between w-[100%] mx-auto space-y-[56px]">
         <div className="w-[50%] max-w-[581px] space-y-[32px]">
           <h3 className="text-[50px] font-[700] leading-[114%] text-[#181A20] tracking-[-1px] text-start">
-            Everything In One Apps
+            Everything In One App
           </h3>
           <p className="text-[18px] text-[#181A20] font-[400] leading-[127.778%] tracking-[-0.32px] text-start">
             An innovative, clean and intuitive trading platform

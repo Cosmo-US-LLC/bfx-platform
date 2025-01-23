@@ -15,7 +15,7 @@ function OurAwardSec() {
           <h4 className="text-[35px] font-[400] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
             Multi-Awarded Trading Platform
           </h4>
-          <h3 className="text-[50px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
+          <h3 className="text-[50px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px] capitalize">
             Our Awards speak for themselves
           </h3>
         </div>

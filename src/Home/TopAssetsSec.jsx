@@ -26,7 +26,7 @@ function TopAssetsSec() {
 
   return (
     <div className="pt-[51px] space-y-[35px] pb-[51px] bg-[#FAFAFA] ">
-    <h3 className="text-[50px] font-[700] text-center leading-[114%] text-[#181A20] leading-[-1px]">
+    <h3 className="text-[50px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px] capitalize">
     Top Assets
           </h3>
           <p className="text-[20px] font-[400] max-w-[832px] mx-auto w-[100%] leading-[130%] text-[#181A20] tracking-[-0.32px] text-center">Get a chance to trade the world's most popular financial assets.</p>
