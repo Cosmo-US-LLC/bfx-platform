@@ -142,9 +142,9 @@ function Footer() {
             className="
           space-x-5"
           >
-            <a href="" className="text-[14px] text-[#000] leading-[100%]">
+            {/* <a href="" className="text-[14px] text-[#000] leading-[100%]">
               Legal Documents
-            </a>
+            </a> */}
             <a href="https://blockchainfx.io/legal/privacy" className="text-[14px] text-[#000] leading-[100%]">
               Privacy Policy
             </a>
@@ -182,7 +182,7 @@ function Footer() {
                 </a>
                 <a
                   className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]"
-                  href=""
+                  href="https://blockchainfx.io/legal/token-sale-agreement"
                   onClick={(e) => handleScroll(e, "what-is-bfx", 90)}
                 >
                   KYC
@@ -261,9 +261,9 @@ function Footer() {
           </p>
         </div>
         <div className="flex justify-center gap-x-4">
-            <a href="" className="text-[12px] text-[#000] leading-[100%]">
+            {/* <a href="" className="text-[12px] text-[#000] leading-[100%]">
               Legal Documents
-            </a>
+            </a> */}
             <a href="https://blockchainfx.io/legal/privacy" className="text-[12px] text-[#000] leading-[100%]">
               Privacy Policy
             </a>
