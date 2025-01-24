@@ -176,21 +176,21 @@ function Footer() {
                 <a
                   className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]"
                   href="https://blockchainfx.io/legal/aml"
-                  onClick={(e) => handleScroll(e, "how-to-buy", 90)}
+                  // onClick={(e) => handleScroll(e, "how-to-buy", 90)}
                 >
                   AML
                 </a>
                 <a
                   className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]"
                   href="https://blockchainfx.io/legal/token-sale-agreement"
-                  onClick={(e) => handleScroll(e, "what-is-bfx", 90)}
+                  // onClick={(e) => handleScroll(e, "what-is-bfx", 90)}
                 >
                   KYC
                 </a>
                 <a
                   className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]"
                   href="https://blockchainfx.io/legal/general-fees"
-                  onClick={(e) => handleScroll(e, "roadmap", 90)}
+                  // onClick={(e) => handleScroll(e, "roadmap", 90)}
                 >
                   General Fees
                 </a>
