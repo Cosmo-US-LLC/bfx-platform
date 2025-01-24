@@ -6,7 +6,7 @@ import rwdimg3 from "../assets/OurAwardSec/rwdimg (3).png";
 
 function MobOurAwardSec() {
   return (
-    <div className="bg-white py-[24px] px-[18px]  pb-[64px]" id="win">
+    <div id="awards" className="bg-white py-[24px] px-[18px]  pb-[64px]">
       <div className="relative space-y-[30px] w-[90%] mx-auto">
         <div className="space-y-[10px]">
           <h4 className="text-[20px] font-[400] text-center leading-[114%] text-[#181A20] tracking-[-1px]">

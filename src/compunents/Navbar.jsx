@@ -36,6 +36,7 @@ const flags = [
 ];
 
 function Navbar() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef(null);
   const [selectedLang, setSelectedLang] = useState({
@@ -43,6 +44,10 @@ function Navbar() {
     abbreviation: flags[0].abbreviation,
     name: flags[0].name,
   });
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen((prev) => !prev);
+  };
 
   const toggleDropdown = () => setIsOpen(!isOpen);
 
@@ -76,15 +81,22 @@ function Navbar() {
         top: offsetPosition,
         behavior: "smooth",
       });
+      
+      setIsMobileMenuOpen(false);
     }
   };
 
   return (
-    <div className="fixed w-[100%] bg-[#FBFBFB] z-[999]">
+    <div className="fixed w-[100%] bg-[#F2F2F2] z-[999]">
       <div className="2xl:h-[109px] xl:h-[109px] lg:h-[109px] md:h-[109px] sm:h-[64px] h-[64px] max-w-[1220px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] mx-auto flex items-center justify-between">
         <div className="flex items-center max-md:space-x-3">
           <div className="md:hidden">
-            <img src={menu} alt="" />
+            <img
+              src={menu}
+              onClick={toggleMobileMenu}
+              className="cursor-pointer"
+              alt=""
+            />
           </div>
           <div className="max-md:max-w-[145px] flex justify-start">
             <img src={logo} alt="" />
@@ -175,6 +187,96 @@ function Navbar() {
             )}
           </div>
         </div>
+
+        {/* mobile menu */}
+        {isMobileMenuOpen && (
+          <div className="absolute top-[100%] min-h-[100vh] left-0 w-full bg-white shadow-md z-50 p-6">
+            <a
+              className="block text-[16px] font-[500] text-[#000] mb-4"
+              href=""
+              onClick={(e) => handleScroll(e, "start", 90)}
+            >
+              Quick Start
+            </a>
+            <a
+              className="block text-[16px] font-[500] text-[#000] mb-4"
+              href=""
+              onClick={(e) => handleScroll(e, "demo", 90)}
+            >
+              Free Demo Account
+            </a>
+            <a
+              className="block text-[16px] font-[500] text-[#000] mb-4"
+              href=""
+              onClick={(e) => handleScroll(e, "features", 90)}
+            >
+              Features
+            </a>
+            <a
+              className="block text-[16px] font-[500] text-[#000] mb-4"
+              href="#"
+              onClick={(e) => handleScroll(e, "awards", 90)}
+            >
+              Awards
+            </a>
+            <a
+              className="block text-[16px] font-[500] text-[#000] mb-4"
+              href=""
+              onClick={(e) => handleScroll(e, "reviews", 90)}
+            >
+              Reviews
+            </a>
+            <div
+              ref={dropdownRef}
+              className="flex relative  justify-start items-center space-x-2"
+            >
+              <img
+                className="w-[20px]"
+                src={selectedLang.flag}
+                alt={selectedLang.name}
+              />
+              <span className="text-[#000] text-[16px] font-[600]">
+                {selectedLang.abbreviation}
+              </span>
+
+              <img
+                src={arwdwn}
+                alt="Dropdown Arrow"
+                onClick={toggleDropdown}
+                className={`cursor-pointer transform transition-transform ${
+                  isOpen ? "rotate-180" : "rotate-0"
+                }`}
+              />
+
+              {isOpen && (
+                <div className="absolute !top-[30px] w-[300px] pb-2 rounded-[8px] px-[10px] bg-white shadow-lg">
+                  <h3 className="text-[14px] text-[#444] font-[700] mb-1">
+                    Languages
+                  </h3>
+                  <div className="grid grid-cols-2">
+                    {flags.map((lang, index) => (
+                      <div
+                        key={index}
+                        className="flex items-center space-x-1 cursor-pointer hover:bg-gray-100 p-1 rounded"
+                        onClick={() => handleSelectLanguage(lang)}
+                      >
+                        <img
+                          src={lang.flag}
+                          alt={lang.name}
+                          className="w-[14px] h-[14px]"
+                        />
+                        <span className="text-[12.599px] font-[500] text-[#444]">
+                          {lang.name}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+
         <div className="flex gap-[15px]">
           <button className="max-md:hidden w-[135px] hover:text-white hover:bg-[#E5AE00] px-[12px] text-black bg-transparent text-[18px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px] max-w-[152px] h-[58px]">
             Log In

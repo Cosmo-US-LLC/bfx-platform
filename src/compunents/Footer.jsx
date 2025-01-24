@@ -79,19 +79,19 @@ function Footer() {
                   Policies
                   <a
                     className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]"
-                    href=""
+                    href="https://blockchainfx.io/legal/terms"
                   >
                     Terms of Service{" "}
                   </a>
                   <a
                     className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]"
-                    href=""
+                    href="https://blockchainfx.io/legal/payment-policy"
                   >
                     Payment Policy{" "}
                   </a>
                   <a
                     className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]"
-                    href=""
+                    href="https://blockchainfx.io/legal/order-execution"
                   >
                     Order Execution Policy
                   </a>
@@ -99,7 +99,7 @@ function Footer() {
               </ul>
             </div>
           </div>
-          <div className="max-w-[285px] space-y-[10px] w-[100%] pt-[12px]">
+          <div className="max-w-[285px] space-y-[20px] w-[100%] pt-[12px]">
             <h4 className="text-[#000] text-[16px] font-[600] leading-[108.333%]">
               Join Our Socials
             </h4>
@@ -120,26 +120,18 @@ function Footer() {
         </div>
         <div className="border-t border-b border-[#000] py-[46px]">
           <p className="text-[10px] font-[400] text-[#000] leading-[190%]">
-            Cryptocurrency may be unregulated in your jurisdiction, and its
-            value can fluctuate, leading to potential gains or losses. Any
-            profits might be subject to capital gains or other taxes, depending
-            on your local laws. The content on this platform does not constitute
-            an offer, recommendation, or financial advice to buy, sell, or
-            engage in any cryptocurrency transactions. You are solely
-            responsible for assessing whether a transaction aligns with your
-            personal goals, financial circumstances, and risk tolerance. We
-            strongly recommend consulting trusted and licensed legal, tax, or
-            financial professionals before making any decisions. <br />
+          The services on this website are not available to the citizens
+            and/or residents of the USA and to the residents of the following
+            countries: Canada, Switzerland, Australia, Israel, Palestine, Japan,
+            Sudan, Syria, Iran, North Korea, Republic of the Marshall Islands,
+            Puerto Rico, Liberia, New Zealand and/or any
+            country of the European Economic Area (EEA). <br />
             <br />
-            Trading cryptocurrencies carries significant risks, including the
-            potential for partial or total loss of your funds. Thorough research
-            is crucial. BlockchainFX does not guarantee any performance, outcome,
-            or return of capital for any cryptocurrency mentioned on this
-            platform. By using this platform, you agree to our Terms of Service,
-            Privacy Policy, Cookie Policy, and any applicable token sale
-            agreements. The platform's content is not intended for use in
-            jurisdictions where its distribution or use would violate local laws
-            or regulations.
+            Operations offered on this website may have an increased level of
+            risk. By purchasing services and tools from this website, you can
+            suffer significant losses or completely lose the funds from your
+            guaranteed trading account. Please evaluate all risks and consult
+            with an independent adviser before trading.
           </p>
         </div>
         <div className="flex justify-between">
@@ -153,10 +145,10 @@ function Footer() {
             <a href="" className="text-[14px] text-[#000] leading-[100%]">
               Legal Documents
             </a>
-            <a href="" className="text-[14px] text-[#000] leading-[100%]">
+            <a href="https://blockchainfx.io/legal/privacy" className="text-[14px] text-[#000] leading-[100%]">
               Privacy Policy
             </a>
-            <a href="" className="text-[14px] text-[#000] leading-[100%]">
+            <a href="https://blockchainfx.io/legal/cookies" className="text-[14px] text-[#000] leading-[100%]">
               Cookie Management
             </a>
           </div>
@@ -183,7 +175,7 @@ function Footer() {
                 Legal
                 <a
                   className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]"
-                  href=""
+                  href="https://blockchainfx.io/legal/aml"
                   onClick={(e) => handleScroll(e, "how-to-buy", 90)}
                 >
                   AML
@@ -197,7 +189,7 @@ function Footer() {
                 </a>
                 <a
                   className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]"
-                  href=""
+                  href="https://blockchainfx.io/legal/general-fees"
                   onClick={(e) => handleScroll(e, "roadmap", 90)}
                 >
                   General Fees
@@ -218,13 +210,13 @@ function Footer() {
                 </a>
                 <a
                   className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]"
-                  href=""
+                  href="https://blockchainfx.io/legal/payment-policy"
                 >
                   Payment Policy{" "}
                 </a>
                 <a
                   className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]"
-                  href=""
+                  href="https://blockchainfx.io/legal/order-execution"
                 >
                   Order Execution Policy
                 </a>
@@ -233,7 +225,7 @@ function Footer() {
           </div>
         </div>
         <div className="flex justify-between">
-          <div className="max-w-[285px] space-y-[12px] pt-[3px] w-[100%] ">
+          <div className="max-w-[285px] space-y-[25px] pt-[3px] w-[100%] ">
             <h4 className="text-[#000] text-[16px] font-[600] leading-[108.333%]">
               Join Our Socials
             </h4>
@@ -258,7 +250,7 @@ function Footer() {
             and/or residents of the USA and to the residents of the following
             countries: Canada, Switzerland, Australia, Israel, Palestine, Japan,
             Sudan, Syria, Iran, North Korea, Republic of the Marshall Islands,
-            Puerto Rico, Liberia, New Zealand, the Russian Federation and/or any
+            Puerto Rico, Liberia, New Zealand and/or any
             country of the European Economic Area (EEA). <br />
             <br />
             Operations offered on this website may have an increased level of
@@ -268,18 +260,18 @@ function Footer() {
             with an independent adviser before trading.
           </p>
         </div>
-        <div className="flex justify-between">
-          <div className="space-x-4">
+        <div className="flex justify-center gap-x-4">
             <a href="" className="text-[12px] text-[#000] leading-[100%]">
               Legal Documents
             </a>
-            <a href="" className="text-[12px] text-[#000] leading-[100%]">
+            <a href="https://blockchainfx.io/legal/privacy" className="text-[12px] text-[#000] leading-[100%]">
               Privacy Policy
             </a>
-            <a href="" className="text-[12px] text-[#000] leading-[100%]">
+            <a href="https://blockchainfx.io/legal/cookies" className="text-[12px] text-[#000] leading-[100%]">
               Cookie Management
             </a>
-          </div>
+          {/* <div className="space-x-4">
+          </div> */}
         </div>
         <div>
           <p className="text-[10px] text-center text-[#000] leading-[100%]">

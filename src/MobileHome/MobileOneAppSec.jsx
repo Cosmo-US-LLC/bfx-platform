@@ -41,7 +41,7 @@ function MobileOneAppSec() {
   };
 
   return (
-    <div className="pt-[24px] pb-[24px] px-[18px]">
+    <div id="features" className="pt-[24px] pb-[24px] px-[18px]">
       <div className="relative">
         <div className="space-y-[10px]">
           <div className="space-y-[15px]">

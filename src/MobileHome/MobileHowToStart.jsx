@@ -2,7 +2,7 @@ import React from "react";
 
 function MobileHowToStart() {
   return (
-    <div className="space-y-[14px]">
+    <div id="start" className="space-y-[14px]">
       <div className="bg-white px-[18px] py-[24px] space-y-5">
         <div className="space-y-[12px] text-center">
           <h1 className="text-[32px] font-[700] leading-[40px]">
@@ -71,7 +71,7 @@ function MobileHowToStart() {
           </div>
         </div>
       </div>
-      <div className="bg-[#FBFBFB] px-[19px] py-[30px]">
+      <div id="demo" className="bg-[#FBFBFB] px-[19px] py-[30px]">
         <div className="space-y-[12px] text-center">
           <h2 className="text-[24px] font-[500] tracking-[-1px]">
             Open A Demo Account{" "}
