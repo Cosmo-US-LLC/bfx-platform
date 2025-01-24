@@ -204,7 +204,7 @@ function Footer() {
                 Policies
                 <a
                   className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]"
-                  href=""
+                  href="https://blockchainfx.io/legal/terms"
                 >
                   Terms of Service{" "}
                 </a>
