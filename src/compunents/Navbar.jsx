@@ -99,7 +99,10 @@ function Navbar() {
             />
           </div>
           <div className="max-md:max-w-[145px] flex justify-start">
-            <img src={logo} alt="" />
+            <img src={logo} 
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth'})}
+            className="cursor-pointer"
+            alt="" />
           </div>
         </div>
         <div className="space-x-[27px] 2xl:flex xl:flex lg:flex md:flex sm:hidden hidden items-center">

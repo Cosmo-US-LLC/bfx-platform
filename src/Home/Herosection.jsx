@@ -1,10 +1,10 @@
 import React from "react";
-import heroimg from "../assets/herosection/heroimg.png"
-import herobnr1 from "../assets/herosection/bnrhero (5).svg"
-import herobnr2 from "../assets/herosection/bnrhero (4).svg"
-import herobnr3 from "../assets/herosection/bnrhero (3).svg"
-import herobnr4 from "../assets/herosection/bnrhero (2).svg"
-import herobnr5 from "../assets/herosection/bnrhero (1).svg"
+import herogif from "../assets/herosection/herogif.mp4";
+import herobnr1 from "../assets/herosection/bnrhero (5).svg";
+import herobnr2 from "../assets/herosection/bnrhero (4).svg";
+import herobnr3 from "../assets/herosection/bnrhero (3).svg";
+import herobnr4 from "../assets/herosection/bnrhero (2).svg";
+import herobnr5 from "../assets/herosection/bnrhero (1).svg";
 
 function Herosection() {
   return (
@@ -13,13 +13,17 @@ function Herosection() {
         <div className="space-y-[35px]">
           <div>
             <h4 className="text-[18px]  leading-[100%] font-[400] text-center text-[#000] tracking-[-1px] capitalize">
-            Maximize Your Trading Potential
+              Maximize Your Trading Potential
             </h4>
             <h2 className="pt-6 pb-8 text-[64px] font-[700] leading-[100.375%] tracking-[-1px] text-[#000] text-center">
               Trade Crypto <br /> Forex, Stocks and More
             </h2>
             <p className="text-[18px] max-w-[865px] w-[100%] mx-auto font-[400] leading-[166.667%] text-center text-[#000] tracking-[-0.32px] ">
-            Explore global markets with BlockchainFX, the all-in-one trading platform. Trade Crypto, Forex, ETFs, Stocks, Indices, ETFs, Futures, Options, Bonds Commodities and CFDs across 500+ assets. Elevate your trading game with state-of-the-art analysis tools and indicators. Start trading smarter today.
+              Explore global markets with BlockchainFX, the all-in-one trading
+              platform. Trade Crypto, Forex, ETFs, Stocks, Indices, ETFs,
+              Futures, Options, Bonds Commodities and CFDs across 500+ assets.
+              Elevate your trading game with state-of-the-art analysis tools and
+              indicators. Start trading smarter today.
             </p>
           </div>
           <div className="flex justify-center items-center space-x-[17px]">
@@ -30,8 +34,21 @@ function Herosection() {
               Free Demo Account
             </button>
           </div>
-          <div className="flex justify-center pt-[20px]">
-            <img src={'/desktop/devices.png'} alt="" className="w-[620px]" />
+          {/* <div className="flex justify-center  max-w-[619px] mx-auto">
+            <img src={herogif} className="max-h-[550px]" alt="" />
+          </div> */}
+          <div className="flex justify-center relative h-[360px]">
+            <video
+              width={500}
+              height={300}
+              className="absolute top-[-30%]"
+              muted
+              autoPlay={"autoplay"}
+              preLoad="auto"
+              loop
+            >
+              <source src={herogif} type="video/mp4" />
+            </video>
           </div>
           <div className="flex justify-center space-x-[52px] border rounded-[20px] pt-[30px] pb-[35px]">
             <img src={herobnr1} alt="" />

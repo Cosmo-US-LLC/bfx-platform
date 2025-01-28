@@ -113,7 +113,7 @@ function Footer() {
                 Contact E-Mail:{" "}
               </h4>
               <h3 className="text-[#949494] text-[18px] font-[400] leading-[108.333%]">
-                Hello@blockchainfx.com
+                Support@blockchainfx.com
               </h3>
             </div>
           </div>
@@ -136,7 +136,7 @@ function Footer() {
         </div>
         <div className="flex justify-between">
           <p className="text-[14px] text-[#000] leading-[100%]">
-            Copyright 2024. All Rights Reserved.
+            Copyright 2025. All Rights Reserved.
           </p>
           <div
             className="
@@ -239,7 +239,7 @@ function Footer() {
                 Contact E-Mail:{" "}
               </h4>
               <h3 className="text-[#949494] text-[15px] font-[400] leading-[108.333%]">
-                Hello@blockchainfx.com
+                Support@blockchainfx.com
               </h3>
             </div>
           </div>
@@ -275,7 +275,7 @@ function Footer() {
         </div>
         <div>
           <p className="text-[10px] text-center text-[#000] leading-[100%]">
-            Copyright 2024. All Rights Reserved.
+            Copyright 2025. All Rights Reserved.
           </p>
         </div>
       </div>

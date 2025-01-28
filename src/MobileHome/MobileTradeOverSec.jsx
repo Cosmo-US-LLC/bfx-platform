@@ -6,38 +6,32 @@ import takeimg4 from "../assets/TradeOver/takeimg (3).png";
 import takeimg5 from "../assets/TradeOver/takeimg (4).png";
 
 const cardData = [
-  {
-    img: "/mobile/trade-over/crypto.png",
-    title: "Crypto",
-    subtitle:
-      "Trade BTC, ETH, SOL, PEPE, DOGE, and more with leverage and advanced trading tools.",
-  },
-  {
-    img: "/mobile/trade-over/stocks.png",
-    title: "Stocks",
-    subtitle:
-      "Apple, Tesla, Nvidia, Netflix, Coca Cola and more. Buy your favorite stock in seconds. ",
-  },
-  {
-    img: "/mobile/trade-over/forex.png",
-    title: "Forex",
-    subtitle:
-      "Over 60 currency pairs to trade, including USD, EUR, JPY, GBP, and many more.",
-  },
-  {
-    img: "/mobile/trade-over/commodities.png",
-    title: "Commodities",
-    subtitle:
-      "Gold, Silver, Oil, Sugar and more. Diversify your portfolio with raw materials.",
-  },
-  {
-    img: "/mobile/trade-over/indices.png",
-    margin: "max-w-[264px] mx-0",
-    title: "Indices",
-    subtitle:
-      "Dow Jones, S&P500,Nasdaq, DAX, CAC, Trade the mostpopular indices.",
-  },
-];
+    {
+        img:takeimg1,
+        title:"Crypto",
+        subtitle:"Trade BTC, ETH, SOL, PEPE, DOGE, TRUMP, and more with leverage and advanced trading tools."
+    },
+    {
+        img:takeimg2,
+        title:"Stocks",
+        subtitle:"Apple, Tesla, Nvidia, Netflix, Coca Cola and more. Buy your favorite stock in seconds. "
+    },
+    {
+        img:takeimg3,
+        title:"Forex",
+        subtitle:"Over 60 currency pairs to trade, including USD, EUR, JPY, GBP, and many more."
+    },
+    {
+        img:takeimg4,
+        title:"Commodities",
+        subtitle:"Gold, Silver, Oil, Sugar and more. Diversify your portfolio with raw materials."
+    },
+    {
+        img:takeimg5,
+        title:"Indices",
+        subtitle:"Dow Jones, S&P500, Nasdaq, DAX, CAC, and more. Trade the most popular indices."
+    },
+]
 
 function MobileTradeOverSec() {
   return (
