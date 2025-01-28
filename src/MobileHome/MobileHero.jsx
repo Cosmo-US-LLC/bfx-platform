@@ -1,5 +1,5 @@
 import React from "react";
-import herogif from "../assets/herosection/herogif.mp4"
+import herogif from "../assets/herosection/herogif.gif"
 import fobicn from "../assets/herosection/forbes-ar21 1.svg";
 import herobnr2 from "../assets/herosection/bnrhero (4).svg";
 import herobnr3 from "../assets/herosection/bnrhero (3).svg";
@@ -35,22 +35,8 @@ function MobileHero() {
             </button>
           </div>
           <div>
-          {/* <div className="flex justify-center">
+          <div className="flex justify-center pb-[20px]">
             <img src={herogif} alt="" />
-          </div> */}
-          
-          <div className="flex justify-center  pb-[20px]">
-            <video
-              width={500}
-              height={235}
-              className=""
-              muted
-              autoPlay={"autoplay"}
-              preLoad="auto"
-              loop
-            >
-              <source src={herogif} type="video/mp4" />
-            </video>
           </div>
             
             <div className="border border-neutral-400 rounded-[6px] py-[20px] px-[13px]">

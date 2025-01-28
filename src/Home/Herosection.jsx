@@ -1,5 +1,5 @@
 import React from "react";
-import herogif from "../assets/herosection/herogif.mp4";
+import herogif from "../assets/herosection/herogif.gif";
 import herobnr1 from "../assets/herosection/bnrhero (5).svg";
 import herobnr2 from "../assets/herosection/bnrhero (4).svg";
 import herobnr3 from "../assets/herosection/bnrhero (3).svg";
@@ -34,21 +34,8 @@ function Herosection() {
               Free Demo Account
             </button>
           </div>
-          {/* <div className="flex justify-center  max-w-[619px] mx-auto">
+          <div className="flex justify-center  max-w-[619px] mx-auto">
             <img src={herogif} className="max-h-[550px]" alt="" />
-          </div> */}
-          <div className="flex justify-center relative h-[360px]">
-            <video
-              width={500}
-              height={300}
-              className="absolute top-[-30%]"
-              muted
-              autoPlay={"autoplay"}
-              preLoad="auto"
-              loop
-            >
-              <source src={herogif} type="video/mp4" />
-            </video>
           </div>
           <div className="flex justify-center space-x-[52px] border rounded-[20px] pt-[30px] pb-[35px]">
             <img src={herobnr1} alt="" />
