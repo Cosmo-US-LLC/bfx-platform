@@ -24,7 +24,7 @@ function TradeLikeSec() {
   };
 
   return (
-    <div className="max-w-[1200px] h-[614px] flex flex-row pb-6 justify-center gap-[100px] items-center space-y-[60px] w-[100%] mx-auto ">
+    <div className="max-w-[1200px] h-[614px] flex flex-row pb-6 justify-center gap-[140px] items-center space-y-[60px] w-[100%] mx-auto ">
       <div className="space-y-[24px] max-w-[347px]">
         <h3 className="text-[45px] capitalize font-[700] leading-[95%] text-[#181A20] tracking-[-1px]">
           Trade Like a Pro

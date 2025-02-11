@@ -4,9 +4,9 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 
-import tradimg from "../assets/TraderReviewsSec/tradimg.png";
+import tradimg from "../assets/TraderReviewsSec/framdes.png";
 import user from "../assets/TraderReviewsSec/image.png";
-import usern from "../assets/TraderReviewsSec/image.png";
+import usern from "../assets/TraderReviewsSec/user.png";
 import user2 from "../assets/TraderReviewsSec/Image2.png";
 import user3 from "../assets/TraderReviewsSec/image3.png";
 import user4 from "../assets/TraderReviewsSec/image4.png";
@@ -18,10 +18,10 @@ function TraderReviewsSec() {
   return (
     <div className=" bg-[#FAFAFA]">
       <div
-        className=" space-y-[35px] max-w-[1200px] h-[650px] flex flex-col justify-center w-[100%] mx-auto"
+        className="pt-[50px] space-y-[35px] max-w-[1200px] flex flex-col justify-center h-[590px] w-[100%] mx-auto"
         id="reviews"
       >
-        <div className=" relative space-y-[30px] w-[100%]  ">
+        <div className=" relative space-y-[20px] w-[100%]  ">
           <div className="space-y-[30px]">
             <h3 className="text-[45px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
               Trader Reviews
@@ -116,22 +116,19 @@ function TraderReviewsSec() {
                   <SwiperSlide>
                     <div className="py-[35px] relative z-[9]  min-h-[281px] flex flex-col justify-between pl-[35px] pr-[14px]  bg-[#181A20] rounded-[4px] w-[294px] space-y-[30px]">
                       <p className="text-[13px] font-[400] leading-[175%] text-[#fff]">
-                        Finally, a platform that gets it right! I traded CFDs,
-                        bought APPLE stocks, sold them for GBY, and grabbed some
-                        $PEPE, all within 30 minutes. Highly recommend it for
-                        both beginners and pros!
+                      Finally, a platform that gets it right! I traded CFDs, bought APPLE stocks, sold them for GBY, and grabbed some $PEPE, all within 30 minutes. Highly recommend it for both beginners and pros!
                       </p>
                       <div className="flex items-center space-x-2">
                         <img src={usern} alt="" />
                         <div>
                           <div className="flex items-center space-x-2">
                             <h3 className="text-[15px] text-[#fff] font-[600] leading-[140%]">
-                              PrimeNic.eth
+                            PrimeNic.eth
                             </h3>
                             <img src={tick} alt="" />
                           </div>
                           <h4 className="text-[#6A6A6A] text-[11.6px] font-[600] leading-[140%]">
-                            @primenic_eth
+                          @primenic_eth
                           </h4>
                         </div>
                       </div>

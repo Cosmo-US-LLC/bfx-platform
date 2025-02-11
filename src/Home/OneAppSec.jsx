@@ -5,7 +5,7 @@ import oneicon3 from "../assets/OneAppSec/oneicon (2).svg";
 import oneicon4 from "../assets/OneAppSec/oneicon (3).svg";
 import iconapon from "../assets/OneAppSec/iconopen (1).svg";
 import iconcls from "../assets/OneAppSec/iconopen (2).svg";
-// import oneimg from "../assets/OneAppSec/imgonecec.png";
+import oneimg from "../assets/OneAppSec/imgonecec1.png";
 
 const items = [
   {
@@ -17,7 +17,8 @@ const items = [
   {
     icon: oneicon2,
     title: "Technical Tools",
-    description: "Advanced technical tools designed to enhance market analysis and decision-making.",
+    description:
+      "Advanced technical tools designed to enhance market analysis and decision-making.",
   },
   {
     icon: oneicon3,
@@ -27,7 +28,8 @@ const items = [
   {
     icon: oneicon4,
     title: "Multiple Charts",
-    description: "Trade using multiple charts simultaneously for better market insights.",
+    description:
+      "Trade using multiple charts simultaneously for better market insights.",
   },
 ];
 
@@ -39,81 +41,82 @@ function OneAppSec() {
   };
 
   return (
-    <div id="features" className="overflow-hidden pt-[40px] pb-[50px] ">
-     <div className="max-w-[1400px] w-[100%] mx-auto relative">
-     <div className="max-w-[1200px]  flex justify-between w-[100%] mx-auto space-y-[56px]">
-        <div className="w-[50%] max-w-[581px] space-y-[22px]">
-          <h3 className="text-[45px] font-[700] leading-[114%] text-[#181A20] tracking-[-1px] text-start">
-            Everything In One App
-          </h3>
-          <p className="text-[14px] text-[#181A20] font-[400] leading-[127.778%] tracking-[-0.32px] text-start">
-            An innovative, clean and intuitive trading platform
-          </p>
-          <div className="">
-            {items.map((item, index) => (
-              <div
-                key={index}
-                className={`py-[20px] pr-5 border-b last:border-none   transition-all duration-300 ${
-                  // index === activeIndex ? "bg-white" : "bg-white"
-                  ""
-                }`}
-              >
+    <div className="py-[50px] bg-[#FBFBFB] overflow-hidden" id="what-is-bfx">
+      <div className="max-w-[1300px] w-[100%] mx-auto relative">
+        <div className="max-w-[1200px] flex justify-between w-[100%] mx-auto space-y-[56px]">
+          <div className="w-[50%] max-w-[473px] space-y-[6px]">
+            <h3 className="text-[30px] capitalize font-[700] leading-normal text-[#181A20] tracking-[-1px] text-start">
+              Everything In One App
+            </h3>
+            <p className="text-[14px] text-[#181A20] font-[400] leading-[150%] leading-[-0.32px] text-start">
+              An innovative, modern, and intuitive trading platform
+            </p>
+            <div className="">
+              {items.map((item, index) => (
                 <div
-                  className="flex justify-between cursor-pointer"
-                  onClick={() => handleToggle(index)}
+                  key={index}
+                  className={`py-[24px] pr-5 border-b last:border-none   transition-all duration-300 `}
                 >
-                  <div className="flex w-[100%] justify-between items-center space-x-4">
-                    <div className="w-[100px] h-[100px] flex items-center justify-between">
-                      <img
-                        src={item.icon}
-                        alt={item.title}
-                         className="w-[76px] h-[76px]"
-                      />
-                    </div>
-                    <div className="w-[80%] space-y-1">
-                      <div className="flex items-center justify-between">
-                        <h3 className="text-[20px] font-[600] text-[#000] leading-[34px]">
-                          {item.title}
-                        </h3>
-                        <div>
-                          <img
-                            src={index === activeIndex ? iconcls : iconapon}
-                            alt={index === activeIndex ? "Collapse" : "Expand"}
-                            className="w-6 h-6"
-                          />
-                        </div>
+                  <div
+                    className="flex justify-between cursor-pointer"
+                    onClick={() => handleToggle(index)}
+                  >
+                    <div className="flex w-[100%] justify-between items-center space-x-4 space-y-[15px]">
+                      <div>
+                        <img
+                          src={item.icon}
+                          alt={item.title}
+                          className="w-[75.387px] h-[75.387px]"
+                        />
                       </div>
-                      <p
-                        className={`text-[18px] leading-[30px] font-[400] text-[#000] max-w-[400px] overflow-hidden transition-all duration-300 ${
-                          index === activeIndex
-                            ? "max-h-[200px] opacity-100"
-                            : "max-h-0 opacity-0"
-                        }`}
-                        style={{
-                          transition: "max-height 0.3s ease, opacity 0.3s ease",
-                        }}
-                      >
-                        {item.description}
-                      </p>
+                      <div className="w-[80%]">
+                        <div className="flex items-center justify-between">
+                          <h3 className="text-[18px] leading-[142.44%] font-[600] text-[#000]">
+                            {item.title}
+                          </h3>
+                          <div>
+                            <img
+                              src={index === activeIndex ? iconcls : iconapon}
+                              alt={
+                                index === activeIndex ? "Collapse" : "Expand"
+                              }
+                              className="w-[18px] h-[18px]"
+                            />
+                          </div>
+                        </div>
+                        <p
+                          className={`mt-[12px] text-[14px] leading-[161.598%] font-[400] text-[#000] max-w-[248px] overflow-hidden transition-all duration-300 ${
+                            index === activeIndex
+                              ? "max-h-[200px] opacity-100"
+                              : "max-h-0 opacity-0"
+                          }`}
+                          style={{
+                            transition:
+                              "max-height 0.3s ease, opacity 0.3s ease",
+                          }}
+                        >
+                          {item.description}
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
-        <div className="w-[50%] overflow-visible">
-          <div className="w-[200%] h-full" style={{
-            background: 'url(/desktop/app.png)',
-            backgroundPosition: 'left',
-            backgroundSize: 'auto 100%',
-            backgroundRepeat: 'no-repeat'
-          }}>
-            {/* <img src={"/desktop/app.png"} className="absolute -right-[20px] h-[740px] object-left" alt="" style={{objectFit: "50% 50%"}} /> */}
+          <div className="w-[50%] overflow-visible">
+            <div
+              className="w-[200%] h-full"
+              style={{
+                background: `url(${oneimg})`,
+                backgroundPosition: "left",
+                backgroundSize: "auto 100%",
+                backgroundRepeat: "no-repeat",
+              }}
+            ></div>
           </div>
         </div>
       </div>
-     </div>
     </div>
   );
 }
