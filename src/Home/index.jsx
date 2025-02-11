@@ -30,11 +30,13 @@ import TraderReviewsSec from './TraderReviewsSec';
 import FaqSec from './FAQSec';
 import TheUltimateSec from './TheUltimateSec';
 import HowToStart from './HowToStart';
+import FeaturedSec from './FeaturedSec';
 
 function Home() {
     return (
       <div className="">
         <Herosection />
+        <FeaturedSec />
         <NextGenerationSec />
         <HowToStart/>
         <TradeOverSec/>

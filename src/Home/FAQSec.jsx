@@ -14,14 +14,12 @@ const FaqItem = ({ question, answer, isOpen, handleClick }) => {
   return (
     <div className="mb-[20px]">
       <div
-       className={`border flex justify-between py-[10px] px-[10px] rounded-[4px] items-center cursor-pointer ${
-        isOpen ? "border-[#000] bg-[#FFF]" : "border-[#E1E1E1] bg-[#f8f8f8]"
-      }  border-solid`}
+        className={`border flex justify-between py-[10px] px-[10px] bg-[#FFF] rounded-[4px] items-center cursor-pointer ${
+          isOpen ? "border-[#000]" : "border-[#000]"
+        }  border-solid`}
         onClick={handleClick}
       >
-        <div
-        
-        className="flex items-center justify-center">
+        <div className="flex items-center justify-center">
           <div className={`text-[16px] text-[#000] font-[600]`}>{question}</div>
         </div>
 
@@ -86,16 +84,6 @@ const FaqSec = () => {
       answer:
         "Absolutely! BlockchainFX prioritizes the security of your funds and personal information. The platform uses advanced encryption, two-factor authentication (2FA), and robust protocols to ensure a safe trading environment.",
     },
-    // {
-    //   question: "Are my tokens safe?",
-    //   answer:
-    //     "The safety of your tokens during the pre-sale is guaranteed through our smart contract. Additionally, the BFX token has been audited by CertiK, the leading Blockchain Security Enterprise.",
-    // },
-    // {
-    //   question: "How to claim your BFX?",
-    //   answer:
-    //     "Once the pre-sale ends, you will be able to claim your BFX tokens in your dashboard wallet on presale.blockchainfx.com.",
-    // },
   ];
   const [openItems, setOpenItems] = useState([]);
 
@@ -105,14 +93,14 @@ const FaqSec = () => {
 
   return (
     <>
-      <div className="bg-[#FAFAFA]" id="faq">
-        <div className=" w-[100%] max-w-[1220px] space-y-[55px] pt-[73px] mx-auto pb-[85px]">
-          <div className="text-center space-y-[40px]">
-            <h2 className="text-[#000] leading-[100%] text-[50px] font-[600]">
+      <div className="bg-[#FFF]" id="faq">
+        <div className=" w-[100%] max-w-[990px] h-[600px] gap-6  flex flex-col justify-center  mx-auto px-[105px]">
+          <div className="text-center space-y-[20px]">
+            <h2 className="text-[#000] leading-[100%] text-[30px] font-[600]">
               FAQs
             </h2>
-            <p className="text-[20px] font-[400] text-[#000] text-center">
-            Find answers to some of the most common questions.
+            <p className="text-[14px] font-[400] text-[#000] text-center">
+              Find answers to some of the most common questions.
             </p>
           </div>
           <div className="2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[100%] w-[100%] mx-auto">
