@@ -41,19 +41,19 @@ function OneAppSec() {
   return (
     <div id="features" className="overflow-hidden pt-[40px] pb-[50px] ">
      <div className="max-w-[1400px] w-[100%] mx-auto relative">
-     <div className="max-w-[1220px] flex justify-between w-[100%] mx-auto space-y-[56px]">
-        <div className="w-[50%] max-w-[581px] space-y-[32px]">
-          <h3 className="text-[50px] font-[700] leading-[114%] text-[#181A20] tracking-[-1px] text-start">
+     <div className="max-w-[1200px]  flex justify-between w-[100%] mx-auto space-y-[56px]">
+        <div className="w-[50%] max-w-[581px] space-y-[22px]">
+          <h3 className="text-[45px] font-[700] leading-[114%] text-[#181A20] tracking-[-1px] text-start">
             Everything In One App
           </h3>
-          <p className="text-[18px] text-[#181A20] font-[400] leading-[127.778%] tracking-[-0.32px] text-start">
+          <p className="text-[14px] text-[#181A20] font-[400] leading-[127.778%] tracking-[-0.32px] text-start">
             An innovative, clean and intuitive trading platform
           </p>
           <div className="">
             {items.map((item, index) => (
               <div
                 key={index}
-                className={`py-[30px] pr-5 border-b last:border-none   transition-all duration-300 ${
+                className={`py-[20px] pr-5 border-b last:border-none   transition-all duration-300 ${
                   // index === activeIndex ? "bg-white" : "bg-white"
                   ""
                 }`}
@@ -63,15 +63,15 @@ function OneAppSec() {
                   onClick={() => handleToggle(index)}
                 >
                   <div className="flex w-[100%] justify-between items-center space-x-4">
-                    <div>
+                    <div className="w-[100px] h-[100px] flex items-center justify-between">
                       <img
                         src={item.icon}
                         alt={item.title}
-                        className="w-[100px] h-[100px]"
+                         className="w-[76px] h-[76px]"
                       />
                     </div>
                     <div className="w-[80%] space-y-1">
-                      <div className="flex justify-between items-center">
+                      <div className="flex items-center justify-between">
                         <h3 className="text-[20px] font-[600] text-[#000] leading-[34px]">
                           {item.title}
                         </h3>
