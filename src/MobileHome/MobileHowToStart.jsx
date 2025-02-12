@@ -71,7 +71,7 @@ function MobileHowToStart() {
           </div>
           <div className="p-5 space-y-[18px]">
             <img
-              src="/mobile/how-start/trade.svg"
+              src="/mobile/how-start/withdraw.webp"
               alt="Card Icon"
               className="h-[45px] w-[45px]"
             />

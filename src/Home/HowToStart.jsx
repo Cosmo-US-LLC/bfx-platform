@@ -2,6 +2,7 @@ import React from "react";
 import account from "../assets/HowToStart/account.svg";
 import trade from "../assets/HowToStart/trade.svg";
 import practice from "../assets/HowToStart/practice.svg";
+import withdraw from "../assets/HowToStart/withdraw.webp";
 
 function HowToStart() {
   return (
@@ -62,7 +63,7 @@ function HowToStart() {
             </div>
 
             <div>
-              <img src={account} alt="Card" className="h-[48px] w-[50px] mb-5" />
+              <img src={withdraw} alt="Card" className="h-[48px] w-[50px] mb-5" />
               <h4 className="text-[16px] font-[700] leading-[28px] mb-3">
                 Withdraw Quickly
               </h4>
