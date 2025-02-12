@@ -26,7 +26,7 @@ function Footer() {
     <div className="bg-[#FAFAFA]">
       {/* desktop verion */}
 
-      <div className="w-[100%] 2xl:block xl:block lg:block md:block sm:hidden hidden space-y-[40px] max-w-[1076px]  pt-[50px] mx-auto pb-[50px] ">
+      <div className="w-[100%] 2xl:block xl:block lg:block md:block sm:hidden hidden space-y-[40px] max-w-[1185px]  pt-[50px] mx-auto pb-[50px] ">
         <div className="flex justify-between">
           <div className="flex justify-between w-[60%]">
             <div className="max-w-[177px] space-y-[10px] w-[100%]">
@@ -51,7 +51,7 @@ function Footer() {
                   <a
                     className="text-[#949494] block text-[13px] pt-[10px] font-[400] leading-[108.333%]"
                     href=""
-                    onClick={(e) => handleScroll(e, "what-is-bfx", 60)}
+                    onClick={(e) => handleScroll(e, "what-is-bfx", 20)}
                   >
                     Features
                   </a>
