@@ -19,11 +19,11 @@ function TheUltimateSec() {
   };
   return (
     <div className="flex bgtheylt">
-      <div className="max-w-[717px] min-h-[600px] max-h-[480px] flex flex-col items-center justify-center w-[100%] mx-auto  ">
-        <div className="flex justify-center pb-[30px]">
-          <img src={logo} className="h-[64.54px]" alt="" />
+      <div className="max-w-[717px] min-h-[400px] max-h-[480px] flex flex-col items-center justify-center w-[100%] mx-auto  ">
+        <div className="flex justify-center pb-[20px]">
+          <img src={logo} className="h-[54.54px]" alt="" />
         </div>
-        <h3 className="text-[50px] text-[#fff] font-[700] text-center leading-[117.143%]  tracking-[-1px]">
+        <h3 className="text-[40px] text-[#fff] font-[700] text-center leading-[117.143%]  tracking-[-1px]">
           The Ultimate <br />
           Trading Experience
         </h3>

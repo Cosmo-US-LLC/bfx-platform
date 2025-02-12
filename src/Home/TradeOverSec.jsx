@@ -42,7 +42,7 @@ function TradeOverSec() {
   return (
     <div className="  bg-[#fff]">
       <div className="max-w-[1200px] h-[550px] w-[100%] flex flex-col justify-center mx-auto space-y-[46px]">
-        <h3 className="text-[45px] font-[700] leading-[114%] text-center capitalize">
+        <h3 className="text-[30px] font-[700] leading-[114%] text-center capitalize">
           Trade over 500 different assets
         </h3>
         <div className="flex justify-center space-x-[14px]">
@@ -57,7 +57,7 @@ function TradeOverSec() {
                 <img src={item.img} alt="" />
               </div>
               <div className="space-y-[13px]">
-                <h3 className="text-[18px] text-[#181A20] font-[600] leading-[140%] tracking-[-0.32px]">
+                <h3 className="text-[16px] text-[#181A20] font-[700] leading-[140%] tracking-[-0.32px]">
                   {item.title}
                 </h3>
                 <p className="text-[14px] font-[400] text-[#181A20] leading-[127.778%] tracking-[-0.32px]">

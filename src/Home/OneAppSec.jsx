@@ -71,7 +71,7 @@ function OneAppSec() {
                       </div>
                       <div className="w-[80%]">
                         <div className="flex items-center justify-between">
-                          <h3 className="text-[18px] leading-[142.44%] font-[600] text-[#000]">
+                          <h3 className="text-[16px] leading-[142.44%] font-[700] text-[#000]">
                             {item.title}
                           </h3>
                           <div>

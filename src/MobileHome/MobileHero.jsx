@@ -16,14 +16,13 @@ function MobileHero() {
               Maximize Your Trading Potential
             </h4>
             <h2 className="pt-6 pb-8 text-[32px] font-[700] leading-[111.375%] tracking-[-1px] text-[#000] text-center">
-              Trade Crypto <br /> Forex, Stocks and More
+              Trade Crypto, <br /> Forex, Stocks and More
             </h2>
             <p className="px-4 text-[15px] max-w-[865px] w-[100%] mx-auto font-[400] leading-[153.667%] text-center text-[#000] tracking-[-0.32px] ">
               Explore global markets with BlockchainFX, the all-in-one trading
               platform. Trade Crypto, Forex, ETFs, Stocks, Indices, ETFs,
               Futures, Options, Bonds Commodities and CFDs across 500+ assets.
-              Elevate your trading game with state-of-the-art analysis tools and
-              indicators. Start trading smarter today. 
+     
             </p>
           </div>
           <div className="flex justify-center items-center space-x-[17px]">

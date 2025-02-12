@@ -26,7 +26,7 @@ function TopAssetsSec() {
     <div className=" bg-[#FFF] ">
       <div className="max-w-[1100px] h-[558px] flex flex-col justify-center w-full mx-auto space-y-[30px]">
         <div className="space-y-[14px]">
-          <h3 className="text-[45px] font-[700] text-center leading-[114%] text-[#181A20]">
+          <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#181A20]">
             Top Assets
           </h3>
           <p className="text-[14px] font-[400] max-w-[832px] mx-auto w-[100%] leading-[130%] text-[#181A20] tracking-[-0.32px] text-center">

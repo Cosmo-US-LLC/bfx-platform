@@ -9,7 +9,7 @@ function OurAwardSec() {
     <div className="bg-[#FAFAFA] " id="win">
       <div className="max-w-[1032.65px] h-[690px] flex flex-col justify-center relative space-y-[20px] w-[100%] mx-auto ">
         <div className="space-y-[6px]">
-          <h4 className="text-[45px] capitalize font-[700] text-center leading-[30px] text-[#181A20] tracking-[-1px]">
+          <h4 className="text-[30px] capitalize font-[700] text-center leading-[30px] text-[#181A20] tracking-[-1px]">
             Multi-Awarded Trading Platform
           </h4>
           <h3 className="text-[30px] font-[500] capitalize text-center leading-[58px] text-[#181A20] tracking-[-1px]">

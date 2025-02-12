@@ -26,7 +26,7 @@ function TradeLikeSec() {
   return (
     <div className="max-w-[1200px] h-[614px] flex flex-row pb-6 justify-center gap-[140px] items-center space-y-[60px] w-[100%] mx-auto ">
       <div className="space-y-[24px] max-w-[347px]">
-        <h3 className="text-[45px] capitalize font-[700] leading-[95%] text-[#181A20] tracking-[-1px]">
+        <h3 className="text-[30px] capitalize font-[700] leading-[95%] text-[#181A20] tracking-[-1px]">
           Trade Like a Pro
         </h3>
         <p className="text-[14px] font-[400]   max-w-[832px] mx-auto w-[100%] leading-[130%] text-[#181A20] tracking-[-0.32px]">
@@ -34,7 +34,7 @@ function TradeLikeSec() {
           tools. Trade with the precision of a professional Wall Street trader.
         </p>
         <div className="flex justify-start items-center space-x-[13px]">
-          <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[210px] w-[100%] h-[44px]">
+          <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[700] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[210px] w-[100%] h-[44px]">
             Start Trading Now
           </button>
           <button className="hover:text-white hover:bg-[#E5AE00] px-[12px] text-black bg-transparent text-[14px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px] max-w-[210px] w-[100%] h-[44px]">
