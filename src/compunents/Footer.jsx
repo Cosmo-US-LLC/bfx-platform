@@ -44,28 +44,28 @@ function Footer() {
                   <a
                     className="text-[#949494] block text-[13px] pt-[10px] font-[400] leading-[108.333%]"
                     href=""
-                    onClick={(e) => handleScroll(e, "faq", 90)}
+                    onClick={(e) => handleScroll(e, "faq", 60)}
                   >
                     FAQ
                   </a>
                   <a
                     className="text-[#949494] block text-[13px] pt-[10px] font-[400] leading-[108.333%]"
                     href=""
-                    onClick={(e) => handleScroll(e, "features", 90)}
+                    onClick={(e) => handleScroll(e, "what-is-bfx", 60)}
                   >
                     Features
                   </a>
                   <a
                     className="text-[#949494] block text-[13px] pt-[10px] font-[400] leading-[108.333%]"
                     href=""
-                    onClick={(e) => handleScroll(e, "reviews", 90)}
+                    onClick={(e) => handleScroll(e, "reviews", 60)}
                   >
                     Reviews
                   </a>
                   <a
                     className="text-[#949494] block text-[13px] pt-[10px] font-[400] leading-[108.333%]"
                     href=""
-                    onClick={(e) => handleScroll(e, "demo", 90)}
+                    onClick={(e) => handleScroll(e, "demo", 60)}
                   >
                     Demo Account
                   </a>

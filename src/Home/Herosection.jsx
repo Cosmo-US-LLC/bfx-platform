@@ -54,7 +54,7 @@ function Herosection() {
             <video
               width={500}
               height={410}
-              className="max-h-[370px]"
+              className="max-h-[410px]"
               muted
               autoPlay="autoplay"
               preload="auto"
