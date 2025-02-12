@@ -80,7 +80,7 @@ function MobileHowToStart() {
               Withdraw Quickly
               </h3>
               <p className="text-[15px] leading-[23px]">
-              Recive your profits 
+              Receive your profits 
                 <br />
                 quickly and securely
               </p>

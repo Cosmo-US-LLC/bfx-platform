@@ -67,7 +67,7 @@ function HowToStart() {
                 Withdraw Quickly
               </h4>
               <p className="text-[14px] leading-[23px]">
-                Recive your profits 
+                Receive your profits 
                 <br />
                 quickly and securely
               </p>
