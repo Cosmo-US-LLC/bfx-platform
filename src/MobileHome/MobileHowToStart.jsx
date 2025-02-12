@@ -69,6 +69,23 @@ function MobileHowToStart() {
               </p>
             </div>
           </div>
+          <div className="p-5 space-y-[18px]">
+            <img
+              src="/mobile/how-start/trade.svg"
+              alt="Card Icon"
+              className="h-[45px] w-[45px]"
+            />
+            <div className="space-y-[11px]">
+              <h3 className="text-[18px] font-[600] leading-[28px]">
+              Withdraw Quickly
+              </h3>
+              <p className="text-[15px] leading-[23px]">
+              Recive your profits 
+                <br />
+                quickly and securely
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <div id="demo" className="bg-[#FBFBFB] px-[19px] py-[30px]">

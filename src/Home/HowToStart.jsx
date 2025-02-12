@@ -9,7 +9,7 @@ function HowToStart() {
       <div className="bg-[#FFF]">
         <div className="max-w-[1200px] h-[480px] flex flex-col justify-center px-12 space-y-[60px] w-[100%] mx-auto ">
           <div className="space-y-[20px]">
-            <h3 className="text-[45px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
+            <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
               How To Start
             </h3>
             <p className="text-[14px] font-[400] max-w-[832px] mx-auto w-[100%] text-center leading-[142%] text-[#181A20] tracking-[-0.32px]">
@@ -25,10 +25,10 @@ function HowToStart() {
                 alt="Card"
                 className="h-[48px] w-[48px] mb-5"
               />
-              <h4 className="text-[18px] font-[700] leading-[28px] mb-3">
+              <h4 className="text-[16px] font-[700] leading-[28px] mb-3">
                 Register Your Account
               </h4>
-              <p className="text-[15px] leading-[23px]">
+              <p className="text-[14px] leading-[23px]">
                 Register an account for free
                 <br /> to get access to the platform.
               </p>
@@ -40,10 +40,10 @@ function HowToStart() {
                 alt="Card"
                 className="h-[48px] w-[48px] mb-5"
               />
-              <h4 className="text-[18px] font-[700] leading-[28px] mb-3">
+              <h4 className="text-[16px] font-[700] leading-[28px] mb-3">
                 Practice with Demo
               </h4>
-              <p className="text-[15px] leading-[23px]">
+              <p className="text-[14px] leading-[23px]">
                 Test strategies with a free
                 <br /> refillable demo account.
               </p>
@@ -51,15 +51,28 @@ function HowToStart() {
 
             <div>
               <img src={trade} alt="Card" className="h-[48px] w-[50px] mb-5" />
-              <h4 className="text-[18px] font-[700] leading-[28px] mb-3">
+              <h4 className="text-[16px] font-[700] leading-[28px] mb-3">
                 Start Trading
               </h4>
-              <p className="text-[15px] leading-[23px]">
+              <p className="text-[14px] leading-[23px]">
                 Make a deposit, start trading
                 <br />
                 and get your first profit.
               </p>
             </div>
+
+            <div>
+              <img src={account} alt="Card" className="h-[48px] w-[50px] mb-5" />
+              <h4 className="text-[16px] font-[700] leading-[28px] mb-3">
+                Withdraw Quickly
+              </h4>
+              <p className="text-[14px] leading-[23px]">
+                Recive your profits 
+                <br />
+                quickly and securely
+              </p>
+            </div>
+
           </div>
         </div>
       </div>
