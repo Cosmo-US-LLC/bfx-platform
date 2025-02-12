@@ -20,7 +20,7 @@ function Herosection() {
   };
 
   return (
-    <div className="pt-[80px] pb-[10px] bg-[#FFF]">
+    <div className="pt-[100px] pb-[10px] bg-[#FFF]">
       <div className="max-w-[1200px] w-[100%] mx-auto ">
         <div className="">
           <div className="space-y-[14px] ">
