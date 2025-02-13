@@ -25,16 +25,16 @@ function Herosection() {
         <div className="">
           <div className="space-y-[14px] ">
             <h4 className="text-[18px]  leading-[144.444%] font-[400] text-center text-[#000] tracking-[-1px] capitalize">
-              Maximize Your Trading Potential
+              Endless Opportunities Await
             </h4>
             <h2 className=" text-[45px] font-[700] leading-[130%] tracking-[-1px] text-[#000] text-center">
-              Trade Crypto, Forex, Stocks and More
+              The Ultimate Trading App
             </h2>
             <p className="text-[14px] max-w-[840px] w-[100%] mx-auto font-[400] leading-[150%] text-center text-[#000] tracking-[-0.32px] ">
-              Explore global markets with BlockchainFX, the all-in-one trading
-              platform. Trade Crypto, Forex, ETFs, Stocks, Indices, ETFs,
-              Futures, Options, Bonds Commodities and CFDs across 500+ assets.
-               
+              BlockchainFX is a pioneering platform that bridges crypto and
+              traditional finance, giving you access to 500+ assets. Experience
+              lightning-fast trades and seamless access to the world's largest
+              financial markets.
             </p>
           </div>
           <div

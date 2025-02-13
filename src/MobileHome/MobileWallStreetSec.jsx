@@ -36,7 +36,7 @@ function MobileWallStreetSec() {
   ]
  
   return (
-    <div className="pt-[24px] pb-[24px] bg-[#FAFAFA]">
+    <div className="pt-[24px] pb-[24px] bg-[#FFF]">
       <div className="space-y-[40px] w-[90%] mx-auto ">
         <div className="space-y-[30px]">
           <h3 className="text-[32px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px] capitalize">

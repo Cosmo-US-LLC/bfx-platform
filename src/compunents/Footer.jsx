@@ -164,7 +164,7 @@ function Footer() {
             </p>
           </p>
         </div>
-        <div className="flex justify-between">
+        <div className="flex justify-between px-6">
           <div className="max-w-[150px] w-[100%] pt-[15px]">
             <ul className="max-md:list-none">
               <li className="text-[#000] text-[16px] font-[600] leading-[108.333%]  list-disc">

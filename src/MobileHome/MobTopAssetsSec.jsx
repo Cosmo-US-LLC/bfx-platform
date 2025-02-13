@@ -23,7 +23,7 @@ function MobTopAssetsSec() {
   };
 
   return (
-    <div className="pt-[30px] space-y-[20px] pb-[24px] bg-[#FAFAFA] ">
+    <div className="pt-[30px] space-y-[20px] pb-[24px] bg-[#FFF] ">
       <h3 className="text-[32px] font-[700] text-center leading-[114%] text-[#181A20]">
         Top Assets
       </h3>
