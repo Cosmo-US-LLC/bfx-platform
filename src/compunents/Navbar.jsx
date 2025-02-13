@@ -129,13 +129,13 @@ function Navbar() {
           >
             Features
           </a>
-          <a
+          {/* <a
             className="text-[14px] font-[500] text-[#000]"
             onClick={(e) => handleScroll(e, "win", 60)}
             href=""
           >
             Awards
-          </a>
+          </a> */}
           <a
             className="text-[14px] font-[500] text-[#000]"
             onClick={(e) => handleScroll(e, "reviews", 60)}
@@ -217,13 +217,13 @@ function Navbar() {
             >
               Features
             </a>
-            <a
+            {/* <a
               className="block text-[16px] font-[500] text-[#000] mb-4"
               href="#"
               onClick={(e) => handleScroll(e, "awards", 90)}
             >
               Awards
-            </a>
+            </a> */}
             <a
               className="block text-[16px] font-[500] text-[#000] mb-4"
               href=""
