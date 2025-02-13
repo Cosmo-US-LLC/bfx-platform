@@ -1,5 +1,5 @@
 import React from "react";
-import herogif from "../assets/herosection/herogif.gif"
+import herogif from "../assets/herosection/herogif.gif";
 import fobicn from "../assets/herosection/forbes-ar21 1.svg";
 import herobnr2 from "../assets/herosection/bnrhero (4).svg";
 import herobnr3 from "../assets/herosection/bnrhero (3).svg";
@@ -13,16 +13,16 @@ function MobileHero() {
         <div className="space-y-[20px]">
           <div>
             <h4 className="text-[16px]  leading-[100%] font-[400] text-center text-[#000] tracking-[-1px] capitalize">
-              Maximize Your Trading Potential
+              Endless Opportunities Await
             </h4>
             <h2 className="pt-6 pb-8 text-[32px] font-[700] leading-[111.375%] tracking-[-1px] text-[#000] text-center">
-              Trade Crypto, <br /> Forex, Stocks and More
+              The Ultimate Trading App
             </h2>
             <p className="px-4 text-[15px] max-w-[865px] w-[100%] mx-auto font-[400] leading-[153.667%] text-center text-[#000] tracking-[-0.32px] ">
-              Explore global markets with BlockchainFX, the all-in-one trading
-              platform. Trade Crypto, Forex, ETFs, Stocks, Indices, ETFs,
-              Futures, Options, Bonds Commodities and CFDs across 500+ assets.
-     
+              BlockchainFX is a pioneering platform that bridges crypto and
+              traditional finance, giving you access to 500+ assets. Experience
+              lightning-fast trades and seamless access to the world's largest
+              financial markets.
             </p>
           </div>
           <div className="flex justify-center items-center space-x-[17px]">
@@ -34,16 +34,16 @@ function MobileHero() {
             </button>
           </div>
           <div>
-          <div className="flex justify-center pb-[20px]">
-            <img src={herogif} alt="" />
-          </div>
-            
-            <div className="border border-neutral-400 rounded-[6px] py-[20px] px-[13px]">
+            <div className="flex justify-center pb-[20px]">
+              <img src={herogif} alt="" />
+            </div>
+
+            {/* <div className="border border-neutral-400 rounded-[6px] py-[20px] px-[13px]">
               <h3 className="text-center text-[15px] font-[600]">
                 Featured In:
               </h3>
               <div className="flex justify-center items-center space-x-[10px]">
-                {/* <img className="h-[12px]" src={herobnr1} alt="" /> */}
+                 
                 <img
                   className="h-[11px]"
                   src={"/mobile/featured/bloomberg.svg"}
@@ -65,7 +65,7 @@ function MobileHero() {
                   alt=""
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

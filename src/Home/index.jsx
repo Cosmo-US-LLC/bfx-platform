@@ -36,7 +36,7 @@ function Home() {
     return (
       <div className="">
         <Herosection />
-        <FeaturedSec />
+        {/* <FeaturedSec /> */}
         <NextGenerationSec />
         <HowToStart/>
         <TradeOverSec/>
@@ -44,8 +44,8 @@ function Home() {
         <WallStreetSec />
         <TradeLikeSec />
         <TopAssetsSec />
-        <OurAwardSec />
-        <PressMediaSec />
+        {/* <OurAwardSec /> */}
+        {/* <PressMediaSec /> */}
         <TraderReviewsSec />
         <FaqSec />
         <TheUltimateSec />

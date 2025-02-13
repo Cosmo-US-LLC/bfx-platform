@@ -93,7 +93,7 @@ const MobFaqSec = () => {
 
   return (
     <>
-      <div className="bg-[#FAFAFA]" id="faq">
+      <div className="bg-[#FFF]" id="faq">
         <div className="space-y-[30px] px-[18px] py-[24px]">
           <div className="text-center space-y-[20px]">
             <h2 className="text-[#000] leading-[100%] text-[32px] font-[600]">

@@ -9,7 +9,7 @@ import trd1cn6 from "../assets/TradeLikeSec/trdicn (6).svg";
 
 function MobTadeLikeSec() {
   return (
-    <div className="py-[24px] bg-[#fff]">
+    <div className="py-[24px] bg-[#FAFAFA]">
       <div className="w-[90%] mx-auto">
         <div className="space-y-[32px]">
           <div className="space-y-[20px]">
