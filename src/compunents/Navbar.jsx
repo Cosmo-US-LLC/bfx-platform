@@ -1,4 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
+
 import logo from "../assets/navbar/logo.svg";
 import flag from "../assets/navbar/flg.svg";
 import menu from "../assets/navbar/menu.svg";
@@ -99,12 +101,13 @@ function Navbar() {
             />
           </div>
           <div className="max-w-[175px] flex justify-start">
-            <img
+             <Link to="/">
+             <img
               src={logo}
-              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               className="cursor-pointer"
               alt=""
             />
+              </Link>
           </div>
         </div>
         <div className="space-x-[27px] 2xl:flex xl:flex lg:flex md:flex sm:hidden hidden items-center">
@@ -283,12 +286,16 @@ function Navbar() {
         )}
 
         <div className="flex gap-[15px]">
+          <a href="https://trade.blockchainfx.io/en/login?redirect_url=traderoom" target="_blank" rel="noopener noreferrer">
           <button className="max-md:hidden w-[100px] hover:text-white hover:bg-[#E5AE00] px-[12px] text-black bg-transparent text-[18px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px] max-w-[152px] h-[40px]">
             Log In
           </button>
+          </a>
+          <a href="https://trade.blockchainfx.io/en/login?redirect_url=traderoom" target="_blank" rel="noopener noreferrer">
           <button className="w-[135px] text-white bg-[#E5AE00] 2xl:px-[12px] xl:px-[12px] lg:px-[12px] md:px-[12px] sm:px-[10px] px-[10px] hover:text-black hover:bg-transparent 2xl:text-[18px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[14px] text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] 2xl:max-w-[179px] xl:max-w-[179px] lg:max-w-[179px] md:max-w-[179px] sm:max-w-[150px] max-w-[150px] 2xl:h-[40px] xl:h-[40px] lg:h-[40px] md:h-[40px] sm:h-[40px] h-[40px]">
             Register<span className="md:hidden"> Now</span>
           </button>
+          </a>
         </div>
       </div>
     </div>

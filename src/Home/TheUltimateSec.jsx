@@ -28,15 +28,19 @@ function TheUltimateSec() {
           Trading Experience
         </h3>
         <div className="flex justify-center items-center px-[2rem] pt-[35px] space-x-[17px]">
+          <a href="https://trade.blockchainfx.io/en/login?redirect_url=traderoom" target="_blank" rel="noopener noreferrer">
           <button
             onClick={handleScroll}
             className="text-white bg-[#E5AE00]  hover:text-[#FFF] hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#fff] rounded-[8px] w-[170px]   h-[44px]"
           >
             Start Trading Now
           </button>
+          </a>
+          <a href="https://trade.blockchainfx.io/en/login?redirect_url=traderoom" target="_blank" rel="noopener noreferrer">
           <button className="hover:text-white hover:bg-[#E5AE00]  text-[#FFF] bg-transparent text-[14px] font-[500] border hover:border-[#E5AE00] border-[#fff] rounded-[8px] w-[168px]   h-[44px]">
             Free Demo Account
           </button>
+          </a>
         </div>
       </div>
     </div>

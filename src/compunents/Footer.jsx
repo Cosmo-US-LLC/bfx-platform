@@ -1,4 +1,5 @@
 import React, { handleScroll } from "react";
+import { Link } from "react-router-dom";
 
 import logo from "../assets/footer/logo.svg";
 import socil1 from "../assets/footer/Vector (2).svg";
@@ -30,7 +31,10 @@ function Footer() {
         <div className="flex justify-between">
           <div className="flex justify-between w-[60%]">
             <div className="max-w-[177px] space-y-[10px] w-[100%]">
+            
+              <Link to="/">
               <img src={logo} alt="" />
+                  </Link>
               <p className="text-[#000] text-[12px] font-[400] leading-[166.667%]">
                 Experience all-in-one trading with BlockchainFX: Trade Crypto,
                 Forex, ETFs, Stocks, Indices, CFDs, and more with access to over
@@ -73,28 +77,56 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="max-w-[120px] w-[100%] pt-[15px]">
+            <div className="max-w-[140px] w-[100%] pt-[15px]">
               <ul className="max-md:list-none w-[100%]">
                 <li className="text-[#000] text-[16px] list-disc font-[600] leading-[108.333%]">
                   Policies
                   <a
                     className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]"
+                    target="_blank"
                     href="https://blockchainfx.io/legal/terms"
                   >
                     Terms of Service{" "}
                   </a>
                   <a
                     className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]"
+                    target="_blank"
                     href="https://blockchainfx.io/legal/payment-policy"
                   >
                     Payment Policy{" "}
                   </a>
                   <a
                     className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]"
+                    target="_blank"
                     href="https://blockchainfx.io/legal/order-execution"
                   >
                     Order Execution Policy
                   </a>
+                  <Link to="/anti-money">
+                    <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]">
+                      AML
+                    </p>
+                  </Link>
+                  <Link to="/general-fees">
+                    <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]">
+                    General Fees
+                    </p>
+                  </Link>
+                  <Link to="/risk-disclosure">
+                    <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]">
+                    Risk Disclosure
+                    </p>
+                  </Link>
+                  <Link to="/withdrawal-policy">
+                    <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]">
+                    Withdrawal Policy
+                    </p>
+                  </Link>
+                  <Link to="/demo-account">
+                    <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]">
+                    Demo Account Policy
+                    </p>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -197,6 +229,7 @@ function Footer() {
                 >
                   Demo Account
                 </a>
+                
                 {/* <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "tokenomics", 90)} >Token Allocation</a> */}
               </li>
             </ul>
@@ -208,21 +241,49 @@ function Footer() {
                 <a
                   className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]"
                   href="https://blockchainfx.io/legal/terms"
+                  target="_blank"
                 >
                   Terms of Service{" "}
                 </a>
                 <a
                   className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]"
                   href="https://blockchainfx.io/legal/payment-policy"
+                  target="_blank"
                 >
                   Payment Policy{" "}
                 </a>
                 <a
                   className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]"
                   href="https://blockchainfx.io/legal/order-execution"
+                  target="_blank"
                 >
                   Order Execution Policy
                 </a>
+                <Link to="/anti-money">
+                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]">
+                      AML
+                    </p>
+                  </Link>
+                  <Link to="/general-fees">
+                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]">
+                    General Fees
+                    </p>
+                  </Link>
+                  <Link to="/risk-disclosure">
+                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]">
+                    Risk Disclosure
+                    </p>
+                  </Link>
+                  <Link to="/withdrawal-policy">
+                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]">
+                    Withdrawal Policy
+                    </p>
+                  </Link>
+                  <Link to="/demo-account">
+                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]">
+                    Demo Account Policy
+                    </p>
+                  </Link>
               </li>
             </ul>
           </div>
