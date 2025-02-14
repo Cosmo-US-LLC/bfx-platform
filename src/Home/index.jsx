@@ -43,7 +43,7 @@ function Home() {
         <OneAppSec />
         <WallStreetSec />
         <TradeLikeSec />
-        <TopAssetsSec />
+        {/* <TopAssetsSec /> */}
         {/* <OurAwardSec /> */}
         {/* <PressMediaSec /> */}
         <TraderReviewsSec />

@@ -102,12 +102,16 @@ function MobileHowToStart() {
         </div>
         
         <div className="flex justify-between items-center px-2 pt-[22px] pb-[12px] gap-[12px]">
+          <a href="https://trade.blockchainfx.io/en/login?redirect_url=traderoom" target="_blank" rel="noopener noreferrer" className="w-[100%]">
           <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[700] border border-[#E5AE00] hover:border-[#000] m-0 rounded-[8px] w-[100%] h-[40px]">
             Start Trading Now
           </button>
-          <button className="hover:text-white hover:bg-[#E5AE00] px-[12px] text-black bg-transparent text-[14px] font-[700] border hover:border-[#E5AE00] border-[#000] rounded-[8px] w-[100%] h-[40px]">
+          </a>
+          <a href="https://trade.blockchainfx.io/en/login?redirect_url=traderoom" target="_blank" rel="noopener noreferrer" className="w-[100%]">
+          <button className="hover:text-white hover:bg-[#E5AE00] px-[6px] text-black bg-transparent text-[14px] font-[700] border hover:border-[#E5AE00] border-[#000] rounded-[8px] w-[100%] h-[40px]">
             Free Demo Account
           </button>
+          </a>
         </div>
       </div>
     </div>

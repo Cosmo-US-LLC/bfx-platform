@@ -51,7 +51,7 @@ function MobileHome() {
         {/* <MobileGatewaySec /> */}
         <MobileWallStreetSec />
         <MobTadeLikeSec />
-        <MobTopAssetsSec />
+        {/* <MobTopAssetsSec /> */}
         {/* <MobLiveNewSec /> */}
         {/* <MobSecurityBuiltSec /> */}
         {/* <MobStreamlinedSec /> */}

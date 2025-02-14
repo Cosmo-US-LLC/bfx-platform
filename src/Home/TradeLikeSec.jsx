@@ -34,12 +34,16 @@ function TradeLikeSec() {
           tools. Trade with the precision of a professional Wall Street trader.
         </p>
         <div className="flex justify-start items-center space-x-[13px]">
-          <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[700] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[210px] w-[100%] h-[44px]">
+          <a href="https://trade.blockchainfx.io/en/login?redirect_url=traderoom" target="_blank" rel="noopener noreferrer" className="w-[210px]">
+          <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[700] border border-[#E5AE00] hover:border-[#000] rounded-[8px] w-[100%] h-[44px]">
             Start Trading Now
           </button>
-          <button className="hover:text-white hover:bg-[#E5AE00] px-[12px] text-black bg-transparent text-[14px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px] max-w-[210px] w-[100%] h-[44px]">
+          </a>
+          <a href="https://trade.blockchainfx.io/en/login?redirect_url=traderoom" target="_blank" rel="noopener noreferrer" className="w-[210px]">
+          <button className="hover:text-white hover:bg-[#E5AE00] px-[12px] text-black bg-transparent text-[14px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px] w-[100%] h-[44px]">
             Free Demo Account
           </button>
+          </a>
         </div>
       </div>
       <div className="max-w-[420px] space-y-[11px] w-[100%]">
