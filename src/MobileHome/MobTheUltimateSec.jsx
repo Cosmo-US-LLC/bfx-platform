@@ -14,13 +14,13 @@ function MobTheUltimateSec() {
           Trading Experience
         </h3>
         <div className="flex justify-center items-center gap-[12px]">
-          <a className="w-[100%] " href="https://trade.blockchainfx.io/en/login?redirect_url=traderoom" target="_blank" rel="noopener noreferrer">
-          <button className="text-white bg-[#E5AE00] px-[6px] hover:text-black hover:bg-white text-[14px] font-[700] border border-[#E5AE00] hover:border-[#000] m-0 rounded-[8px] w-fit h-[40px]">
+          <a className="w-[90%] " href="https://trade.blockchainfx.io/en/login?redirect_url=traderoom" target="_blank" rel="noopener noreferrer">
+          <button className="text-white bg-[#E5AE00] hover:text-[#fff] hover:bg-transparent text-[14px] font-[700] border border-[#E5AE00] hover:border-[#fff] m-0 rounded-[8px] w-[100%] h-[40px]">
             Start Trading Now
           </button>
           </a>
           <a href="https://trade.blockchainfx.io/en/login?redirect_url=traderoom" target="_blank" rel="noopener noreferrer" className="w-[100%]">
-          <button className="hover:text-white hover:bg-[#E5AE00] px-[6px] text-black bg-white text-[14px] font-[700] border hover:border-[#E5AE00] border-[#000] rounded-[8px] w-fit h-[40px]">
+          <button className="hover:text-white hover:bg-[#E5AE00] text-[#fff] bg-transparent text-[14px] font-[700] border hover:border-[#E5AE00] border-[#fff] rounded-[8px] w-[100%] h-[40px]">
             Free Demo Account
           </button>
           </a>

@@ -101,7 +101,7 @@ function Navbar() {
             />
           </div>
           <div className="max-w-[175px] flex justify-start">
-             <Link to="/">
+             <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
              <img
               src={logo}
               className="cursor-pointer"

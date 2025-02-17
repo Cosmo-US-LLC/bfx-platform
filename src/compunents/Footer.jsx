@@ -29,8 +29,8 @@ function Footer() {
 
       <div className="w-[100%] 2xl:block xl:block lg:block md:block sm:hidden hidden space-y-[40px] max-w-[1188px]  pt-[50px] mx-auto pb-[50px] ">
         <div className="flex justify-between">
-          <div className="flex justify-between w-[60%]">
-            <div className="max-w-[177px] space-y-[10px] w-[100%]">
+          <div className="flex justify-between w-[70%]">
+            <div className="max-w-[250px] mr-6 space-y-[10px] w-[100%]">
             
               <Link to="/">
               <img src={logo} alt="" />
@@ -77,31 +77,10 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="max-w-[140px] w-[100%] pt-[15px]">
+            <div className="max-w-[150px] w-[100%] pt-[15px]">
               <ul className="max-md:list-none w-[100%]">
                 <li className="text-[#000] text-[16px] list-disc font-[600] leading-[108.333%]">
-                  Policies
-                  <a
-                    className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]"
-                    target="_blank"
-                    href="https://blockchainfx.io/legal/terms"
-                  >
-                    Terms of Service{" "}
-                  </a>
-                  <a
-                    className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]"
-                    target="_blank"
-                    href="https://blockchainfx.io/legal/payment-policy"
-                  >
-                    Payment Policy{" "}
-                  </a>
-                  <a
-                    className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]"
-                    target="_blank"
-                    href="https://blockchainfx.io/legal/order-execution"
-                  >
-                    Order Execution Policy
-                  </a>
+                Docs
                   <Link to="/anti-money">
                     <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]">
                       AML
@@ -117,6 +96,34 @@ function Footer() {
                     Risk Disclosure
                     </p>
                   </Link>
+                  <a
+                    className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]"
+                    target="_blank"
+                    href="https://blockchainfx.io/legal/terms"
+                  >
+                    Terms of Service
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="max-w-[150px] w-[100%] pt-[15px]">
+              <ul className="max-md:list-none w-[100%]">
+                <li className="text-[#000] text-[16px] list-disc font-[600] leading-[108.333%]">
+                  Policies
+                  <a
+                    className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]"
+                    target="_blank"
+                    href="https://blockchainfx.io/legal/payment-policy"
+                  >
+                    Payment Policy{" "}
+                  </a>
+                  <a
+                    className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]"
+                    target="_blank"
+                    href="https://blockchainfx.io/legal/order-execution"
+                  >
+                    Order Execution Policy
+                  </a>
                   <Link to="/withdrawal-policy">
                     <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]">
                     Withdrawal Policy
@@ -196,8 +203,8 @@ function Footer() {
             </p>
           </p>
         </div>
-        <div className="flex justify-between px-6">
-          <div className="max-w-[150px] w-[100%] pt-[15px]">
+        <div className="flex justify-between px-5">
+          <div className=" w-[50%] pt-[15px]">
             <ul className="max-md:list-none">
               <li className="text-[#000] text-[16px] font-[600] leading-[108.333%]  list-disc">
                 Quick Links
@@ -234,31 +241,10 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div className="max-w-[200px] w-[100%] pt-[15px]">
+          <div className="w-[45%] pt-[15px]">
             <ul className="max-md:list-none w-[100%]">
               <li className="text-[#000] text-[16px] list-disc font-[600] leading-[108.333%]">
-                Policies
-                <a
-                  className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]"
-                  href="https://blockchainfx.io/legal/terms"
-                  target="_blank"
-                >
-                  Terms of Service{" "}
-                </a>
-                <a
-                  className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]"
-                  href="https://blockchainfx.io/legal/payment-policy"
-                  target="_blank"
-                >
-                  Payment Policy{" "}
-                </a>
-                <a
-                  className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]"
-                  href="https://blockchainfx.io/legal/order-execution"
-                  target="_blank"
-                >
-                  Order Execution Policy
-                </a>
+              Docs
                 <Link to="/anti-money">
                     <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]">
                       AML
@@ -274,6 +260,35 @@ function Footer() {
                     Risk Disclosure
                     </p>
                   </Link>
+                  <a
+                  className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]"
+                  href="https://blockchainfx.io/legal/terms"
+                  target="_blank"
+                >
+                  Terms of Service{" "}
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="max-w-[200px] w-[100%] pt-[15px] px-5">
+            <ul className="max-md:list-none w-[100%]">
+              <li className="text-[#000] text-[16px] list-disc font-[600] leading-[108.333%]">
+                Policies
+                <a
+                  className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]"
+                  href="https://blockchainfx.io/legal/payment-policy"
+                  target="_blank"
+                >
+                  Payment Policy{" "}
+                </a>
+                <a
+                  className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]"
+                  href="https://blockchainfx.io/legal/order-execution"
+                  target="_blank"
+                >
+                  Order Execution Policy
+                </a>
                   <Link to="/withdrawal-policy">
                     <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]">
                     Withdrawal Policy
@@ -287,7 +302,6 @@ function Footer() {
               </li>
             </ul>
           </div>
-        </div>
         <div className="flex justify-between">
           <div className="max-w-[285px] space-y-[25px] pt-[3px] w-[100%] ">
             <h4 className="text-[#000] text-[16px] font-[600] leading-[108.333%]">
