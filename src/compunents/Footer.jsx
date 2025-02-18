@@ -71,7 +71,7 @@ function Footer() {
                     href=""
                     onClick={(e) => handleScroll(e, "demo", 60)}
                   >
-                    Demo Account
+                   Free Demo Account
                   </a>
                   {/* <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "tokenomics", 90)} >Token Allocation</a> */}
                 </li>
@@ -131,7 +131,7 @@ function Footer() {
                   </Link>
                   <Link to="/demo-account">
                     <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]">
-                    Demo Account
+                     Demo Account
                     </p>
                   </Link>
                 </li>
@@ -240,7 +240,7 @@ function Footer() {
                   href=""
                   onClick={(e) => handleScroll(e, "demo", 90)}
                 >
-                  Demo Account
+                  Free Demo Account
                 </a>
                 
                 {/* <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "tokenomics", 90)} >Token Allocation</a> */}
