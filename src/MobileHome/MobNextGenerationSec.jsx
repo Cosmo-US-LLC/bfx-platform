@@ -14,7 +14,7 @@ function MobNextGenerationSec() {
     <div className="pt-[24px] pb-[24px] bg-[#FBFBFB]">
       <div className="w-[90%] mx-auto space-y-[24px]">
         <h3 className="text-[32px] font-[700] leading-[114%] text-center">
-          The Ultimate <br /> Trading Experience
+        Next Generation <br /> Trading Experience
         </h3>
         <div className="gap-y-[20px] grid grid-cols-2">
           <div className="flex flex-col min-w-[185px] items-center space-y-[10px]">

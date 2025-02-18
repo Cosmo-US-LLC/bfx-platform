@@ -30,7 +30,7 @@ function NextGenerationSec() {
     <div className="pt-[50px] pb-[50px] bg-[#FBFBFB]">
       <div className="max-w-[1200px]  w-[100%] mx-auto space-y-[60px]">
         <h3 className="text-[30px] font-[700] leading-[114%] text-center">
-          The Ultimate Trading Experience
+        Next Generation Trading Experience
         </h3>
         <div className="space-y-[50px]">
           <div className="flex justify-center items-center space-x-[5rem]">

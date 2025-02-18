@@ -25,7 +25,7 @@ function RiskDisclosure() {
         <h4 className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] ">
           Risk Warning
         </h4>
-        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+        <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
           The nancial products offered by the Company, including Contracts for
           Difference (‘CFDs’) are complex nancial products, most of which have
           no set maturity date. Therefore, a CFD position matures on the date
@@ -43,7 +43,7 @@ function RiskDisclosure() {
         <h4 className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] ">
           Introduction
         </h4>
-        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+        <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
           This Risk Disclosure is intended to inform you of the general risks
           that exist in trading activities on our website and of dealing in the
           Financial Instruments offered by the Company. You must recognize that
@@ -51,7 +51,7 @@ function RiskDisclosure() {
           disclosure is informational and must not be considered a list of all
           possible risks.
         </p>
-        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+        <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
           Trading in the Financial Instruments offered through this website is
           VERY SPECULATIVE AND HIGHLY RISKY and may involve a risk of loss of
           all your investments. The products offered by the Company are
@@ -60,17 +60,17 @@ function RiskDisclosure() {
           investors who:
         </p>
         <ul className="pl-8 list-decimal space-y-[15px]">
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             are willing to assume the economic, legal and other risks involved.
             You should be aware of the risks inherent in trading in these
             Financial Instruments and be able to bear such risks
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             are able to assume nancially the loss of their entire investment
             amount taking into consideration their personal nances, including
             resources and obligations.
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             possess the appropriate level of experience and/or knowledge in the
             specic Financial Instruments offered by the Company. It is important
             for you to ensure that any decision to engage in trading CFDs and
@@ -78,7 +78,7 @@ function RiskDisclosure() {
             and that you understand the nature of the CFDs/products offered and
             the extent of all the risks associated with CFDs and other products
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             Please note that CFDs are leveraged nancial products and therefore
             as such, trading in CFDs using the Company’s ‘multiplier’ (leverage)
             tool involves high risk of loss as price movements are inuenced by
@@ -91,7 +91,7 @@ function RiskDisclosure() {
         <h4 className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] ">
           1. Risks Associated with Trading in Financial Instruments
         </h4>
-        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+        <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
           The Financial Instruments offered by the Company derive their value
           from the performance of the underlying assets/markets. It is important
           therefore that you understand the risks associated with trading in the
@@ -99,13 +99,13 @@ function RiskDisclosure() {
           of the underlying asset/ market will affect the protability of your
           trade.
         </p>
-        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+        <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
           Information on the previous performance of Financial Instruments does
           not guarantee the same circumstances of its current and/or future
           performance. The use of historical data does not lead to a safe
           forecast.
         </p>
-        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+        <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
           Trading in the Financial Instruments offered by the Company can put
           your capital at risk. These Financial Instruments are categorized as
           high risk complex products and you may lose all or part of the amount
@@ -120,7 +120,7 @@ function RiskDisclosure() {
           result of the buying or selling of any Financial Instrument offered by
           the Company and acknowledge your intent to take such risk.
         </p>
-        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+        <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
           The Company will not provide you with any investment recommendations
           or with any advice that is directly or indirectly connected with the
           trading of Financial Instruments and you acknowledge that the services
@@ -128,7 +128,7 @@ function RiskDisclosure() {
           guidance in relation to underlying assets, the market or specic
           trading strategies.
         </p>
-        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+        <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
           You should note that the Company may provide you, from time to time,
           with useful information about relatable subjects created by third
           parties BUT the Company does not approve or endorse this information
@@ -139,7 +139,7 @@ function RiskDisclosure() {
           accept liability for any such losses resulting from actions taken by
           you based on information and or tools produced by third parties.
         </p>
-        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+        <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
           The Company may also provide, at its discretion, information, news,
           market commentary or any other information through its website, agents
           or platform but when it does so, it is understood that the information
@@ -148,7 +148,7 @@ function RiskDisclosure() {
           solely responsible for the trades you make and that any transaction
           you enter into is done so based on your own judgment.
         </p>
-        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+        <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
           <span className="font-[600]">Market Risk:</span> Due to the high
           volatility of the Market, prices of most Financial Instruments traded
           can vary considerably over the course of a day, which may bring you
@@ -162,7 +162,7 @@ function RiskDisclosure() {
           geopolitical instability and economical/political events or
           announcements.
         </p>
-        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+        <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
           <span className="font-[600]">Liquidity Risk:</span> This is the
           nancial risk that for a certain period of time an underlying asset
           cannot be traded quickly enough in the market without impacting the
@@ -173,7 +173,7 @@ function RiskDisclosure() {
           between the ASK and BID prices, resulting in a change in the price of
           the product.
         </p>
-        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+        <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
           <span className="font-[600]">OTC/Counterparty Risk: </span> Financial
           Instruments offered by the Company are Over-the- counter (OTC) or
           off-exchange traded. This means the trading is done directly between
@@ -181,13 +181,13 @@ function RiskDisclosure() {
           the conditions for trading according to its obligations to provide
           best execution for our clients.
         </p>
-        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+        <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
           OTC/Counterparty risk is the risk that, as there is no exchange
           market, the derivative transaction may not be closed out of an Open
           position. Prices quoted are established by dealers which consequently
           make it dicult to ensure fair pricing to assess exposure to risk.
         </p>
-        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+        <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
           <span className="font-[600]">Foreign Exchange Risk: </span> If a
           Financial Instrument is traded in a currency other than the currency
           of your account, changes in exchange rate may affect the value of the
@@ -199,7 +199,7 @@ function RiskDisclosure() {
           2. Risks associated with trading in CFDs on cryptocurrencies
         </h4>
         <ul className="pl-8 list-decimal space-y-[15px]">
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             The CFDs on Cryptocurrency Services are not suitable for all
             investors. The CFDs on Cryptocurrency Services are highly complex
             and as such Clients must always make sure that are fully aware and
@@ -209,25 +209,25 @@ function RiskDisclosure() {
             underlying assets of the nancial instruments offered by the CFDs on
             Cryptocurrency Services.
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             Trading on nancial instruments offered by the CFDs on Cryptocurrency
             Services carries a high risk of losing all your invested capital in
             your trading account and/or in a specic trade.
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             Trading prices of the nancial instruments and underlying assets
             offered by the CFDs on Cryptocurrency Services carry high volatility
             and thereby can widely uctuate or become temporarily or permanently
             unavailable, therefore Clients should trade carefully and only with
             funds that they can afford to lose.
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             The nature of Cryptocurrencies may lead to an increased risk of
             fraud or cyber-attack, and may mean that technological diculties
             experienced by the Company may prevent the access to or use of the
             CFDs on Cryptocurrency Services.
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             The nancial instruments offered by the CFDs on Cryptocurrency
             Services have specic distinct risks from nancial instruments offered
             by the Company with underlying assets, currencies or commodities.
@@ -245,28 +245,28 @@ function RiskDisclosure() {
           3. Technical Risks
         </h4>
         <ul className="pl-8 list-decimal space-y-[15px]">
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             We are not responsible for nancial losses arising from failure,
             malfunction, interruption, disconnection or malicious actions of
             information, communication, electricity, electronic or other
             systems, which are not the result of gross negligence or willful
             default of the Company.
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             When working with the client terminal, you assume the risks arising
             from:
             <ul className="pl-8 list-disc space-y-[15px]">
-              <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+              <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
                 1. Failures in your equipment, software, and connection;
               </li>
-              <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+              <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
                 2. Errors in your client terminal settings;
               </li>
-              <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+              <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
                 3. Failure to update your version of the client terminal in a
                 timely manner;
               </li>
-              <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+              <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
                 4. Your failure to follow the instructions for using the client
                 terminal. We are not responsible for errors that occur in the
                 operation of the client terminal and will not compensate for
@@ -284,17 +284,17 @@ function RiskDisclosure() {
               </li>
             </ul>
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             You must understand that when concluding transactions over the
             phone, you may encounter diculty getting through to an operator,
             especially during peak times. It should be noted that currently, the
             Company does not accept orders over the phone.
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             You must understand that the unencrypted information transmitted by
             e-mail is not protected from any unauthorized access.
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             You may suffer nancial losses caused by the materialization of the
             above-mentioned risks, and you understand that you shall be
             responsible for all related losses that you may suffer, assuming
@@ -308,14 +308,14 @@ function RiskDisclosure() {
           4. Abnormal Market Risks
         </h4>
         <ul className="pl-8 list-decimal space-y-[15px]">
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             You agree that if market conditions become abnormal the amount of
             time required to process your orders and/or instructions may
             increase. Additionally, you agree that orders may not be executed at
             declared prices and there is a chance that they may not be executed
             at all.
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             Abnormal market conditions include but are not limited to: times of
             rapid price movements, rises or falls in the same trading session to
             such an extent that, under the rules of the relevant exchange,
@@ -329,18 +329,18 @@ function RiskDisclosure() {
           5. Risks Associated With the Laws Of Certain Governments
         </h4>
         <ul className="pl-8 list-decimal space-y-[15px]">
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             You also assume responsibility for trading and non-trading
             operations performed within countries where they are restricted or
             prohibited by law
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             Laws regarding nancial trading and contracts may be different
             throughout the world. It is your obligation to make certain that the
             use of our services is fully compliant with any law, regulation or
             directive applicable in your country of residence.
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             The ability to access our website or any related website found from
             a link on our website does not mean that our services or any related
             activities are legal under the laws of your country of residence.
@@ -358,7 +358,7 @@ function RiskDisclosure() {
           6. Risks Associated With the Trading Platform
         </h4>
         <ul className="pl-8 list-decimal space-y-[15px]">
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             All of your instructions are sent to our server and executed in
             order. Therefore, you cannot send a second order until your previous
             order has been executed. If a second order is received before the
@@ -367,11 +367,11 @@ function RiskDisclosure() {
             executed if you re-submit an order before being notied of the
             results of the rst order.
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             You must understand that closing the order window or position window
             does not cancel a submitted order.
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             You acknowledge that only the quotes received from our server are
             authoritative. If there is a problem in the connection between your
             client terminal and our server, you can retrieve undelivered quote
@@ -384,15 +384,15 @@ function RiskDisclosure() {
           7. Communication Risks
         </h4>
         <ul className="pl-8 list-decimal space-y-[15px]">
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             You must be aware of the risk that information sent via unencrypted
             email may be accessed by unauthorized parties.
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             We are not responsible for nancial losses arising from delayed or
             failed receipt of a Company message.
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             You are responsible for the security of the credentials for your
             Personal Area and trading accounts as well as the condential
             information that we send you. We are not responsible for nancial
@@ -406,7 +406,7 @@ function RiskDisclosure() {
           8. Force Majeure Events
         </h4>
         <ul className="pl-8 list-decimal space-y-[15px]">
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             We are not responsible for nancial losses arising from force majeure
             events. These events are extreme and irresistible circumstances that
             are independent of the will and actions of the agreement
@@ -424,7 +424,7 @@ function RiskDisclosure() {
           9. Third Party Risks
         </h4>
         <ul className="pl-8 list-decimal space-y-[15px]">
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             It is understood that we will promptly place all funds received from
             clients into one or more segregated account(s) (denoted as ‘clients’
             accounts’) with reliable nancial institutions, such as a credit
@@ -438,7 +438,7 @@ function RiskDisclosure() {
             proceedings or failure of the nancial institution where your money
             will be held.
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             The nancial institution, to which we will pass your money, may hold
             it in an omnibus account. Hence, in the event of the insolvency or
             any other comparable proceedings in relation to that nancial
@@ -447,7 +447,7 @@ function RiskDisclosure() {
             the money received by us from the nancial institution is insucient
             to satisfy your claims.
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             It is understood that we execute your orders on an own account
             basis, i.e. as principal to principal against you; we are the
             counterparty of all your transactions. For more information please
@@ -460,24 +460,24 @@ function RiskDisclosure() {
           10. Conicts of Interest
         </h4>
         <ul className="pl-8 list-decimal space-y-[15px]">
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             When we deal with you as a client, our associates, relevant persons
             or some other persons connected with us may have an interest,
             relationship or arrangement that is in conict with your interest as
             our client.
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             {" "}
             Continuing from the above point, the following occurrences may give
             rise to a conict of interest entailing a material risk of damage to
             the interests of one or more clients, as a result of providing
             investment services:
             <ul className="pl-8 list-disc space-y-[15px]">
-              <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+              <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
                 1. we execute your orders as a principal and our revenues are
                 largely generated from your trading losses;
               </li>
-              <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+              <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
                 2. we may pay inducements to third parties for the referral of
                 new clients or clients’ trading.
               </li>
@@ -492,19 +492,19 @@ function RiskDisclosure() {
         </h4>
         <ul className="pl-8 list-decimal space-y-[15px]">
           
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">We are unable to:
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">We are unable to:
             <ul className="pl-8 list-disc space-y-[15px]">
-              <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">1. provide guarantees of prot or of avoiding losses when you trade in the Financial
+              <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">1. provide guarantees of prot or of avoiding losses when you trade in the Financial
               Instruments offered by the Company
               </li>
-              <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">2. provide guarantees of the future performance of your trading account.
+              <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">2. provide guarantees of the future performance of your trading account.
 
               </li>
-              <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">3. provide guarantees of any specic level of performance or guarantee that your
+              <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">3. provide guarantees of any specic level of performance or guarantee that your
 investment decisions/strategies will yield prot or nancial gain.
 
               </li>
-              <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+              <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
               4. You receive no such guarantees from us or from any of our aliates or
               representatives.
               </li>

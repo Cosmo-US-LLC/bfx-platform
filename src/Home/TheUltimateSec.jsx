@@ -19,13 +19,13 @@ function TheUltimateSec() {
   };
   return (
     <div className="flex bgtheylt">
-      <div className="max-w-[717px] min-h-[400px] max-h-[480px] flex flex-col items-center justify-center w-[100%] mx-auto  ">
+      <div className="max-w-[717px] min-h-[480px] max-h-[480px] flex flex-col items-center justify-center w-[100%] mx-auto  ">
         <div className="flex justify-center pb-[20px]">
           <img src={logo} className="h-[54.54px]" alt="" />
         </div>
-        <h3 className="text-[40px] text-[#fff] font-[700] text-center leading-[117.143%]  tracking-[-1px]">
-          The Ultimate <br />
-          Trading Experience
+        <h3 className="text-[45px] text-[#fff] font-[700] text-center leading-[117.143%]  tracking-[-1px]">
+          Blockchain Meets <br />
+          Global Financial Markets
         </h3>
         <div className="flex justify-center items-center px-[2rem] pt-[35px] space-x-[17px]">
           <a href="https://trade.blockchainfx.io/en/login?redirect_url=traderoom" target="_blank" rel="noopener noreferrer">

@@ -70,7 +70,7 @@ function HowToStart() {
               <p className="text-[14px] leading-[23px]">
                 Receive your profits 
                 <br />
-                quickly and securely
+                quickly and securely.
               </p>
             </div>
 

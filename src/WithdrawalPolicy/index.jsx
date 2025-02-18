@@ -17,14 +17,14 @@ function WithdrawalPolicy() {
       </div>
       <div className="space-y-[15px]">
         <ul className="pl-8 list-disc space-y-[15px]">
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             To withdraw funds from his/her verified account, the Client shall
             submit a withdrawal request from his/her personal profile. In order
             to fill in the withdrawal request properly, the Client shall choose
             one of the withdrawal methods shown in the list and specify all the
             necessary details.
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             After the Client submits a withdrawal request, such request will be
             assigned a “Requested” status. When the request is being processed,
             it has an “In Process” status. After the “In Process” status is
@@ -33,19 +33,19 @@ function WithdrawalPolicy() {
             “Processed” status, the requested funds will be transferred to the
             payment system.
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             Withdrawal requests are processed by the financial department of the
             Company one-at-a-time. The processing time is 3 business days. The
             Company reserves the right to increase the processing time; in such
             case, the Company shall notify the Client via any contact method
             specified by the Client in his/her profile.
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             The Company may not process withdrawals less than the minimum amount
             set by the relevant payment provider and/or due to technical
             limitations
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             The Company reserves the right to increase the processing time
             and/or cancel withdrawal requests submitted by the Client, without
             prior notice, during an internal risk assessment of the Client’s
@@ -62,7 +62,7 @@ function WithdrawalPolicy() {
               necessary.
             </span>
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
           The Client has the right to withdraw funds only to the payment system that was used to
 deposit funds to his/her account. In cases where it is technically impossible to withdraw
 funds to the payment system that was used to deposit funds, an alternative payment method
@@ -70,11 +70,11 @@ shall be chosen, and the payment details shall meet the conditions specified by 
 his/her personal info.
 
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
           The Client is fully responsible for the information he/she provides to the Company through
           the withdrawal request.
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
           If the Client uses a bank card for making deposits, withdrawals shall be made to this bank
 card in the amounts not exceeding the amount deposited within 180 (one hundred eighty)
 calendar days from the last deposit. Withdrawals to bank cards have greater priority than
