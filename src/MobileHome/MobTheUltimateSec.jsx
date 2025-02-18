@@ -9,9 +9,9 @@ function MobTheUltimateSec() {
         <div className="flex justify-center">
           <img src={logo} className="h-[50px]" alt="" />
         </div>
-        <h3 className="text-[33.358px] text-[#fff] font-[700] text-center leading-[117.143%] tracking-[-1px]">
-          The Ultimate <br />
-          Trading Experience
+        <h3 className="text-[30.358px] text-[#fff] font-[700] text-center leading-[117.143%] tracking-[-1px]">
+        Blockchain Meets <br />
+          Global Financial Markets
         </h3>
         <div className="flex justify-center items-center gap-[12px]">
           <a className="w-[90%] " href="https://trade.blockchainfx.io/en/login?redirect_url=traderoom" target="_blank" rel="noopener noreferrer">

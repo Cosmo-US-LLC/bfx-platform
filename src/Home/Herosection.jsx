@@ -30,7 +30,7 @@ function Herosection() {
             <h2 className=" text-[45px] font-[700] leading-[130%] tracking-[-1px] text-[#000] text-center">
               The Ultimate Trading App
             </h2>
-            <p className="text-[14px] max-w-[840px] w-[100%] mx-auto font-[400] leading-[150%] text-center text-[#000] tracking-[-0.32px] ">
+            <p className="text-[14px] max-w-[740px] w-[100%] mx-auto font-[400] leading-[150%] text-center text-[#000] tracking-[-0.32px] ">
               BlockchainFX is a pioneering platform that bridges crypto and
               traditional finance, giving you access to 500+ assets. Experience
               lightning-fast trades and seamless access to the world's largest

@@ -115,23 +115,23 @@ function Footer() {
                     target="_blank"
                     href="https://blockchainfx.io/legal/payment-policy"
                   >
-                    Payment Policy{" "}
+                    Payment
                   </a>
                   <a
                     className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]"
                     target="_blank"
                     href="https://blockchainfx.io/legal/order-execution"
                   >
-                    Order Execution Policy
+                    Order Execution
                   </a>
                   <Link to="/withdrawal-policy">
                     <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]">
-                    Withdrawal Policy
+                    Withdrawal
                     </p>
                   </Link>
                   <Link to="/demo-account">
                     <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]">
-                    Demo Account Policy
+                    Demo Account
                     </p>
                   </Link>
                 </li>
@@ -142,10 +142,16 @@ function Footer() {
             <h4 className="text-[#000] text-[13.3px] font-[600] leading-[108.333%]">
               Join Our Socials
             </h4>
-            <div className="flex space-x-6 px-[10px] pt-[10px] pb-[20px]">
+            <div className="flex space-x-6 pt-[10px] pb-[20px]">
+              <a href="https://www.instagram.com/blockchain.fx?igsh=MWwybTk3cTRmbDhhcg%3D%3D" target="_blank" rel="noopener noreferrer">
               <img src={socil1} alt="" />
+              </a>
+              <a href="https://t.me/blockchainfx_news" target="_blank" rel="noopener noreferrer">
               <img src={socil2} alt="" />
+              </a>
+              <a href="https://x.com/Blockchainfx1" target="_blank" rel="noopener noreferrer">
               <img src={socil3} alt="" />
+              </a>
             </div>
             <div className="space-y-[5px]">
               <h4 className="text-[#949494] text-[10.8px] font-[400] leading-[108.333%]">
@@ -280,23 +286,23 @@ function Footer() {
                   href="https://blockchainfx.io/legal/payment-policy"
                   target="_blank"
                 >
-                  Payment Policy{" "}
+                  Payment
                 </a>
                 <a
                   className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]"
                   href="https://blockchainfx.io/legal/order-execution"
                   target="_blank"
                 >
-                  Order Execution Policy
+                  Order Execution
                 </a>
                   <Link to="/withdrawal-policy">
                     <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]">
-                    Withdrawal Policy
+                    Withdrawal
                     </p>
                   </Link>
                   <Link to="/demo-account">
                     <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]">
-                    Demo Account Policy
+                    Demo Account
                     </p>
                   </Link>
               </li>
@@ -308,9 +314,14 @@ function Footer() {
               Join Our Socials
             </h4>
             <div className="flex space-x-6">
+              <a href="https://www.instagram.com/blockchain.fx?igsh=MWwybTk3cTRmbDhhcg%3D%3D" target="_blank" rel="noopener noreferrer">
               <img className="w-[24px] h-[24px]" src={socil1} alt="" />
-              <img className="w-[24px] h-[24px]" src={socil2} alt="" />
+              </a>
+              <a href="https://t.me/blockchainfx_news" target="_blank" rel="noopener noreferrer">
+              <img className="w-[24px] h-[24px]" src={socil2} alt="" /></a>
+              <a href="https://x.com/Blockchainfx1" target="_blank" rel="noopener noreferrer">
               <img className="w-[24px] h-[24px]" src={socil3} alt="" />
+              </a>
             </div>
             <div className="space-y-[10px]">
               <h4 className="text-[#949494] text-[12px] font-[400] leading-[108.333%]">

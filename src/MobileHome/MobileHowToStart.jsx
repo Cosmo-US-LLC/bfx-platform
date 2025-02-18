@@ -82,7 +82,7 @@ function MobileHowToStart() {
               <p className="text-[15px] leading-[23px]">
               Receive your profits 
                 <br />
-                quickly and securely
+                quickly and securely.
               </p>
             </div>
           </div>

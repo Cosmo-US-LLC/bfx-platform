@@ -14,13 +14,13 @@ function DemoAccount() {
         <h3 className="2xl:text-[30px] pb-[10px] xl:text-[30px] lg:text-[30px] md:text-[30px] sm:text-[24px] text-[24px] font-[700] leading-[130%]">
           Demo and Tournament Accounts
         </h3>
-        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[600] ">
+        <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px] font-[600] ">
           Agreement for the provision of a practice account to a retail person
         </p>
-        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+        <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px] font-[400] ">
           This Agreement is entered into by and between:
         </p>
-        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+        <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px] font-[400] ">
           <span className="font-[600]">Digital Smart LLC,</span> with Company
           business number L 22205 and registered at: Lighthouse Trust Nevis Ltd,
           Suite 1, A.L. Evelyn Ltd Building, Main Street, Charlestown, Nevis
@@ -29,7 +29,7 @@ function DemoAccount() {
           below) with the Company, on the other part (hereinafter referred to as
           the Client).
         </p>
-        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+        <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px] font-[400] ">
           (collectively the Company and the Client hereinafter referred to as
           the Parties)
         </p>
@@ -39,7 +39,7 @@ function DemoAccount() {
           <h4 className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] ">
             1. Application of these Terms & Conditions
           </h4>
-          <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px] font-[400] ">
             By the creation and registration of a Demo Account by a client, the
             Client agrees to and accepts: <br />
             <span className="pl-5 block pt-[10px]">
@@ -65,43 +65,43 @@ function DemoAccount() {
           <h4 className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] ">
             2. Provision of a Free Account
           </h4>
-          <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px] font-[400] ">
             The Company will provide a Free Practice Account to the Client and
             credit virtual funds to the balance of such account (Demo Account).
             The virtual funds are NOT considered real money and have no value.
             Virtual funds may not be withdrawn or transferred to other accounts
             you hold with the Company or with third parties.
           </p>
-          <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px] font-[400] ">
             The Company agrees to provide the Client with the Demo Account
             subject to the Client:
           </p>
-          <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px] font-[400] ">
             Being over 18 years old and of legal competence and sound mind;
           </p>
-          <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px] font-[400] ">
             Being a resident of a country in which the Company provides its
             services, in accordance with its General Terms and Conditions;
           </p>
-          <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px] font-[400] ">
             Not residing in and/or being a citizen of any country where
             distribution or provision of financial products or services offered
             by the Company would be contrary to local laws or regulations;
           </p>
-          <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px] font-[400] ">
             Not being a US Reportable Person;
           </p>
-          <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px] font-[400] ">
             The Client by registering for a Demo Account declares and confirms
             all the above representations.
           </p>
-          <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px] font-[400] ">
             Without derogation from the above, the Company reserves the right,
             acting reasonably, to suspend or refuse access to and use of the
             Company’s trading platform to anyone at its sole and absolute
             discretion
           </p>
-          <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px] font-[400] ">
             The Demo Account is provided to give Clients a demonstration of the
             Company’s trading platform and to offer Clients the opportunity to
             trade on simulated real trading conditions. This further allows the
