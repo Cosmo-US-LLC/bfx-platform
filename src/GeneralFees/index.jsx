@@ -180,7 +180,7 @@ function GeneralFees() {
               applicable in either of the following ways:
             </p>
             <p className="pl-5 2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]   font-[400] flex">
-              <span className="block">1.</span> The Company may decide to impose
+              <span className="block">2.1.</span> The Company may decide to impose
               a withdrawal fee of 2%-10%, where the maximum fee is 10% or the
               maximum amount presented in the below table.
             </p>
@@ -534,7 +534,7 @@ function GeneralFees() {
           </tbody>
         </table>
         <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]   font-[400] flex">
-          2. b. In the event that the Client makes any deposits with the Company
+        2.2. b. In the event that the Client makes any deposits with the Company
           and proceeds to withdraw all or more than 80% of the total amount
           deposited without proceeding to any placement of a trade (Behavior),
           then the Company shall have the right, but not the obligation, to
