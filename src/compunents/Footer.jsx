@@ -96,13 +96,12 @@ function Footer() {
                     Risk Disclosure
                     </p>
                   </Link>
-                  <a
-                    className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]"
-                    target="_blank"
-                    href="https://blockchainfx.io/legal/terms"
-                  >
+                  <Link to="/terms-of-service">
+                    <p 
+                  className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]">
                     Terms of Service
-                  </a>
+                    </p>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -110,20 +109,19 @@ function Footer() {
               <ul className="max-md:list-none w-[100%]">
                 <li className="text-[#000] text-[16px] list-disc font-[600] leading-[108.333%]">
                   Policies
-                  <a
-                    className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]"
-                    target="_blank"
-                    href="https://blockchainfx.io/legal/payment-policy"
-                  >
+
+                  <Link to="/payment-policy">
+                    <p 
+                    className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]">
                     Payment
-                  </a>
-                  <a
-                    className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]"
-                    target="_blank"
-                    href="https://blockchainfx.io/legal/order-execution"
-                  >
+                    </p>
+                  </Link>
+                  <Link to="/order-execution">
+                    <p 
+                    className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]">
                     Order Execution
-                  </a>
+                    </p>
+                  </Link>
                   <Link to="/withdrawal-policy">
                     <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]">
                     Withdrawal
@@ -266,13 +264,10 @@ function Footer() {
                     Risk Disclosure
                     </p>
                   </Link>
-                  <a
-                  className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]"
-                  href="https://blockchainfx.io/legal/terms"
-                  target="_blank"
-                >
-                  Terms of Service{" "}
-                </a>
+                <Link to="/terms-of-service">
+                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]">Terms of Service{" "}
+                    </p>
+                  </Link>
               </li>
             </ul>
           </div>
@@ -281,20 +276,16 @@ function Footer() {
             <ul className="max-md:list-none w-[100%]">
               <li className="text-[#000] text-[16px] list-disc font-[600] leading-[108.333%]">
                 Policies
-                <a
-                  className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]"
-                  href="https://blockchainfx.io/legal/payment-policy"
-                  target="_blank"
-                >
-                  Payment
-                </a>
-                <a
-                  className="text-[#949494] text-[13px] pt-[20px] block font-[400] leading-[108.333%]"
-                  href="https://blockchainfx.io/legal/order-execution"
-                  target="_blank"
-                >
-                  Order Execution
-                </a>
+                <Link to="/payment-policy">
+                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]">
+                    Payment
+                    </p>
+                  </Link>
+                  <Link to="/order-execution">
+                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]">
+                    Order Execution
+                    </p>
+                  </Link>
                   <Link to="/withdrawal-policy">
                     <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]">
                     Withdrawal
