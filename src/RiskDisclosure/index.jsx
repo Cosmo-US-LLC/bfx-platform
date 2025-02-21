@@ -2,11 +2,11 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 function RiskDisclosure() {
-    const { pathname } = useLocation();
+  const { pathname } = useLocation();
 
-    useEffect(() => {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    }, [pathname]);
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [pathname]);
 
   return (
     <div className="max-w-[1100px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] space-y-[30px] mx-auto py-[130px] pb-[50px]">
@@ -200,7 +200,7 @@ function RiskDisclosure() {
         </h4>
         <ul className="pl-8 space-y-[15px]">
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-          2.1 The CFDs on Cryptocurrency Services are not suitable for all
+            2.1 The CFDs on Cryptocurrency Services are not suitable for all
             investors. The CFDs on Cryptocurrency Services are highly complex
             and as such Clients must always make sure that are fully aware and
             understand the specic characteristics and risks regarding the said
@@ -210,25 +210,25 @@ function RiskDisclosure() {
             Cryptocurrency Services.
           </li>
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-          22. Trading on nancial instruments offered by the CFDs on Cryptocurrency
-            Services carries a high risk of losing all your invested capital in
-            your trading account and/or in a specic trade.
+            22. Trading on nancial instruments offered by the CFDs on
+            Cryptocurrency Services carries a high risk of losing all your
+            invested capital in your trading account and/or in a specic trade.
           </li>
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-          2.3 Trading prices of the nancial instruments and underlying assets
+            2.3 Trading prices of the nancial instruments and underlying assets
             offered by the CFDs on Cryptocurrency Services carry high volatility
             and thereby can widely uctuate or become temporarily or permanently
             unavailable, therefore Clients should trade carefully and only with
             funds that they can afford to lose.
           </li>
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-          2.4 The nature of Cryptocurrencies may lead to an increased risk of
+            2.4 The nature of Cryptocurrencies may lead to an increased risk of
             fraud or cyber-attack, and may mean that technological diculties
             experienced by the Company may prevent the access to or use of the
             CFDs on Cryptocurrency Services.
           </li>
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-          2.5  The nancial instruments offered by the CFDs on Cryptocurrency
+            2.5 The nancial instruments offered by the CFDs on Cryptocurrency
             Services have specic distinct risks from nancial instruments offered
             by the Company with underlying assets, currencies or commodities.
             Unlike most currencies, which are backed by governments or other
@@ -246,30 +246,30 @@ function RiskDisclosure() {
         </h4>
         <ul className="pl-8 space-y-[15px]">
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-          3.1 We are not responsible for nancial losses arising from failure,
+            3.1 We are not responsible for nancial losses arising from failure,
             malfunction, interruption, disconnection or malicious actions of
             information, communication, electricity, electronic or other
             systems, which are not the result of gross negligence or willful
             default of the Company.
           </li>
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-          3.2 When working with the client terminal, you assume the risks arising
-            from:
+            3.2 When working with the client terminal, you assume the risks
+            arising from:
             <ul className="pl-8  space-y-[15px]">
               <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-                2.1. Failures in your equipment, software, and connection;
+                3.2.1. Failures in your equipment, software, and connection;
               </li>
               <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-              2.2. Errors in your client terminal settings;
+                3.2.2. Errors in your client terminal settings;
               </li>
               <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-              2.3. Failure to update your version of the client terminal in a
-                timely manner;
+                3.2.3. Failure to update your version of the client terminal in
+                a timely manner;
               </li>
               <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-              2.4. Your failure to follow the instructions for using the client
-                terminal. We are not responsible for errors that occur in the
-                operation of the client terminal and will not compensate for
+                3.2.4. Your failure to follow the instructions for using the
+                client terminal. We are not responsible for errors that occur in
+                the operation of the client terminal and will not compensate for
                 losses resulting from errors in the operation of the client
                 terminal. <br />
                 You must understand that any third-party attacks against the
@@ -285,18 +285,18 @@ function RiskDisclosure() {
             </ul>
           </li>
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-          3.3 You must understand that when concluding transactions over the
+            3.3 You must understand that when concluding transactions over the
             phone, you may encounter diculty getting through to an operator,
             especially during peak times. It should be noted that currently, the
             Company does not accept orders over the phone.
           </li>
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-          3.4  You must understand that the unencrypted information transmitted by
-            e-mail is not protected from any unauthorized access.
+            3.4 You must understand that the unencrypted information transmitted
+            by e-mail is not protected from any unauthorized access.
           </li>
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-          3.5  You may suffer nancial losses caused by the materialization of the
-            above-mentioned risks, and you understand that you shall be
+            3.5 You may suffer nancial losses caused by the materialization of
+            the above-mentioned risks, and you understand that you shall be
             responsible for all related losses that you may suffer, assuming
             that these are not owed to the Company’s gross negligence or willful
             default.
@@ -309,16 +309,16 @@ function RiskDisclosure() {
         </h4>
         <ul className="pl-8 space-y-[15px]">
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-          4.1  You agree that if market conditions become abnormal the amount of
-            time required to process your orders and/or instructions may
+            4.1 You agree that if market conditions become abnormal the amount
+            of time required to process your orders and/or instructions may
             increase. Additionally, you agree that orders may not be executed at
             declared prices and there is a chance that they may not be executed
             at all.
           </li>
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-          4.2 Abnormal market conditions include but are not limited to: times of
-            rapid price movements, rises or falls in the same trading session to
-            such an extent that, under the rules of the relevant exchange,
+            4.2 Abnormal market conditions include but are not limited to: times
+            of rapid price movements, rises or falls in the same trading session
+            to such an extent that, under the rules of the relevant exchange,
             trading is suspended or restricted, or there is lack of liquidity,
             or this may occur at the opening of trading sessions.
           </li>
@@ -330,26 +330,26 @@ function RiskDisclosure() {
         </h4>
         <ul className="pl-8 space-y-[15px]">
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-          5.1  You also assume responsibility for trading and non-trading
+            5.1 You also assume responsibility for trading and non-trading
             operations performed within countries where they are restricted or
             prohibited by law
           </li>
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-          5.2  Laws regarding nancial trading and contracts may be different
+            5.2 Laws regarding nancial trading and contracts may be different
             throughout the world. It is your obligation to make certain that the
             use of our services is fully compliant with any law, regulation or
             directive applicable in your country of residence.
           </li>
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-          5.3  The ability to access our website or any related website found from
-            a link on our website does not mean that our services or any related
-            activities are legal under the laws of your country of residence.
-            These services should not be used by anyone in any jurisdiction in
-            which these services are not authorized or unlawful. All users are
-            required and responsible to check trading regulations related
-            directly or indirectly to the Financial Instruments offered by the
-            Company in their respective countries before registering at our
-            trading platform.
+            5.3 The ability to access our website or any related website found
+            from a link on our website does not mean that our services or any
+            related activities are legal under the laws of your country of
+            residence. These services should not be used by anyone in any
+            jurisdiction in which these services are not authorized or unlawful.
+            All users are required and responsible to check trading regulations
+            related directly or indirectly to the Financial Instruments offered
+            by the Company in their respective countries before registering at
+            our trading platform.
           </li>
         </ul>
       </div>
@@ -359,7 +359,7 @@ function RiskDisclosure() {
         </h4>
         <ul className="pl-8  space-y-[15px]">
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-          6.1  All of your instructions are sent to our server and executed in
+            6.1 All of your instructions are sent to our server and executed in
             order. Therefore, you cannot send a second order until your previous
             order has been executed. If a second order is received before the
             rst is processed, the second order will be rejected. You assume
@@ -368,14 +368,14 @@ function RiskDisclosure() {
             results of the rst order.
           </li>
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-          6.2  You must understand that closing the order window or position window
-            does not cancel a submitted order.
+            6.2 You must understand that closing the order window or position
+            window does not cancel a submitted order.
           </li>
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-          6.3  You acknowledge that only the quotes received from our server are
-            authoritative. If there is a problem in the connection between your
-            client terminal and our server, you can retrieve undelivered quote
-            data from the client terminal's quote database.
+            6.3 You acknowledge that only the quotes received from our server
+            are authoritative. If there is a problem in the connection between
+            your client terminal and our server, you can retrieve undelivered
+            quote data from the client terminal's quote database.
           </li>
         </ul>
       </div>
@@ -385,15 +385,15 @@ function RiskDisclosure() {
         </h4>
         <ul className="pl-8 space-y-[15px]">
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-          7.1  You must be aware of the risk that information sent via unencrypted
-            email may be accessed by unauthorized parties.
+            7.1 You must be aware of the risk that information sent via
+            unencrypted email may be accessed by unauthorized parties.
           </li>
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-          7.2  We are not responsible for nancial losses arising from delayed or
-            failed receipt of a Company message.
+            7.2 We are not responsible for nancial losses arising from delayed
+            or failed receipt of a Company message.
           </li>
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-          7.3  You are responsible for the security of the credentials for your
+            7.3 You are responsible for the security of the credentials for your
             Personal Area and trading accounts as well as the condential
             information that we send you. We are not responsible for nancial
             losses arising from your disclosure of this information to third
@@ -407,15 +407,15 @@ function RiskDisclosure() {
         </h4>
         <ul className="pl-8 space-y-[15px]">
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-          8.1  We are not responsible for nancial losses arising from force majeure
-            events. These events are extreme and irresistible circumstances that
-            are independent of the will and actions of the agreement
-            participants, that cannot be foreseen, prevented, or eliminated,
-            including but not limited to natural disasters, res, man-made
-            accidents and disasters, emergencies at utility works and on utility
-            lines, DDOS attacks, riots, military actions, terrorist attacks,
-            uprisings, civil unrest, strikes, and the regulatory acts of state-
-            and local government authorities.
+            8.1 We are not responsible for nancial losses arising from force
+            majeure events. These events are extreme and irresistible
+            circumstances that are independent of the will and actions of the
+            agreement participants, that cannot be foreseen, prevented, or
+            eliminated, including but not limited to natural disasters, res,
+            man-made accidents and disasters, emergencies at utility works and
+            on utility lines, DDOS attacks, riots, military actions, terrorist
+            attacks, uprisings, civil unrest, strikes, and the regulatory acts
+            of state- and local government authorities.
           </li>
         </ul>
       </div>
@@ -425,11 +425,11 @@ function RiskDisclosure() {
         </h4>
         <ul className="pl-8 space-y-[15px]">
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-          9.1  It is understood that we will promptly place all funds received from
-            clients into one or more segregated account(s) (denoted as ‘clients’
-            accounts’) with reliable nancial institutions, such as a credit
-            institution or a bank. It should be noted that, whilst we shall
-            exercise due skill, care and diligence (in accordance with
+            9.1 It is understood that we will promptly place all funds received
+            from clients into one or more segregated account(s) (denoted as
+            ‘clients’ accounts’) with reliable nancial institutions, such as a
+            credit institution or a bank. It should be noted that, whilst we
+            shall exercise due skill, care and diligence (in accordance with
             applicable laws) when selecting the nancial institution in which
             your funds will be placed, the Company is unable to accept liability
             and responsibility for circumstances beyond our control and as such
@@ -439,16 +439,16 @@ function RiskDisclosure() {
             will be held.
           </li>
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-          9.2  The nancial institution, to which we will pass your money, may hold
-            it in an omnibus account. Hence, in the event of the insolvency or
-            any other comparable proceedings in relation to that nancial
+            9.2 The nancial institution, to which we will pass your money, may
+            hold it in an omnibus account. Hence, in the event of the insolvency
+            or any other comparable proceedings in relation to that nancial
             institution, we may only have an unsecured claim against the nancial
             institution on your behalf, and you will be exposed to the risk that
             the money received by us from the nancial institution is insucient
             to satisfy your claims.
           </li>
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-          9.3  It is understood that we execute your orders on an own account
+            9.3 It is understood that we execute your orders on an own account
             basis, i.e. as principal to principal against you; we are the
             counterparty of all your transactions. For more information please
             refer to our Order Execution Policy.
@@ -461,25 +461,25 @@ function RiskDisclosure() {
         </h4>
         <ul className="pl-8  space-y-[15px]">
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-          10.1  When we deal with you as a client, our associates, relevant persons
-            or some other persons connected with us may have an interest,
-            relationship or arrangement that is in conict with your interest as
-            our client.
+            10.1 When we deal with you as a client, our associates, relevant
+            persons or some other persons connected with us may have an
+            interest, relationship or arrangement that is in conict with your
+            interest as our client.
           </li>
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             {" "}
-            10.2  Continuing from the above point, the following occurrences may give
-            rise to a conict of interest entailing a material risk of damage to
-            the interests of one or more clients, as a result of providing
-            investment services:
+            10.2 Continuing from the above point, the following occurrences may
+            give rise to a conict of interest entailing a material risk of
+            damage to the interests of one or more clients, as a result of
+            providing investment services:
             <ul className="pl-8 space-y-[15px]">
               <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-              10.1. we execute your orders as a principal and our revenues are
-                largely generated from your trading losses;
+                10.2.1. we execute your orders as a principal and our revenues
+                are largely generated from your trading losses;
               </li>
               <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-              10.2. we may pay inducements to third parties for the referral of
-                new clients or clients’ trading.
+                10.2.2 we may pay inducements to third parties for the referral
+                of new clients or clients’ trading.
               </li>
             </ul>
           </li>
@@ -487,33 +487,33 @@ function RiskDisclosure() {
       </div>
       <div className="space-y-[15px]">
         <h4 className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] ">
-        11. No Guarantees of Prot
-
+          11. No Guarantees of Prot
         </h4>
         <ul className="pl-8 space-y-[15px]">
-          
-          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">11.1 We are unable to:
+          <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
+            11.1 We are unable to:
             <ul className="pl-8 space-y-[15px]">
-              <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">1.1. provide guarantees of prot or of avoiding losses when you trade in the Financial
-              Instruments offered by the Company
-              </li>
-              <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">1.2. provide guarantees of the future performance of your trading account.
-
-              </li>
-              <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">1.3. provide guarantees of any specic level of performance or guarantee that your
-investment decisions/strategies will yield prot or nancial gain.
-
+              <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
+                11.1.1. provide guarantees of prot or of avoiding losses when
+                you trade in the Financial Instruments offered by the Company
               </li>
               <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-              1.4. You receive no such guarantees from us or from any of our aliates or
-              representatives.
+                11.1.2. provide guarantees of the future performance of your
+                trading account.
+              </li>
+              <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
+                11.1.3. provide guarantees of any specic level of performance or
+                guarantee that your investment decisions/strategies will yield
+                prot or nancial gain.
+              </li>
+              <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
+                11.1.4. You receive no such guarantees from us or from any of
+                our aliates or representatives.
               </li>
             </ul>
           </li>
         </ul>
       </div>
-
-    
     </div>
   );
 }

@@ -1796,7 +1796,7 @@ function TermsofService() {
             additional amounts by the Website’s Client.
           </li>
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-            16.2. The payment is considered to be processed and cannot be
+            17.2. The payment is considered to be processed and cannot be
             returned after clicking the “Payment” button. By clicking the
             “Payment” button, the Client shall agree that he/she cannot return
             the payment or require its recall. Additionally, by accepting the
@@ -1805,7 +1805,7 @@ function TermsofService() {
             Services offered on the Website.
           </li>
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-            16.3. By accepting the terms and conditions of this Agreement and
+            17.3. By accepting the terms and conditions of this Agreement and
             depositing funds to the Account, the Client agrees to use the
             Website’s Services and accepts that the processing of any of the
             Client’s payment shall be executed by a provider of payment
@@ -2055,273 +2055,323 @@ function TermsofService() {
       </div>
       <div className="space-y-[15px]">
         <h4 className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] ">
-        5. Quotes
+          5. Quotes
         </h4>
         <ul className="pl-5 space-y-[15px]">
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-            5.1. The Client acknowledges that the only reliable source of quote flow information is the main
-server for customer requests. The quotes on the Trading Platform cannot serve as a reliable
-source of information about the real quotes flow, as in the case of unstable connection
-between the Trading Platform and the server, part of the quotes from the flow may not reach
-the Trading Platform
+            5.1. The Client acknowledges that the only reliable source of quote
+            flow information is the main server for customer requests. The
+            quotes on the Trading Platform cannot serve as a reliable source of
+            information about the real quotes flow, as in the case of unstable
+            connection between the Trading Platform and the server, part of the
+            quotes from the flow may not reach the Trading Platform
           </li>
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-            5.2. The graphs displayed on the Trading Platform are indicative. Thus, the Company does not
-guarantee that the transaction will be made at the same prices specified on the graphs in the
-Trading Platform at the time of submission of the other customer transactions.
+            5.2. The graphs displayed on the Trading Platform are indicative.
+            Thus, the Company does not guarantee that the transaction will be
+            made at the same prices specified on the graphs in the Trading
+            Platform at the time of submission of the other customer
+            transactions.
           </li>
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-            5.3. The price displayed on the Trading Platform is formed by the formula (Bid+Ask)/2.
+            5.3. The price displayed on the Trading Platform is formed by the
+            formula (Bid+Ask)/2.
           </li>
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-          5.4. Non-market quote – the price on the Trading Platform which does not correspond to the price
-on the market at this moment of time (hereinafter referred to as the “Non-market price”).
+            5.4. Non-market quote – the price on the Trading Platform which does
+            not correspond to the price on the market at this moment of time
+            (hereinafter referred to as the “Non-market price”).
           </li>
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-          5.5 In case that the Company executed the Client’s request/order for Non-market quote, the
-          following shall be imposed on the Company’s duty:
-          <ul className="pl-5 space-y-[15px]">
-                  <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-                  a. In case of position closing – correction of the financial result between incorrect
-closing of the position and closing according to real market price corresponding to
-the closing moment of transaction according to Non-market price.
-                  </li>
-                  <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-                  b. In case of position opening – the Company reserves the right to cancel the financial
-result regarding such position.
-
-                  </li>
-                </ul>
+            5.5 In case that the Company executed the Client’s request/order for
+            Non-market quote, the following shall be imposed on the Company’s
+            duty:
+            <ul className="pl-5 space-y-[15px]">
+              <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+                a. In case of position closing – correction of the financial
+                result between incorrect closing of the position and closing
+                according to real market price corresponding to the closing
+                moment of transaction according to Non-market price.
+              </li>
+              <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+                b. In case of position opening – the Company reserves the right
+                to cancel the financial result regarding such position.
+              </li>
+            </ul>
           </li>
         </ul>
       </div>
       <div className="space-y-[15px]">
         <h4 className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] ">
-        6. Copyright
-
+          6. Copyright
         </h4>
         <ul className="pl-5 space-y-[15px]">
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-          6.1. Digital Smart LLC a company registered at Lighthouse Trust Nevis Ltd, Suite 1, A.L. Evelyn
-Ltd Building, Main Street, Charlestown, Nevis (hereinafter “We” or “Company” or “Exnova”).
-We are the controller and responsible for the data of the Client disclosed to us in order to
-register for a Trading Account, Demo Account and/or to make use of any other services
-offered by us through the website (hereinafter “Website”) (this term shall at all times include
-Website’s desktop and mobile versions).
-
-          </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">6.2. Copyrights and Intellectual Property (IP) on the Website are the Company's property or of
-third parties which have authorized the Company to use such IP on the Website and
-Service(s). It is forbidden to copy, distribute, duplicate, present in public, or deliver the
-copyrighted material, in whole or in part, to third parties. It is forbidden to alter, advertise,
-broadcast, transfer, sell, distribute or make any commercial use of the copyrighted material,
-in whole or in part, except with duly signed prior permission from the Company
+            6.1. Digital Smart LLC a company registered at Lighthouse Trust
+            Nevis Ltd, Suite 1, A.L. Evelyn Ltd Building, Main Street,
+            Charlestown, Nevis (hereinafter “We” or “Company” or “Exnova”). We
+            are the controller and responsible for the data of the Client
+            disclosed to us in order to register for a Trading Account, Demo
+            Account and/or to make use of any other services offered by us
+            through the website (hereinafter “Website”) (this term shall at all
+            times include Website’s desktop and mobile versions).
           </li>
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-          6.3. Unless explicitly stated otherwise, any material and/or message, including without limitation,
-idea, knowledge, technique, marketing plan, information, questions, answers, suggestions,
-emails and comments (hereinafter – “Information”) delivered to the Company shall not be
-considered the Client's confidential or proprietary right of. Consent to the Agreement will be
-considered as authorization to the Company to use the entire Clients' Information (excluding
-Clients' Information designated for personal identification), at the absolute and sole
-discretion of the Company without requirement of any additional permission from the Client
-and/or the payment of any compensation due to such use.
-
+            6.2. Copyrights and Intellectual Property (IP) on the Website are
+            the Company's property or of third parties which have authorized the
+            Company to use such IP on the Website and Service(s). It is
+            forbidden to copy, distribute, duplicate, present in public, or
+            deliver the copyrighted material, in whole or in part, to third
+            parties. It is forbidden to alter, advertise, broadcast, transfer,
+            sell, distribute or make any commercial use of the copyrighted
+            material, in whole or in part, except with duly signed prior
+            permission from the Company
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">6.4. The Client undertakes that any notice, message or any other material supplied by the Client
-shall be appropriate and shall not harm other persons, including their proprietary rights.
-Client shall refrain from uploading or sending any illegal and/or harmful and/or disturbing to
-other Clients material, and is strictly forbidden from taking any action, which might damage
-the Company.
-
+          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+            6.3. Unless explicitly stated otherwise, any material and/or
+            message, including without limitation, idea, knowledge, technique,
+            marketing plan, information, questions, answers, suggestions, emails
+            and comments (hereinafter – “Information”) delivered to the Company
+            shall not be considered the Client's confidential or proprietary
+            right of. Consent to the Agreement will be considered as
+            authorization to the Company to use the entire Clients' Information
+            (excluding Clients' Information designated for personal
+            identification), at the absolute and sole discretion of the Company
+            without requirement of any additional permission from the Client
+            and/or the payment of any compensation due to such use.
+          </li>
+          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+            6.4. The Client undertakes that any notice, message or any other
+            material supplied by the Client shall be appropriate and shall not
+            harm other persons, including their proprietary rights. Client shall
+            refrain from uploading or sending any illegal and/or harmful and/or
+            disturbing to other Clients material, and is strictly forbidden from
+            taking any action, which might damage the Company.
           </li>
         </ul>
       </div>
       <div className="space-y-[15px]">
         <h4 className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] ">
-        7. Content and Third Parties’ Websites
+          7. Content and Third Parties’ Websites
         </h4>
         <ul className="pl-5 space-y-[15px]">
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-          7.1. The Website might include general information, news, comments, quotes and other
-information related to financial markets and/or advertising. Some information is supplied to
-the Website by unaffiliated companies.
-          </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">7.2. The Company does not provide investment research. All news, comments, quotes and other
-information related to financial markets published by the Company are of a
-promotional/marketing nature only.
-
+            7.1. The Website might include general information, news, comments,
+            quotes and other information related to financial markets and/or
+            advertising. Some information is supplied to the Website by
+            unaffiliated companies.
           </li>
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-          7.3. The Company does not prepare, edit or promote the information/links and/or other
-information provided by unaffiliated companies.
-
-
+            7.2. The Company does not provide investment research. All news,
+            comments, quotes and other information related to financial markets
+            published by the Company are of a promotional/marketing nature only.
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">7.4. The Company will not be liable for the content of any third-party websites or the actions or
-omissions of their proprietors, nor for the contents of third-party advertisements and
-sponsorship on those websites. The hyperlinks to other websites are provided for information
-purposes only. Any Client and/or potential client uses any such links at his/her own risk.
-
-
+          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+            7.3. The Company does not prepare, edit or promote the
+            information/links and/or other information provided by unaffiliated
+            companies.
+          </li>
+          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+            7.4. The Company will not be liable for the content of any
+            third-party websites or the actions or omissions of their
+            proprietors, nor for the contents of third-party advertisements and
+            sponsorship on those websites. The hyperlinks to other websites are
+            provided for information purposes only. Any Client and/or potential
+            client uses any such links at his/her own risk.
           </li>
         </ul>
       </div>
       <div className="space-y-[15px]">
         <h4 className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] ">
-        8. Processing of Client Orders to Open Positions
+          8. Processing of Client Orders to Open Positions
         </h4>
         <ul className="pl-5 space-y-[15px]">
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-          8.1. If the amount of available funds is sufficient to open a position, the position will be opened.
-          </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">8.2. If the size of the available funds is insufficient to open a position, the position will not be
-          opened.
-
+            8.1. If the amount of available funds is sufficient to open a
+            position, the position will be opened.
           </li>
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-          8.3. The Client’s order to open a position is processed, and the position is opened only after the
-corresponding entry in the server log file. Each new position is assigned with a serial
-number.
+            8.2. If the size of the available funds is insufficient to open a
+            position, the position will not be opened.
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">7.4. The Company will not be liable for the content of any third-party websites or the actions or
-omissions of their proprietors, nor for the contents of third-party advertisements and
-sponsorship on those websites. The hyperlinks to other websites are provided for information
-purposes only. Any Client and/or potential client uses any such links at his/her own risk.
-
-
+          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+            8.3. The Client’s order to open a position is processed, and the
+            position is opened only after the corresponding entry in the server
+            log file. Each new position is assigned with a serial number.
+          </li>
+          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+            8.4. The Company will not be liable for the content of any
+            third-party websites or the actions or omissions of their
+            proprietors, nor for the contents of third-party advertisements and
+            sponsorship on those websites. The hyperlinks to other websites are
+            provided for information purposes only. Any Client and/or potential
+            client uses any such links at his/her own risk.
           </li>
         </ul>
       </div>
       <div className="space-y-[15px]">
         <h4 className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] ">
-        9. Processing of Client Orders to Close Positions
+          9. Processing of Client Orders to Close Positions
         </h4>
-        <p>Closing of trading positions occurs at the current price at the trading server at the moment of closing
-of the trading operation.
-</p>
+        <p>
+          Closing of trading positions occurs at the current price at the
+          trading server at the moment of closing of the trading operation.
+        </p>
       </div>
       <div className="space-y-[15px]">
         <h4 className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] ">
-        10. OTC Assets
-
+          10. OTC Assets
         </h4>
         <ul className="pl-5 space-y-[15px]">
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-          10.1. An OTC Asset or “over the counter” is an asset that is traded out of the regular market
-          (hereinafter referred to as the “Asset”).
-          </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">10.2. The Asset’s price is formed from data for trade requests and orders of the Clients, received
-          by the Company
+            10.1. An OTC Asset or “over the counter” is an asset that is traded
+            out of the regular market (hereinafter referred to as the “Asset”).
           </li>
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-          10.3. The Client acknowledges that by making trade requests and orders on such Asset, he/she
-          understands the essence of the work of such an Asset and the pricing algorithm of the Asset.
+            10.2. The Asset’s price is formed from data for trade requests and
+            orders of the Clients, received by the Company
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">10.4. The Client acknowledges that by making trade requests and orders on such Assets, he/she
-admits that the only reliable source of quoting information is the main server for the trade
-orders of the Clients.
+          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+            10.3. The Client acknowledges that by making trade requests and
+            orders on such Asset, he/she understands the essence of the work of
+            such an Asset and the pricing algorithm of the Asset.
+          </li>
+          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+            10.4. The Client acknowledges that by making trade requests and
+            orders on such Assets, he/she admits that the only reliable source
+            of quoting information is the main server for the trade orders of
+            the Clients.
           </li>
         </ul>
       </div>
       <div className="space-y-[15px]">
         <h4 className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] ">
-        11. Fraud
+          11. Fraud
         </h4>
-        <p  className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">In the event that the Company has reasonable suspicion to believe and/or comes to its attention that
-the Client has acted fraudulently with regard to the subject matter of the Agreement, including
-without limitation to the following occurrences:
-</p>
+        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          In the event that the Company has reasonable suspicion to believe
+          and/or comes to its attention that the Client has acted fraudulently
+          with regard to the subject matter of the Agreement, including without
+          limitation to the following occurrences:
+        </p>
         <ul className="pl-5 list-disc space-y-[15px]">
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] "> Fraud associated with credit card transactions and other ways to fill a balance that
-          does not belong to the Client;
+          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+            {" "}
+            Fraud associated with credit card transactions and other ways to
+            fill a balance that does not belong to the Client;
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">Fraud associated with the use of software for false trading results;
-
+          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+            Fraud associated with the use of software for false trading results;
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">Fraud associated with errors and system failures for false trading results,
-
+          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+            Fraud associated with errors and system failures for false trading
+            results,
           </li>
         </ul>
-        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">The Company shall be entitled to block the Client's account without prior notice and without the
-possibility of further money withdrawal, and/or entitled to unilaterally terminate the Agreement in the
-extrajudicial procedure.
-</p>
+        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          The Company shall be entitled to block the Client's account without
+          prior notice and without the possibility of further money withdrawal,
+          and/or entitled to unilaterally terminate the Agreement in the
+          extrajudicial procedure.
+        </p>
       </div>
       <div className="space-y-[15px]">
         <h4 className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] ">
-        12. Benefits
+          12. Benefits
         </h4>
-        <p  className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">The Company may provide benefits to clients, including but not limited to, VIP status, tournaments
-and/or other privileges (“Benefits”), at its absolute discretion and subject to fulfilling the required
-conditions.
-
-</p>
-<p  className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">The Client acknowledges and accepts:
-</p>
+        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          The Company may provide benefits to clients, including but not limited
+          to, VIP status, tournaments and/or other privileges (“Benefits”), at
+          its absolute discretion and subject to fulfilling the required
+          conditions.
+        </p>
+        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          The Client acknowledges and accepts:
+        </p>
         <ul className="pl-5 list-disc space-y-[15px]">
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">  12.1. The Company reserves the right, without prior notification, to amend or cancel any of the
-Benefits provided at any time for any reason;
-
-          </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] "> 12.2. Conditions are subject to change at any time and may vary depending on each region;
-
-
-          </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] "> 12.3. It is prohibited to abuse any of the privileges provided by the Company (e.g. creating multiple
-trading accounts to claim these Benefits);
-
-
-          </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] "> 12.4. The client may submit a request to support@exnova.com to stop receiving such Benefits at
-          any time
-          </li>
+          <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+            {" "}
+            12.1. The Company reserves the right, without prior notification, to
+            amend or cancel any of the Benefits provided at any time for any
+            reason;
+          </p>
+          <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+            {" "}
+            12.2. Conditions are subject to change at any time and may vary
+            depending on each region;
+          </p>
+          <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+            {" "}
+            12.3. It is prohibited to abuse any of the privileges provided by
+            the Company (e.g. creating multiple trading accounts to claim these
+            Benefits);
+          </p>
+          <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+            {" "}
+            12.4. The client may submit a request to support@exnova.com to stop
+            receiving such Benefits at any time
+          </p>
         </ul>
       </div>
       <div className="space-y-[15px]">
         <h4 className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] ">
-        13. Foreign Exchange
+          13. Foreign Exchange
         </h4>
         <ul className="pl-5  space-y-[15px]">
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">  13.1. For any conversion required to be effected from one currency to another for the execution of
-any order, the Company is entitled at its absolute discretion to debit the Client’s Trading
-Account with the equivalent amount of the transaction in the currency in which the Client
-holds the Trading Account.
-
-
+          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+            {" "}
+            13.1. For any conversion required to be effected from one currency
+            to another for the execution of any order, the Company is entitled
+            at its absolute discretion to debit the Client’s Trading Account
+            with the equivalent amount of the transaction in the currency in
+            which the Client holds the Trading Account.
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] "> 13.2. The Client acknowledges and agrees that he shall undertake all risks deriving from any such
-conversion and, in particular, the risk of loss which may be incurred as a result of the
-fluctuation in the exchange rates.
-
-
+          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+            {" "}
+            13.2. The Client acknowledges and agrees that he shall undertake all
+            risks deriving from any such conversion and, in particular, the risk
+            of loss which may be incurred as a result of the fluctuation in the
+            exchange rates.
           </li>
         </ul>
       </div>
       <div className="space-y-[15px]">
         <h4 className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] ">
-        14. Boom Options / Volatility Index
+          14. Boom Options / Volatility Index
         </h4>
-        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">By using this product, the Client agrees and acknowledges to the following:</p>
+        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+          By using this product, the Client agrees and acknowledges to the
+          following:
+        </p>
         <ul className="pl-5  space-y-[15px]">
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">  13.1. The round is generated randomly, and the expiration time can vary from 0.1 to 60
-seconds. To ensure fairness and equal chances for all Clients, the Boom Option
-algorithm determines the deal specification before the round starts. These
-specifications can be decrypted by Clients after the round expires.
-
+          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+            {" "}
+            14.1. The round is generated randomly, and the expiration time can
+            vary from 0.1 to 60 seconds. To ensure fairness and equal chances
+            for all Clients, the Boom Option algorithm determines the deal
+            specification before the round starts. These specifications can be
+            decrypted by Clients after the round expires.
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] "> 13.2. To receive a payout, the Client shall (a) accurately predict whether the starting point
-of the round will expire 'higher' or 'lower', and (b) close the deal before the expiration
-time.
+          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+            {" "}
+            14.2. To receive a payout, the Client shall (a) accurately predict
+            whether the starting point of the round will expire 'higher' or
+            'lower', and (b) close the deal before the expiration time.
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] "> 13.3. The“auto mode”, automates the opening of the deals on a continuous basis at the
-beginning of each round and automatically closes transactions when the
-predetermined take profit percentage is reached. The Client retains the right to opt
-out and disable the auto mode functionality on the platform at any time.
+          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+            {" "}
+            14.3. The“auto mode”, automates the opening of the deals on a
+            continuous basis at the beginning of each round and automatically
+            closes transactions when the predetermined take profit percentage is
+            reached. The Client retains the right to opt out and disable the
+            auto mode functionality on the platform at any time.
           </li>
-          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] "> 13.4. The Client may close the deal only under the following conditions: (a) before the
-round starts, and (b) before the expiration of the round, provided that the deal is in a
-profitable state.
+          <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
+            {" "}
+            14.4. The Client may close the deal only under the following
+            conditions: (a) before the round starts, and (b) before the
+            expiration of the round, provided that the deal is in a profitable
+            state.
           </li>
         </ul>
       </div>
