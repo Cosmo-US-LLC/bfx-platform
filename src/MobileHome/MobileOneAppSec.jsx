@@ -10,9 +10,9 @@ import oneimg from "../assets/OneAppSec/imgonemob.png";
 const items = [
   {
     icon: oneicon1,
-    title: "Multiple Devices",
+    title: "Any Device",
     description:
-      "Trade from whatever device you like — PC, Mac, iOS or Android.",
+      "Users can trade from any device, whether it's a PC, Mac, iOS, or Android.",
   },
   {
     icon: oneicon2,
@@ -29,7 +29,7 @@ const items = [
     icon: oneicon4,
     title: "Multiple Charts",
     description:
-      "Trade using multiple charts simultaneously for better market insights.",
+      "Traders can use multiple charts at the same time for better market insights.",
   },
 ];
 
@@ -76,7 +76,7 @@ function MobileOneAppSec() {
                         />
                       </div>
                       <div className="w-[80%]">
-                        <div className="flex justify-between items-center">
+                        <div className="flex items-center justify-between">
                           <h3 className="text-[15px] font-[600] text-[#000]">
                             {item.title}
                           </h3>
