@@ -143,7 +143,7 @@ case of using direct bank wire, the transaction time can be up to 45 business da
         </h4>
         <ul className=" pl-5 space-y-[15px]">
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-          4.1. The Company is not a tax agent and therefore shall not provide financial information on the
+          The Company is not a tax agent and therefore shall not provide financial information on the
 Client to any third parties. This information shall not be disclosed unless officially requested
 by government authorities.
           </li>
@@ -155,7 +155,7 @@ by government authorities.
         </h4>
         <ul className=" pl-5 space-y-[15px]">
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-          5.1. You agree to pay for all goods and/or services or other additional services you ordered on
+          You agree to pay for all goods and/or services or other additional services you ordered on
 the Website, as well as for any additional expenses (if any), including, but not limited to, all
 possible taxes, charges, etc. You bear full responsibility for timely payments on the Website.
 The Payment Service Provider only facilitates payments for the amounts indicated on the
