@@ -44,61 +44,61 @@ function Footer() {
             <div className="max-w-[150px] w-[100%] pt-[15px]">
               <ul className="max-md:list-none">
                 <li className="text-[#000] text-[16px] font-[600] leading-[108.333%]  list-disc">
-                  Quick Links
+                  Quick Links <br />
                   <a
-                    className="text-[#949494] block text-[13px] pt-[10px] font-[400] leading-[108.333%]"
+                    className="text-[#949494] block text-[13px] pt-[10px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block" 
                     href=""
                     onClick={(e) => handleScroll(e, "faq", 60)}
                   >
                     FAQ
-                  </a>
+                  </a><br />
                   <a
-                    className="text-[#949494] block text-[13px] pt-[10px] font-[400] leading-[108.333%]"
+                    className="text-[#949494] block text-[13px] pt-[10px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
                     href=""
                     onClick={(e) => handleScroll(e, "what-is-bfx", 20)}
                   >
                     Features
-                  </a>
+                  </a><br />
                   <a
-                    className="text-[#949494] block text-[13px] pt-[10px] font-[400] leading-[108.333%]"
+                    className="text-[#949494] block text-[13px] pt-[10px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
                     href=""
                     onClick={(e) => handleScroll(e, "reviews", 60)}
                   >
                     Reviews
-                  </a>
+                  </a><br />
                   <a
-                    className="text-[#949494] block text-[13px] pt-[10px] font-[400] leading-[108.333%]"
+                    className="text-[#949494] block text-[13px] pt-[10px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
                     href=""
                     onClick={(e) => handleScroll(e, "demo", 60)}
                   >
                    Free Demo Account
-                  </a>
-                  {/* <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "tokenomics", 90)} >Token Allocation</a> */}
+                  </a><br />
+                  {/* <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block' href="" onClick={(e) => handleScroll(e, "tokenomics", 90)} >Token Allocation</a> */}
                 </li>
               </ul>
             </div>
             <div className="max-w-[150px] w-[100%] pt-[15px]">
               <ul className="max-md:list-none w-[100%]">
                 <li className="text-[#000] text-[16px] list-disc font-[600] leading-[108.333%]">
-                Docs
+                Docs <br />
                   <Link to="/anti-money">
-                    <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]">
+                    <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
                       AML
-                    </p>
+                    </p><br />
                   </Link>
                   <Link to="/general-fees">
-                    <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]">
+                    <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
                     General Fees
-                    </p>
+                    </p><br />
                   </Link>
                   <Link to="/risk-disclosure">
-                    <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]">
+                    <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
                     Risk Disclosure
                     </p>
-                  </Link>
+                  </Link><br />
                   <Link to="/terms-of-service">
                     <p 
-                  className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]">
+                  className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
                     Terms of Service
                     </p>
                   </Link>
@@ -108,27 +108,27 @@ function Footer() {
             <div className="max-w-[150px] w-[100%] pt-[15px]">
               <ul className="max-md:list-none w-[100%]">
                 <li className="text-[#000] text-[16px] list-disc font-[600] leading-[108.333%]">
-                  Policies
+                  Policies <br />
 
                   <Link to="/payment-policy">
                     <p 
-                    className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]">
+                    className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
                     Payment
                     </p>
                   </Link>
                   <Link to="/order-execution">
                     <p 
-                    className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]">
+                    className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
                     Order Execution
                     </p>
                   </Link>
                   <Link to="/withdrawal-policy">
-                    <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]">
+                    <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
                     Withdrawal
                     </p>
                   </Link>
                   <Link to="/demo-account">
-                    <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%]">
+                    <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
                      Demo Account
                     </p>
                   </Link>
@@ -182,10 +182,10 @@ function Footer() {
             Copyright 2025. All Rights Reserved.
           </p>
           <div className="space-x-5 ">
-            <a href="" className=" text-[12px] text-[#000] leading-[100%]">
+            <a href="" className="border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block text-[12px] text-[#000] leading-[100%]">
               Privacy Policy
             </a>
-            <a href="" className=" text-[12px] text-[#000] leading-[100%]">
+            <a href="" className="border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block text-[12px] text-[#000] leading-[100%]">
               Cookie Management
             </a>
           </div>
@@ -211,61 +211,61 @@ function Footer() {
           <div className=" w-[50%] pt-[15px]">
             <ul className="max-md:list-none">
               <li className="text-[#000] text-[16px] font-[600] leading-[108.333%]  list-disc">
-                Quick Links
+                Quick Links  <br />
                 <a
-                  className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]"
+                  className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
                   href=""
                   onClick={(e) => handleScroll(e, "faq", 90)}
                 >
                   FAQ
-                </a>
+                </a> <br />
                 <a
-                  className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]"
+                  className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
                   href=""
                   onClick={(e) => handleScroll(e, "features", 90)}
                 >
                   Features
-                </a>
+                </a> <br />
                 <a
-                  className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]"
+                  className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
                   href=""
                   onClick={(e) => handleScroll(e, "reviews", 90)}
                 >
                   Reviews
-                </a>
+                </a> <br />
                 <a
-                  className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]"
+                  className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
                   href=""
                   onClick={(e) => handleScroll(e, "demo", 90)}
                 >
                   Free Demo Account
                 </a>
                 
-                {/* <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]' href="" onClick={(e) => handleScroll(e, "tokenomics", 90)} >Token Allocation</a> */}
+                {/* <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block' href="" onClick={(e) => handleScroll(e, "tokenomics", 90)} >Token Allocation</a> */}
               </li>
             </ul>
           </div>
           <div className="w-[45%] pt-[15px]">
             <ul className="max-md:list-none w-[100%]">
               <li className="text-[#000] text-[16px] list-disc font-[600] leading-[108.333%]">
-              Docs
+              Docs <br />
                 <Link to="/anti-money">
-                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]">
+                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
                       AML
                     </p>
-                  </Link>
+                  </Link> <br />
                   <Link to="/general-fees">
-                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]">
+                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
                     General Fees
                     </p>
-                  </Link>
+                  </Link> <br />
                   <Link to="/risk-disclosure">
-                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]">
+                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
                     Risk Disclosure
                     </p>
-                  </Link>
+                  </Link> <br />
                 <Link to="/terms-of-service">
-                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]">Terms of Service{" "}
+                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">Terms of Service{" "}
                     </p>
                   </Link>
               </li>
@@ -275,24 +275,24 @@ function Footer() {
         <div className="max-w-[200px] w-[100%] pt-[15px] px-5">
             <ul className="max-md:list-none w-[100%]">
               <li className="text-[#000] text-[16px] list-disc font-[600] leading-[108.333%]">
-                Policies
+                Policies  <br />
                 <Link to="/payment-policy">
-                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]">
+                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
                     Payment
                     </p>
-                  </Link>
+                  </Link> <br />
                   <Link to="/order-execution">
-                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]">
+                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
                     Order Execution
                     </p>
                   </Link>
                   <Link to="/withdrawal-policy">
-                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]">
+                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
                     Withdrawal
                     </p>
                   </Link>
                   <Link to="/demo-account">
-                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%]">
+                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
                     Demo Account
                     </p>
                   </Link>
@@ -342,10 +342,10 @@ function Footer() {
         </div>
         <div className="flex items-center justify-center">
           <div className="space-x-4">
-            <a href="" className="text-[12px] text-[#000] leading-[100%]">
+            <a href="" className="text-[12px] text-[#000] leading-[100%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
               Privacy Policy
             </a>
-            <a href="" className="text-[12px] text-[#000] leading-[100%]">
+            <a href="" className="text-[12px] text-[#000] leading-[100%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
               Cookie Management
             </a>
           </div>
