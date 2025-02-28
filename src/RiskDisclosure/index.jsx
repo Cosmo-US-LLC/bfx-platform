@@ -491,23 +491,23 @@ function RiskDisclosure() {
         </h4>
         <ul className="pl-8 space-y-[15px]">
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-            11.1 We are unable to:
+            We are unable to:
             <ul className="pl-8 space-y-[15px]">
               <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-                11.1.1. provide guarantees of prot or of avoiding losses when
+                11.1. provide guarantees of prot or of avoiding losses when
                 you trade in the Financial Instruments offered by the Company
               </li>
               <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-                11.1.2. provide guarantees of the future performance of your
+                11.2. provide guarantees of the future performance of your
                 trading account.
               </li>
               <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-                11.1.3. provide guarantees of any specic level of performance or
+                11.3. provide guarantees of any specic level of performance or
                 guarantee that your investment decisions/strategies will yield
                 prot or nancial gain.
               </li>
               <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-                11.1.4. You receive no such guarantees from us or from any of
+                11.4. You receive no such guarantees from us or from any of
                 our aliates or representatives.
               </li>
             </ul>
