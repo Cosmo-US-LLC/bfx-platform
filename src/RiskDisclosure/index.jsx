@@ -407,7 +407,7 @@ function RiskDisclosure() {
         </h4>
         <ul className="pl-8 space-y-[15px]">
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
-            8.1 We are not responsible for nancial losses arising from force
+            We are not responsible for nancial losses arising from force
             majeure events. These events are extreme and irresistible
             circumstances that are independent of the will and actions of the
             agreement participants, that cannot be foreseen, prevented, or
