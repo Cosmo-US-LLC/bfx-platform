@@ -112,35 +112,35 @@ function Navbar() {
         </div>
         <div className="space-x-[27px] 2xl:flex xl:flex lg:flex md:flex sm:hidden hidden items-center">
           <a
-            className="text-[14px] font-[500] text-[#000]"
+            className="text-[14px] font-[500] text-[#000] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
             onClick={(e) => handleScroll(e, "start", 60)}
             href=""
           >
             Quick Start
           </a>
           <a
-            className="text-[14px] font-[500] text-[#000]"
+            className="text-[14px] font-[500] text-[#000] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
             onClick={(e) => handleScroll(e, "demo", 60)}
             href=""
           >
             Free Demo Account
           </a>
           <a
-            className="text-[14px] font-[500] text-[#000]"
+            className="text-[14px] font-[500] text-[#000] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
             onClick={(e) => handleScroll(e, "what-is-bfx", 20)}
             href=""
           >
             Features
           </a>
           {/* <a
-            className="text-[14px] font-[500] text-[#000]"
+            className="text-[14px] font-[500] text-[#000] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
             onClick={(e) => handleScroll(e, "win", 60)}
             href=""
           >
             Awards
           </a> */}
           <a
-            className="text-[14px] font-[500] text-[#000]"
+            className="text-[14px] font-[500] text-[#000] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
             onClick={(e) => handleScroll(e, "reviews", 60)}
             href=""
           >
@@ -200,40 +200,40 @@ function Navbar() {
         {isMobileMenuOpen && (
           <div className="absolute top-[100%] min-h-[100vh] left-0 w-full bg-white shadow-md z-50 p-6">
             <a
-              className="block text-[16px] font-[500] text-[#000] mb-4"
+              className="inline-block text-[16px] font-[500] text-[#000] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
               href=""
               onClick={(e) => handleScroll(e, "start", 90)}
             >
               Quick Start
-            </a>
+            </a><br />
             <a
-              className="block text-[16px] font-[500] text-[#000] mb-4"
+              className="inline-block text-[16px] font-[500] text-[#000] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
               href=""
               onClick={(e) => handleScroll(e, "demo", 90)}
             >
               Free Demo Account
-            </a>
+            </a><br />
             <a
-              className="block text-[16px] font-[500] text-[#000] mb-4"
+              className="inline-block text-[16px] font-[500] text-[#000] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
               href=""
               onClick={(e) => handleScroll(e, "features", 90)}
             >
               Features
-            </a>
+            </a><br />
             {/* <a
-              className="block text-[16px] font-[500] text-[#000] mb-4"
+              className="inline-block text-[16px] font-[500] text-[#000] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
               href="#"
               onClick={(e) => handleScroll(e, "awards", 90)}
             >
               Awards
             </a> */}
             <a
-              className="block text-[16px] font-[500] text-[#000] mb-4"
+              className="inline-block text-[16px] font-[500] text-[#000] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
               href=""
               onClick={(e) => handleScroll(e, "reviews", 90)}
             >
               Reviews
-            </a>
+            </a><br />
             <div
               ref={dropdownRef}
               className="relative flex items-center justify-start space-x-2"

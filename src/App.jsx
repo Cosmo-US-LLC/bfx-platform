@@ -9,6 +9,9 @@ import GeneralFees from './GeneralFees';
 import RiskDisclosure from './RiskDisclosure';
 import WithdrawalPolicy from './WithdrawalPolicy';
 import DemoAccount from './DemoAccount';
+import PaymentPolicy from './PaymentPolicy';
+import OrderExecution from './OrderExecution';
+import TermsofService from './TermsofService';
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 700);
@@ -36,6 +39,9 @@ function App() {
           <Route path="/risk-disclosure" element={<RiskDisclosure />} />
           <Route path="/withdrawal-policy" element={<WithdrawalPolicy />} />
           <Route path="/demo-account" element={<DemoAccount />} />
+          <Route path="/payment-policy" element={<PaymentPolicy />} />
+          <Route path="/order-execution" element={<OrderExecution />} />
+          <Route path="/terms-of-service" element={<TermsofService />} />
         </Routes>
         <Footer />
       </div>
