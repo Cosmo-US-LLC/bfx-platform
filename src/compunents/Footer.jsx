@@ -151,7 +151,7 @@ function Footer() {
               >
               <img src={socil2} alt="" />
               </a>
-              <a href="https://x.com/Blockchainfx1" target="_blank" rel="noopener noreferrer"
+              <a href="https://x.com/BlockchainFXcom" target="_blank" rel="noopener noreferrer"
                className="transition-transform duration-300 hover:scale-110"
               >
               <img src={socil3} alt="" />
@@ -320,7 +320,7 @@ function Footer() {
                className="transition-transform duration-300 hover:scale-110"
               >
               <img className="w-[24px] h-[24px]" src={socil2} alt="" /></a>
-              <a href="https://x.com/Blockchainfx1" target="_blank" rel="noopener noreferrer" 
+              <a href="https://x.com/BlockchainFXcom" target="_blank" rel="noopener noreferrer" 
                className="transition-transform duration-300 hover:scale-110"
               >
               <img className="w-[24px] h-[24px]" src={socil3} alt="" />
