@@ -6,23 +6,24 @@ import "swiper/css";
 import "swiper/css/navigation";
 import swpbtn from "../assets/PremiumSec/arw.svg";
 
-import medai1 from "../assets/Press&Media/media (1).svg";
-import medai2 from "../assets/Press&Media/media (2).svg";
-import medai3 from "../assets/Press&Media/media (3).svg";
+import medai1 from "../assets/Press&Media/medicn (3).svg";
+import medai2 from "../assets/Press&Media/medicn (2).svg";
+import medai3 from "../assets/Press&Media/medicn (1).svg";
+
 
 function MobPressMediaSec() {
   const press = [
     {
-      img: "/mobile/press/bitcoin.png",
-      body: "BlockchainFX can be described as a hybrid of Binance and Robinhood, delivering a seamless trading experience with exceptional speed and simplicity, powered by instant crypto deposits and trading."
+      img: medai1,
+      body: " BlockchainFX is quickly becoming the go-to trading platform in 2025"
     },
     {
-      img: "/mobile/press/coin.svg",
-      body: "BFX is pioneering a new era of cryptocurrency by seamlessly connecting it to global markets such as Forex, Commodities, and ETFs. This unprecedented integration creates endless trading opportunities for traders."
+      img: medai2,
+      body: " BlockchainFX revolutionises the financial trading landscape"
     },
     {
-      img: "/mobile/press/finbold.svg",
-      body: "BlockchainFX gives 560 million crypto users direct access to global financial markets, enabling seamless transitions across asset classes like Silver and BTC in seconds with advanced trading tools."
+      img: medai3,
+      body: "BlockchainFX puts Wall Street in your pocket"
     }
   ]
 
@@ -56,7 +57,7 @@ function MobPressMediaSec() {
                 <div className="bg-[#fff] max-w-[284px] border-transparent mx-auto rounded-[5.7px] px-[14px] py-[30px] w-[100%] border border-[#F1F1F1]">
                   <div className={`${id == 1 ? "space-y-[13px]" : "space-y-[13px]"}`}>
                     <div className="flex items-center justify-center h-[30px]">
-                      <img src={item.img} className={`${id == 1 ? "h-[28px]" : "h-[18px]"}`} alt="" />
+                      <img src={item.img} className="h-[28px]" alt="" />
                     </div>
                     <p className="text-[15px] text-center leading-[21.6px] font-[400]">
                       {item.body}

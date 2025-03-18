@@ -1,8 +1,8 @@
 import React from "react";
 
 import rwdimg1 from "../assets/OurAwardSec/rwdimg (1).png";
-import rwdimg2 from "../assets/OurAwardSec/rwdimg (2).png";
-import rwdimg3 from "../assets/OurAwardSec/rwdimg (3).png";
+import rwdimg2 from "../assets/OurAwardSec/rwdimg (2).webp";
+import rwdimg3 from "../assets/OurAwardSec/rwdimg (3).webp";
 
 function MobOurAwardSec() {
   return (

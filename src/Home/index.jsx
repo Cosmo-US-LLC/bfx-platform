@@ -44,8 +44,8 @@ function Home() {
         <WallStreetSec />
         <TradeLikeSec />
         {/* <TopAssetsSec /> */}
-        {/* <OurAwardSec /> */}
-        {/* <PressMediaSec /> */}
+        <OurAwardSec />
+        <PressMediaSec />
         <TraderReviewsSec />
         <FaqSec />
         <TheUltimateSec />

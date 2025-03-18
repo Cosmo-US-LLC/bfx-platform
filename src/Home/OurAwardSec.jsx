@@ -1,8 +1,8 @@
 import React from "react";
 
 import rwdimg1 from "../assets/OurAwardSec/rwdimg (1).png";
-import rwdimg2 from "../assets/OurAwardSec/rwdimg (2).png";
-import rwdimg3 from "../assets/OurAwardSec/rwdimg (3).png";
+import rwdimg2 from "../assets/OurAwardSec/rwdimg (2).webp";
+import rwdimg3 from "../assets/OurAwardSec/rwdimg (3).webp";
 
 function OurAwardSec() {
   return (
@@ -38,7 +38,7 @@ function OurAwardSec() {
               />
             </div>
             <div className="flex justify-center pt-12">
-              <img className="h-[263px]" src={rwdimg2} alt="" />
+              <img className="h-[263px] object-cover" src={rwdimg2} alt="" />
             </div>
           </div>
           <div
@@ -62,7 +62,7 @@ function OurAwardSec() {
               />
             </div>
             <div className="flex justify-center">
-              <img src={rwdimg3} className="w-full h-[266px] mt-12" alt="" />
+              <img src={rwdimg3} className="w-full object-cover h-[266px] mt-12" alt="" />
             </div>
           </div>
         </div>
