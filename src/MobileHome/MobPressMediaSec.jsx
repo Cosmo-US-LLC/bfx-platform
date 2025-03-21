@@ -15,15 +15,15 @@ function MobPressMediaSec() {
   const press = [
     {
       img: medai1,
-      body: " BlockchainFX is quickly becoming the go-to trading platform in 2025"
+      body: "BlockchainFX is quickly becoming the go-to trading platform in 2025, offering access to 500+ assets and rewarding benefits for users."
     },
     {
       img: medai2,
-      body: " BlockchainFX revolutionises the financial trading landscape"
+      body: "BlockchainFX is set to revolutionise the trading landscape as the first all-in-one crypto trading platform."
     },
     {
       img: medai3,
-      body: "BlockchainFX puts Wall Street in your pocket"
+      body: "BlockchainFX is the first trading app that lets users earn daily USDT passive income directly from trading fees."
     }
   ]
 
