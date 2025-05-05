@@ -1,7 +1,7 @@
 import React, { handleScroll } from "react";
 import { Link } from "react-router-dom";
 
-import docs from "../assets/footer/google-docs.png"
+import docs from "../assets/footer/pdf-svgrepo-com.svg"
 import logo from "../assets/footer/logo.svg";
 import socil1 from "../assets/footer/Vector (2).svg";
 import socil2 from "../assets/footer/Vector (3).svg";
@@ -84,17 +84,17 @@ function Footer() {
                 Docs <br />
                   <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/kg1msj7rr6s523e0/BlockchainFX%20Anti%20Money%20Laundering%20(AML)%20and%20Know%20Your%20Customer%20(KYC)%20Policy.pdf">
                     <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
-                      AML <span><img className="inline h-[16px]" src={docs} alt="" /></span>
+                      AML <span><img className="inline h-[18px]" src={docs} alt="" /></span>
                     </p><br />
                   </Link>
                   <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/jprjqaksmetb05dg/BlockchainFX%20General%20Fees.pdf">
                     <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
-                    General Fees <span><img className="inline h-[16px]" src={docs} alt="" /></span>
+                    General Fees <span><img className="inline h-[18px]" src={docs} alt="" /></span>
                     </p><br />
                   </Link>
                   <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/erbjqaksmetb05cg/BlockchainFX%20Risk%20Disclosure%20.pdf">
                     <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
-                    Risk Disclosure <span><img className="inline h-[16px]" src={docs} alt="" /></span>
+                    Risk Disclosure <span><img className="inline h-[18px]" src={docs} alt="" /></span>
                     </p>
                   </Link><br />
                   <Link to="/terms-of-service">
@@ -106,7 +106,7 @@ function Footer() {
                   <br />
                   <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/kt3jqaksmetb05e0/BlockchainFX%20Margin%20Trading.pdf">
                     <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
-                    Margin trading <span><img className="inline h-[16px]" src={docs} alt="" /></span>
+                    Margin trading <span><img className="inline h-[18px]" src={docs} alt="" /></span>
                     </p>
                   </Link>
                 </li>
@@ -120,28 +120,28 @@ function Footer() {
                   <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/cmrjqaksmetb05c0/BlockchainFX%20Payment%20Policy.pdf">
                     <p 
                     className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
-                    Payment <span><img className="inline h-[16px]" src={docs} alt="" /></span>
+                    Payment <span><img className="inline h-[18px]" src={docs} alt="" /></span>
                     </p>
                   </Link>
                   <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/llpmsj7rr6s523eg/BlockchainFX%20Order%20Execution%20Policy.pdf">
                     <p 
                     className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
-                    Order Execution <span><img className="inline h-[16px]" src={docs} alt="" /></span>
+                    Order Execution <span><img className="inline h-[18px]" src={docs} alt="" /></span>
                     </p>
                   </Link>
                   <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/m4rjqaksmetb05f0/BlockchainFX%20Withdrawal%20Policy.pdf">
                     <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
-                    Withdrawal <span><img className="inline h-[16px]" src={docs} alt="" /></span>
+                    Withdrawal <span><img className="inline h-[18px]" src={docs} alt="" /></span>
                     </p>
                   </Link>
                   <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/jdhmsj7rr6s523dg/BlockchainFX%20Demo%20and%20Tournament%20Accounts.pdf">
                     <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
-                     Demo Account <span><img className="inline h-[16px]" src={docs} alt="" /></span>
+                     Demo Account <span><img className="inline h-[18px]" src={docs} alt="" /></span>
                     </p>
                   </Link> <br />
                   <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/la3jqaksmetb05eg/BlockchainFX%20Refund%20Policy.pdf">
                     <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
-                    Refund <span><img className="inline h-[16px]" src={docs} alt="" /></span>
+                    Refund <span><img className="inline h-[18px]" src={docs} alt="" /></span>
                     </p> 
                   </Link>
                 </li>
@@ -269,17 +269,17 @@ function Footer() {
               Docs <br />
                 <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/kg1msj7rr6s523e0/BlockchainFX%20Anti%20Money%20Laundering%20(AML)%20and%20Know%20Your%20Customer%20(KYC)%20Policy.pdf">
                     <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
-                      AML <span><img className="inline h-[16px]" src={docs} alt="" /></span>
+                      AML <span><img className="inline h-[18px]" src={docs} alt="" /></span>
                     </p>
                   </Link> <br />
                   <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/jprjqaksmetb05dg/BlockchainFX%20General%20Fees.pdf">
                     <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
-                    General Fees <span><img className="inline h-[16px]" src={docs} alt="" /></span>
+                    General Fees <span><img className="inline h-[18px]" src={docs} alt="" /></span>
                     </p>
                   </Link> <br />
                   <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/erbjqaksmetb05cg/BlockchainFX%20Risk%20Disclosure%20.pdf">
                     <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
-                    Risk Disclosure <span><img className="inline h-[16px]" src={docs} alt="" /></span>
+                    Risk Disclosure <span><img className="inline h-[18px]" src={docs} alt="" /></span>
                     </p>
                   </Link> <br />
                 <Link to="/terms-of-service">
@@ -289,7 +289,7 @@ function Footer() {
                   <br />
                   <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/kt3jqaksmetb05e0/BlockchainFX%20Margin%20Trading.pdf">
                     <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
-                    Margin trading <span><img className="inline h-[16px]" src={docs} alt="" /></span>
+                    Margin trading <span><img className="inline h-[18px]" src={docs} alt="" /></span>
                     </p>
                   </Link>
               </li>
@@ -302,27 +302,27 @@ function Footer() {
                 Policies  <br />
                 <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/cmrjqaksmetb05c0/BlockchainFX%20Payment%20Policy.pdf">
                     <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
-                    Payment <span><img className="inline h-[16px]" src={docs} alt="" /></span>
+                    Payment <span><img className="inline h-[18px]" src={docs} alt="" /></span>
                     </p>
                   </Link> <br />
                   <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/llpmsj7rr6s523eg/BlockchainFX%20Order%20Execution%20Policy.pdf">
                     <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
-                    Order Execution <span><img className="inline h-[16px]" src={docs} alt="" /></span>
+                    Order Execution <span><img className="inline h-[18px]" src={docs} alt="" /></span>
                     </p>
                   </Link>
                   <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/m4rjqaksmetb05f0/BlockchainFX%20Withdrawal%20Policy.pdf">
                     <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
-                    Withdrawal <span><img className="inline h-[16px]" src={docs} alt="" /></span>
+                    Withdrawal <span><img className="inline h-[18px]" src={docs} alt="" /></span>
                     </p>
                   </Link>
                   <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/jdhmsj7rr6s523dg/BlockchainFX%20Demo%20and%20Tournament%20Accounts.pdf">
                     <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
-                    Demo Account <span><img className="inline h-[16px]" src={docs} alt="" /></span>
+                    Demo Account <span><img className="inline h-[18px]" src={docs} alt="" /></span>
                     </p>
                   </Link>
                   <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/la3jqaksmetb05eg/BlockchainFX%20Refund%20Policy.pdf">
                     <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
-                    Refund <span><img className="inline h-[16px]" src={docs} alt="" /></span>
+                    Refund <span><img className="inline h-[18px]" src={docs} alt="" /></span>
                     </p> 
                   </Link>
               </li>
