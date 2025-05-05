@@ -1,6 +1,7 @@
 import React, { handleScroll } from "react";
 import { Link } from "react-router-dom";
 
+import docs from "../assets/footer/google-docs.png"
 import logo from "../assets/footer/logo.svg";
 import socil1 from "../assets/footer/Vector (2).svg";
 import socil2 from "../assets/footer/Vector (3).svg";
@@ -46,34 +47,34 @@ function Footer() {
                 <li className="text-[#000] text-[16px] font-[600] leading-[108.333%]  list-disc">
                   Quick Links <br />
                   <a
-                    className="text-[#949494] block text-[13px] pt-[10px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block" 
+                    className="text-[#949494] block text-[13px] pt-[10px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block" 
                     href=""
                     onClick={(e) => handleScroll(e, "faq", 60)}
                   >
                     FAQ
                   </a><br />
                   <a
-                    className="text-[#949494] block text-[13px] pt-[10px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
+                    className="text-[#949494] block text-[13px] pt-[10px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block"
                     href=""
                     onClick={(e) => handleScroll(e, "what-is-bfx", 20)}
                   >
                     Features
                   </a><br />
                   <a
-                    className="text-[#949494] block text-[13px] pt-[10px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
+                    className="text-[#949494] block text-[13px] pt-[10px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block"
                     href=""
                     onClick={(e) => handleScroll(e, "reviews", 60)}
                   >
                     Reviews
                   </a><br />
                   <a
-                    className="text-[#949494] block text-[13px] pt-[10px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
+                    className="text-[#949494] block text-[13px] pt-[10px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block"
                     href=""
                     onClick={(e) => handleScroll(e, "demo", 60)}
                   >
                    Free Demo Account
                   </a><br />
-                  {/* <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block' href="" onClick={(e) => handleScroll(e, "tokenomics", 90)} >Token Allocation</a> */}
+                  {/* <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block' href="" onClick={(e) => handleScroll(e, "tokenomics", 90)} >Token Allocation</a> */}
                 </li>
               </ul>
             </div>
@@ -81,25 +82,31 @@ function Footer() {
               <ul className="max-md:list-none w-[100%]">
                 <li className="text-[#000] text-[16px] list-disc font-[600] leading-[108.333%]">
                 Docs <br />
-                  <Link to="/anti-money">
-                    <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
-                      AML
+                  <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/kg1msj7rr6s523e0/BlockchainFX%20Anti%20Money%20Laundering%20(AML)%20and%20Know%20Your%20Customer%20(KYC)%20Policy.pdf">
+                    <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
+                      AML <span><img className="inline h-[16px]" src={docs} alt="" /></span>
                     </p><br />
                   </Link>
-                  <Link to="/general-fees">
-                    <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
-                    General Fees
+                  <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/jprjqaksmetb05dg/BlockchainFX%20General%20Fees.pdf">
+                    <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
+                    General Fees <span><img className="inline h-[16px]" src={docs} alt="" /></span>
                     </p><br />
                   </Link>
-                  <Link to="/risk-disclosure">
-                    <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
-                    Risk Disclosure
+                  <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/erbjqaksmetb05cg/BlockchainFX%20Risk%20Disclosure%20.pdf">
+                    <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
+                    Risk Disclosure <span><img className="inline h-[16px]" src={docs} alt="" /></span>
                     </p>
                   </Link><br />
                   <Link to="/terms-of-service">
                     <p 
-                  className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
+                  className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
                     Terms of Service
+                    </p>
+                  </Link>
+                  <br />
+                  <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/kt3jqaksmetb05e0/BlockchainFX%20Margin%20Trading.pdf">
+                    <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
+                    Margin trading <span><img className="inline h-[16px]" src={docs} alt="" /></span>
                     </p>
                   </Link>
                 </li>
@@ -110,27 +117,32 @@ function Footer() {
                 <li className="text-[#000] text-[16px] list-disc font-[600] leading-[108.333%]">
                   Policies <br />
 
-                  <Link to="/payment-policy">
+                  <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/cmrjqaksmetb05c0/BlockchainFX%20Payment%20Policy.pdf">
                     <p 
-                    className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
-                    Payment
+                    className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
+                    Payment <span><img className="inline h-[16px]" src={docs} alt="" /></span>
                     </p>
                   </Link>
-                  <Link to="/order-execution">
+                  <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/llpmsj7rr6s523eg/BlockchainFX%20Order%20Execution%20Policy.pdf">
                     <p 
-                    className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
-                    Order Execution
+                    className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
+                    Order Execution <span><img className="inline h-[16px]" src={docs} alt="" /></span>
                     </p>
                   </Link>
-                  <Link to="/withdrawal-policy">
-                    <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
-                    Withdrawal
+                  <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/m4rjqaksmetb05f0/BlockchainFX%20Withdrawal%20Policy.pdf">
+                    <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
+                    Withdrawal <span><img className="inline h-[16px]" src={docs} alt="" /></span>
                     </p>
                   </Link>
-                  <Link to="/demo-account">
-                    <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
-                     Demo Account
+                  <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/jdhmsj7rr6s523dg/BlockchainFX%20Demo%20and%20Tournament%20Accounts.pdf">
+                    <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
+                     Demo Account <span><img className="inline h-[16px]" src={docs} alt="" /></span>
                     </p>
+                  </Link> <br />
+                  <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/la3jqaksmetb05eg/BlockchainFX%20Refund%20Policy.pdf">
+                    <p className="text-[#949494] text-[13px] pt-[10px] block font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
+                    Refund <span><img className="inline h-[16px]" src={docs} alt="" /></span>
+                    </p> 
                   </Link>
                 </li>
               </ul>
@@ -188,10 +200,10 @@ function Footer() {
             Copyright 2025. All Rights Reserved.
           </p>
           <div className="space-x-5 ">
-            <a href="" className="border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block text-[12px] text-[#000] leading-[100%]">
+            <Link to="/privacy-policy" className="border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block text-[12px] text-[#000] leading-[100%]">
               Privacy Policy
-            </a>
-            <a href="" className="border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block text-[12px] text-[#000] leading-[100%]">
+            </Link>
+            <a target="_blank" href="https://fsms.trade.blockchainfx.io/storage/public/d0/7l/ihrjqaksmetb05j0/BlockChainFX%20Cookies%20Policy.docx.pdf" className="border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block text-[12px] text-[#000] leading-[100%]">
               Cookie Management
             </a>
           </div>
@@ -219,35 +231,35 @@ function Footer() {
               <li className="text-[#000] text-[16px] font-[600] leading-[108.333%]  list-disc">
                 Quick Links  <br />
                 <a
-                  className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
+                  className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block"
                   href=""
                   onClick={(e) => handleScroll(e, "faq", 90)}
                 >
                   FAQ
                 </a> <br />
                 <a
-                  className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
+                  className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block"
                   href=""
                   onClick={(e) => handleScroll(e, "features", 90)}
                 >
                   Features
                 </a> <br />
                 <a
-                  className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
+                  className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block"
                   href=""
                   onClick={(e) => handleScroll(e, "reviews", 90)}
                 >
                   Reviews
                 </a> <br />
                 <a
-                  className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block"
+                  className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block"
                   href=""
                   onClick={(e) => handleScroll(e, "demo", 90)}
                 >
                   Free Demo Account
                 </a>
                 
-                {/* <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block' href="" onClick={(e) => handleScroll(e, "tokenomics", 90)} >Token Allocation</a> */}
+                {/* <a className='text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block' href="" onClick={(e) => handleScroll(e, "tokenomics", 90)} >Token Allocation</a> */}
               </li>
             </ul>
           </div>
@@ -255,23 +267,29 @@ function Footer() {
             <ul className="max-md:list-none w-[100%]">
               <li className="text-[#000] text-[16px] list-disc font-[600] leading-[108.333%]">
               Docs <br />
-                <Link to="/anti-money">
-                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
-                      AML
+                <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/kg1msj7rr6s523e0/BlockchainFX%20Anti%20Money%20Laundering%20(AML)%20and%20Know%20Your%20Customer%20(KYC)%20Policy.pdf">
+                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
+                      AML <span><img className="inline h-[16px]" src={docs} alt="" /></span>
                     </p>
                   </Link> <br />
-                  <Link to="/general-fees">
-                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
-                    General Fees
+                  <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/jprjqaksmetb05dg/BlockchainFX%20General%20Fees.pdf">
+                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
+                    General Fees <span><img className="inline h-[16px]" src={docs} alt="" /></span>
                     </p>
                   </Link> <br />
-                  <Link to="/risk-disclosure">
-                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
-                    Risk Disclosure
+                  <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/erbjqaksmetb05cg/BlockchainFX%20Risk%20Disclosure%20.pdf">
+                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
+                    Risk Disclosure <span><img className="inline h-[16px]" src={docs} alt="" /></span>
                     </p>
                   </Link> <br />
                 <Link to="/terms-of-service">
-                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">Terms of Service{" "}
+                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">Terms of Service 
+                    </p>
+                  </Link> 
+                  <br />
+                  <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/kt3jqaksmetb05e0/BlockchainFX%20Margin%20Trading.pdf">
+                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
+                    Margin trading <span><img className="inline h-[16px]" src={docs} alt="" /></span>
                     </p>
                   </Link>
               </li>
@@ -282,25 +300,30 @@ function Footer() {
             <ul className="max-md:list-none w-[100%]">
               <li className="text-[#000] text-[16px] list-disc font-[600] leading-[108.333%]">
                 Policies  <br />
-                <Link to="/payment-policy">
-                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
-                    Payment
+                <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/cmrjqaksmetb05c0/BlockchainFX%20Payment%20Policy.pdf">
+                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
+                    Payment <span><img className="inline h-[16px]" src={docs} alt="" /></span>
                     </p>
                   </Link> <br />
-                  <Link to="/order-execution">
-                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
-                    Order Execution
+                  <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/llpmsj7rr6s523eg/BlockchainFX%20Order%20Execution%20Policy.pdf">
+                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
+                    Order Execution <span><img className="inline h-[16px]" src={docs} alt="" /></span>
                     </p>
                   </Link>
-                  <Link to="/withdrawal-policy">
-                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
-                    Withdrawal
+                  <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/m4rjqaksmetb05f0/BlockchainFX%20Withdrawal%20Policy.pdf">
+                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
+                    Withdrawal <span><img className="inline h-[16px]" src={docs} alt="" /></span>
                     </p>
                   </Link>
-                  <Link to="/demo-account">
-                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
-                    Demo Account
+                  <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/jdhmsj7rr6s523dg/BlockchainFX%20Demo%20and%20Tournament%20Accounts.pdf">
+                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
+                    Demo Account <span><img className="inline h-[16px]" src={docs} alt="" /></span>
                     </p>
+                  </Link>
+                  <Link target="_blank" to="https://fsms.trade.blockchainfx.io/storage/public/d0/7j/la3jqaksmetb05eg/BlockchainFX%20Refund%20Policy.pdf">
+                    <p className="text-[#949494] block text-[13px] pt-[20px] font-[400] leading-[108.333%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
+                    Refund <span><img className="inline h-[16px]" src={docs} alt="" /></span>
+                    </p> 
                   </Link>
               </li>
             </ul>
@@ -354,10 +377,10 @@ function Footer() {
         </div>
         <div className="flex items-center justify-center">
           <div className="space-x-4">
-            <a href="" className="text-[12px] text-[#000] leading-[100%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
+            <Link to="/privacy-policy" className="text-[12px] text-[#000] leading-[100%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
               Privacy Policy
-            </a>
-            <a href="" className="text-[12px] text-[#000] leading-[100%] border border-transparent hover:border-b-[#E5AE00] transition duration-300 inline-block">
+            </Link>
+            <a target="_blank" href="https://fsms.trade.blockchainfx.io/storage/public/d0/7l/ihrjqaksmetb05j0/BlockChainFX%20Cookies%20Policy.docx.pdf" className="text-[12px] text-[#000] leading-[100%] border border-transparent hover:border-b-[#E5AE00] pb-[3px] transition duration-300 inline-block">
               Cookie Management
             </a>
           </div>
