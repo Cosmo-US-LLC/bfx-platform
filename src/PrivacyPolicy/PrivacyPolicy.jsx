@@ -25,26 +25,7 @@ function PrivacyPolicy() {
           We strive to create the most secure infrastructure of any broker in the world. In this privacy policy we
           would like to tell why you can trust us with your data and rest assured that your data is safe.
         </li>
-        <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-          It is important that you read this privacy policy together with any other privacy policy we may provide on
-          specific occasions when we are collecting or processing your data about you so that you are fully aware of
-          how and why we are using your data.
-        </li>
-        <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-          In this Privacy Policy, unless the context otherwise requires, expressions defined herein shall have the
-          meaning ascribed to them in the{" "}
-          <Link to="/terms-of-service" className="text-blue-600 hover:underline">
-            Terms and Conditions
-          </Link>
-          .
-        </li>
-        <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-          Please note that this Privacy Policy is addressed to current and prospective Clients. If you are an employee
-          of Sun Wave, contractor or a third-party service provider, your personal information will be used in
-          connection with your employment contract, your contractual relationship or in accordance with our separate
-          policies which are available by contacting us at the contact details listed in the section OUR CONTACT
-          DETAILS below
-        </li>
+     
         <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
           If you are participating in our affiliate program and/or introducing broker program, we will process the
           data provided under our agreement with you to exercise our rights and perform our obligations under or in
@@ -64,7 +45,7 @@ function PrivacyPolicy() {
         Evelyn Ltd Building, Main Street, Charlestown, Nevis (hereinafter "Sun Wave" and/or "Company"). Sun Wave is
         the controller and responsible for the data of the Client disclosed to us in order to register for a Trading
         Account, Demo Account and/or to make use of any other services offered by Sun Wave through the{" "}
-        <Link to="/" className="text-blue-600 hover:underline">
+        <Link t="/" className="text-blue-600 hover:underline">
           website
         </Link>{" "}
         (hereinafter "Website") (this term shall at all times include Website's desktop and mobile versions).
@@ -344,352 +325,381 @@ function PrivacyPolicy() {
       </ol>
 
       <div className="overflow-x-auto mt-4">
-        <table className="min-w-full border-collapse border border-gray-300">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="border border-gray-300 p-2 text-left 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[600]">
-                PURPOSE ACTIVITY
-              </th>
-              <th className="border border-gray-300 p-2 text-left 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[600]">
-                TYPE OF DATA
-              </th>
-              <th className="border border-gray-300 p-2 text-left 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[600]">
-                LAWFUL BASIS FOR PROCESSING INCLUDING BASIS OF LEGITIMATE INTEREST
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                <ol className="list-[lower-alpha] pl-5">
-                  <li>
-                    1. To accept to register you as a Client
-                    <br />
-                    2. To notify you about changes to our terms or privacy policy
-                    <br />
-                    3. To communicate with you and provide you with secure identifications, authentication and support
-                    services
-                    <br />
-                    4. To confirm you are at age of majority as recognized and declared by the laws of your
-                    jurisdiction
-                  </li>
-                </ol>
-              </td>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                1. Identity Data
-                <br />
-                2. Profile Data
-                <br />
-                3. Contact Data
-                <br />
-                4. Data in KYC
-                <br />
-                5. Financial Data
-                <br />
-                6. Economic Profile Data
-              </td>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                1. Necessary to perform our contract with you
-                <br />
-                2. Necessary to comply with our legal obligations
-              </td>
-            </tr>
-            <tr>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                <ol className="list-[lower-alpha] pl-5">
-                  <li>
-                    1. To perform our Scoring Processing under which a Client is scored on a scale basis with regard
-                    to the level of risk he is to Sun Wave
-                  </li>
-                </ol>
-              </td>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                1. Banking Data
-                <br />
-                2. Economic Profile Data
-              </td>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                1. Necessary to perform our contract with you
-                <br />
-                2. Necessary to comply with our legal obligations
-              </td>
-            </tr>
-            <tr>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                <ol className="list-[lower-alpha] pl-5">
-                  <li>1. To confirm the information provided by You under (a) above in relation to your location.</li>
-                </ol>
-              </td>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                1. Location Data
-              </td>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                1. Necessary to perform our contract with you
-                <br />
-                2. Necessary to comply with our legal obligations
-              </td>
-            </tr>
-            <tr>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                <ol className="list-[lower-alpha] pl-5">
-                  <li>
-                    1. To secure authentication, identification and support services via social networks protocols and
-                    use the links to your accounts in social networks for these purposes.
-                  </li>
-                </ol>
-              </td>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                1. Technical Data
-              </td>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                1. Necessary to perform our contract with you
-                <br />
-                2. Necessary to comply with our legal obligations
-              </td>
-            </tr>
-            <tr>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                <ol className="list-[lower-alpha] pl-5">
-                  <li>
-                    1. To process and deliver your transactions and requests (Deposits; Trades; Withdrawals)
-                    <br />
-                    2. Manage payments, fees and charges;
-                    <br />
-                    3. To collect and recover money owed to us.
-                  </li>
-                </ol>
-              </td>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                1. Banking Data
-                <br />
-                2. Transaction Data
-              </td>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                1. Necessary to perform our contract with you
-                <br />
-                2. Necessary for our legitimate interest (recover charges owed to us, make a withdrawal in case of
-                breach of our contract)
-              </td>
-            </tr>
-            <tr>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                <ol className="list-[lower-alpha] pl-5">
-                  <li>
-                    1. To administer and protect our business and Website (including troubleshooting, data analysis,
-                    testing, system maintenance, support, reporting and hosting of data)
-                  </li>
-                </ol>
-              </td>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                1. Identity Data
-                <br />
-                2. Contact Data
-                <br />
-                3. Technical Data
-              </td>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                1. Performance of our contract with you
-                <br />
-                2. Necessary to comply with our legal obligations
-                <br />
-                3. Necessary for our legitimate interests (take reasonable steps to confirm that you do not use any
-                ways to manipulate our platform & for running our business, provision of administration and IT
-                services, network security, to prevent fraud)
-              </td>
-            </tr>
-            <tr>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                <ol className="list-[lower-alpha] pl-5">
-                  <li>
-                    1. To deliver relevant Website content and advertisements to you and measure or understand the
-                    effectiveness of the advertising we serve to you
-                    <br />
-                    2. To provide you with an optimal operation on our web application, mobile and/or desktop versions
-                    of our application and monitor your behavior for the purpose of improving the efficiency and
-                    usability of our services.
-                  </li>
-                </ol>
-              </td>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                1. Identity Data
-                <br />
-                2. Contact Data
-                <br />
-                3. Profile Data
-                <br />
-                4. Usage Data
-                <br />
-                5. Technical Data
-                <br />
-                6. Marketing and Communication Data
-              </td>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                1. Necessary to perform our contract with you
-                <br />
-                2. Necessary for our legitimate interests (to study how customers use our products/services, to
-                develop them, to grow our business)
-              </td>
-            </tr>
-            <tr>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                <ol className="list-[lower-alpha] pl-5">
-                  <li>
-                    1. to study how customers use our products/services, to develop them, to grow our business and to
-                    inform our marketing strategy;
-                    <br />
-                    2. statutory limitations
-                  </li>
-                </ol>
-              </td>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                1. Transaction Data
-              </td>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                1. Necessary for our legitimate interests (including statutory limitations provisions by applicable
-                laws)
-              </td>
-            </tr>
-            <tr>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                <ol className="list-[lower-alpha] pl-5">
-                  <li>
-                    1. To inform you about any of the following:
-                    <br />— new services and/or products we may offer;
-                    <br />— Any new development and/or features of the current products/services we offer
-                  </li>
-                </ol>
-              </td>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                1. Identity Data
-                <br />
-                2. Profile Data
-                <br />
-                3. Contact Data
-                <br />
-                4. Technical Data
-                <br />
-                5. Usage Data
-                <br />
-                6. Transactions
-                <br />
-                7. Marketing and Communication Data
-              </td>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                1. Necessary to perform our contract with you
-                <br />
-                2. Necessary for our legitimate interests (to study how customers use our products/services, to
-                develop our products/services and grow our business)
-              </td>
-            </tr>
-            <tr>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                <ol className="list-[lower-alpha] pl-5">
-                  <li>
-                    1. To send direct marketing of our services to you always within the boundaries of our legitimate
-                    interests.
-                    <br />
-                    2. To send to you newsletters, push-messages and calls to keep you in touch with our new feature
-                    and new development of the current products/services we offer, news and events and the efficient
-                    provision of the full scope of our services.
-                    <br />
-                    Please note that we will never use your data to communicate to you and/or promote any third party
-                    marketing material.
-                  </li>
-                </ol>
-              </td>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                1. Identity Data
-                <br />
-                2. Profile Data
-                <br />
-                3. Contact Data
-                <br />
-                4. Data that may be provided by you during your activity at the Website.
-                <br />
-                5. Marketing and Communication Data
-              </td>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                1. Necessary to perform our contract with you
-                <br />
-                2. Necessary for our legitimate interests (to provide effective and personalized customer services to
-                you and to update you in relation to our services that are available to you.
-              </td>
-            </tr>
-            <tr>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                <ol className="list-[lower-alpha] pl-5">
-                  <li>
-                    1. To allow us to provide you with the optimal operation on our Website, mobile and desktop
-                    versions of our application and monitor your behavior for the purpose of improving the efficiency
-                    and usability of our Services.
-                    <br />
-                    2. To use analytics tools to track performance of the Website and marketing source of our Clients
-                    in order to optimize our marketing costs and provide you with better experience.
-                  </li>
-                </ol>
-              </td>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                1. Location Data
-                <br />
-                2. Technical Data
-                <br />
-                3. Usage Data
-                <br />
-                4. Marketing and Communication Data
-              </td>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                1. Necessary to perform our contract with you
-                <br />
-                2. Necessary for our legitimate interests (to provide effective and personalized customer services to
-                you and to update you in relation to our services that are available to you).
-              </td>
-            </tr>
-            <tr>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                <ol className="list-[lower-alpha] pl-5">
-                  <li>
-                    1. to allow us to monitor and train our employees for your benefit
-                    <br />
-                    2. to safeguard your or our interests in case of a dispute
-                    <br />
-                    3. to take steps for fraud prevention
-                    <br />
-                    4. to improve the services provided to you
-                  </li>
-                </ol>
-              </td>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                Audio Data
-              </td>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                1. Necessary to perform our contract with you
-                <br />
-                2. Necessary to comply with our legal obligations
-                <br />
-                3. Necessary for our legitimate interests
-              </td>
-            </tr>
-            <tr>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                <ol className="list-[lower-alpha] pl-5">
-                  <li>
-                    1. To confirm that your annual income corresponds with your employment status
-                    <br />
-                    2. To confirm that you have no criminal history.
-                  </li>
-                </ol>
-              </td>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                Sensitive Data
-              </td>
-              <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                1. Necessary to comply with our legal obligations
-                <br />
-                2. Necessary to protect your vital interests.
-              </td>
-            </tr>
-          </tbody>
-        </table>
+      <table className="min-w-full border-collapse border border-gray-300">
+            <thead>
+              <tr className="bg-gray-100">
+                <th className="border border-gray-300 p-2 text-left 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[600]">
+                  PURPOSE ACTIVITY
+                </th>
+                <th className="border border-gray-300 p-2 text-left 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[600]">
+                  TYPE OF DATA
+                </th>
+                <th className="border border-gray-300 p-2 text-left 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[600]">
+                  LAWFUL BASIS FOR PROCESSING INCLUDING BASIS OF LEGITIMATE INTEREST
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  <div className="flex">
+                    <span className="mr-2">a.</span>
+                    <div>
+                      <p>1. To accept to register you as a Client</p>
+                      <p>2. To notify you about changes to our terms or privacy policy</p>
+                      <p>
+                        3. To communicate with you and provide you with secure identifications, authentication and
+                        support services
+                      </p>
+                      <p>
+                        4. To confirm you are at age of majority as recognized and declared by the laws of your
+                        jurisdiction
+                      </p>
+                    </div>
+                  </div>
+                </td>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  1. Identity Data
+                  <br />
+                  2. Profile Data
+                  <br />
+                  3. Contact Data
+                  <br />
+                  4. Data in KYC
+                  <br />
+                  5. Financial Data
+                  <br />
+                  6. Economic Profile Data
+                </td>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  1. Necessary to perform our contract with you
+                  <br />
+                  2. Necessary to comply with our legal obligations
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  <div className="flex">
+                    <span className="mr-2">b.</span>
+                    <div>
+                      <p>
+                        1. To perform our Scoring Processing under which a Client is scored on a scale basis with regard
+                        to the level of risk he is to Sun Wave
+                      </p>
+                    </div>
+                  </div>
+                </td>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  1. Banking Data
+                  <br />
+                  2. Economic Profile Data
+                </td>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  1. Necessary to perform our contract with you
+                  <br />
+                  2. Necessary to comply with our legal obligations
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  <div className="flex">
+                    <span className="mr-2">c.</span>
+                    <div>
+                      <p>1. To confirm the information provided by You under (a) above in relation to your location.</p>
+                    </div>
+                  </div>
+                </td>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  1. Location Data
+                </td>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  1. Necessary to perform our contract with you
+                  <br />
+                  2. Necessary to comply with our legal obligations
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  <div className="flex">
+                    <span className="mr-2">d.</span>
+                    <div>
+                      <p>
+                        1. To secure authentication, identification and support services via social networks protocols
+                        and use the links to your accounts in social networks for these purposes.
+                      </p>
+                    </div>
+                  </div>
+                </td>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  1. Technical Data
+                </td>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  1. Necessary to perform our contract with you
+                  <br />
+                  2. Necessary to comply with our legal obligations
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  <div className="flex">
+                    <span className="mr-2">e.</span>
+                    <div>
+                      <p>1. To process and deliver your transactions and requests (Deposits; Trades; Withdrawals)</p>
+                      <p>2. Manage payments, fees and charges;</p>
+                      <p>3. To collect and recover money owed to us.</p>
+                    </div>
+                  </div>
+                </td>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  1. Banking Data
+                  <br />
+                  2. Transaction Data
+                </td>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  1. Necessary to perform our contract with you
+                  <br />
+                  2. Necessary for our legitimate interest (recover charges owed to us, make a withdrawal in case of
+                  breach of our contract)
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  <div className="flex">
+                    <span className="mr-2">f.</span>
+                    <div>
+                      <p>
+                        1. To administer and protect our business and Website (including troubleshooting, data analysis,
+                        testing, system maintenance, support, reporting and hosting of data)
+                      </p>
+                    </div>
+                  </div>
+                </td>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  1. Identity Data
+                  <br />
+                  2. Contact Data
+                  <br />
+                  3. Technical Data
+                </td>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  1. Performance of our contract with you
+                  <br />
+                  2. Necessary to comply with our legal obligations
+                  <br />
+                  3. Necessary for our legitimate interests (take reasonable steps to confirm that you do not use any
+                  ways to manipulate our platform & for running our business, provision of administration and IT
+                  services, network security, to prevent fraud)
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  <div className="flex">
+                    <span className="mr-2">g.</span>
+                    <div>
+                      <p>
+                        1. To deliver relevant Website content and advertisements to you and measure or understand the
+                        effectiveness of the advertising we serve to you
+                      </p>
+                      <p>
+                        2. To provide you with an optimal operation on our web application, mobile and/or desktop
+                        versions of our application and monitor your behavior for the purpose of improving the
+                        efficiency and usability of our services.
+                      </p>
+                    </div>
+                  </div>
+                </td>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  1. Identity Data
+                  <br />
+                  2. Contact Data
+                  <br />
+                  3. Profile Data
+                  <br />
+                  4. Usage Data
+                  <br />
+                  5. Technical Data
+                  <br />
+                  6. Marketing and Communication Data
+                </td>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  1. Necessary to perform our contract with you
+                  <br />
+                  2. Necessary for our legitimate interests (to study how customers use our products/services, to
+                  develop them, to grow our business)
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  <div className="flex">
+                    <span className="mr-2">h.</span>
+                    <div>
+                      <p>
+                        1. to study how customers use our products/services, to develop them, to grow our business and
+                        to inform our marketing strategy;
+                      </p>
+                      <p>2. statutory limitations</p>
+                    </div>
+                  </div>
+                </td>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  1. Transaction Data
+                </td>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  1. Necessary for our legitimate interests (including statutory limitations provisions by applicable
+                  laws)
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  <div className="flex">
+                    <span className="mr-2">i.</span>
+                    <div>
+                      <p>1. To inform you about any of the following:</p>
+                      <p className="pl-4">— new services and/or products we may offer;</p>
+                      <p className="pl-4">
+                        — Any new development and/or features of the current products/services we offer
+                      </p>
+                    </div>
+                  </div>
+                </td>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  1. Identity Data
+                  <br />
+                  2. Profile Data
+                  <br />
+                  3. Contact Data
+                  <br />
+                  4. Technical Data
+                  <br />
+                  5. Usage Data
+                  <br />
+                  6. Transactions
+                  <br />
+                  7. Marketing and Communication Data
+                </td>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  1. Necessary to perform our contract with you
+                  <br />
+                  2. Necessary for our legitimate interests (to study how customers use our products/services, to
+                  develop our products/services and grow our business)
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  <div className="flex">
+                    <span className="mr-2">j.</span>
+                    <div>
+                      <p>
+                        1. To send direct marketing of our services to you always within the boundaries of our
+                        legitimate interests.
+                      </p>
+                      <p>
+                        2. To send to you newsletters, push-messages and calls to keep you in touch with our new feature
+                        and new development of the current products/services we offer, news and events and the efficient
+                        provision of the full scope of our services.
+                      </p>
+                      <p className="mt-2">
+                        Please note that we will never use your data to communicate to you and/or promote any third
+                        party marketing material.
+                      </p>
+                    </div>
+                  </div>
+                </td>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  1. Identity Data
+                  <br />
+                  2. Profile Data
+                  <br />
+                  3. Contact Data
+                  <br />
+                  4. Data that may be provided by you during your activity at the Website.
+                  <br />
+                  5. Marketing and Communication Data
+                </td>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  1. Necessary to perform our contract with you
+                  <br />
+                  2. Necessary for our legitimate interests (to provide effective and personalized customer services to
+                  you and to update you in relation to our services that are available to you.
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  <div className="flex">
+                    <span className="mr-2">k.</span>
+                    <div>
+                      <p>
+                        1. To allow us to provide you with the optimal operation on our Website, mobile and desktop
+                        versions of our application and monitor your behavior for the purpose of improving the
+                        efficiency and usability of our Services.
+                      </p>
+                      <p>
+                        2. To use analytics tools to track performance of the Website and marketing source of our
+                        Clients in order to optimize our marketing costs and provide you with better experience.
+                      </p>
+                    </div>
+                  </div>
+                </td>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  1. Location Data
+                  <br />
+                  2. Technical Data
+                  <br />
+                  3. Usage Data
+                  <br />
+                  4. Marketing and Communication Data
+                </td>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  1. Necessary to perform our contract with you
+                  <br />
+                  2. Necessary for our legitimate interests (to provide effective and personalized customer services to
+                  you and to update you in relation to our services that are available to you).
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  <div className="flex">
+                    <span className="mr-2">l.</span>
+                    <div>
+                      <p>1. to allow us to monitor and train our employees for your benefit</p>
+                      <p>2. to safeguard your or our interests in case of a dispute</p>
+                      <p>3. to take steps for fraud prevention</p>
+                      <p>4. to improve the services provided to you</p>
+                    </div>
+                  </div>
+                </td>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  Audio Data
+                </td>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  1. Necessary to perform our contract with you
+                  <br />
+                  2. Necessary to comply with our legal obligations
+                  <br />
+                  3. Necessary for our legitimate interests
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  <div className="flex">
+                    <span className="mr-2">m.</span>
+                    <div>
+                      <p>1. To confirm that your annual income corresponds with your employment status</p>
+                      <p>2. To confirm that you have no criminal history.</p>
+                    </div>
+                  </div>
+                </td>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  Sensitive Data
+                </td>
+                <td className="border border-gray-300 p-2 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
+                  1. Necessary to comply with our legal obligations
+                  <br />
+                  2. Necessary to protect your vital interests.
+                </td>
+              </tr>
+            </tbody>
+          </table>
       </div>
 
       <ol start="4" className="list-decimal pl-5 space-y-[5px]">
