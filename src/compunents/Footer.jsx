@@ -153,7 +153,7 @@ function Footer() {
               Join Our Socials
             </h4>
             <div className="flex space-x-6 pt-[10px] pb-[20px]">
-              <a href="https://www.instagram.com/blockchain.fx?igsh=MWwybTk3cTRmbDhhcg%3D%3D" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.instagram.com/blockchainfx_com/" target="_blank" rel="noopener noreferrer"
                className="transition-transform duration-300 hover:scale-110"
               >
               <img src={socil1} alt="" />
@@ -334,7 +334,7 @@ function Footer() {
               Join Our Socials
             </h4>
             <div className="flex space-x-6">
-              <a href="https://www.instagram.com/blockchain.fx?igsh=MWwybTk3cTRmbDhhcg%3D%3D" target="_blank" rel="noopener noreferrer" 
+              <a href="https://www.instagram.com/blockchainfx_com/" target="_blank" rel="noopener noreferrer" 
                className="transition-transform duration-300 hover:scale-110"
               >
               <img className="w-[24px] h-[24px]" src={socil1} alt="" />
