@@ -286,12 +286,12 @@ function Navbar() {
         )}
 
         <div className="flex gap-[15px]">
-          <a href="https://trade.blockchainfx.io/en/login?redirect_url=traderoom" target="_blank" rel="noopener noreferrer">
+          <a href="https://trade.blockfx.com/traderoom" target="_blank" rel="noopener noreferrer">
           <button className="max-md:hidden w-[100px] hover:text-white hover:bg-[#E5AE00] px-[12px] text-black bg-transparent text-[18px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px] max-w-[152px] h-[40px]">
             Log In
           </button>
           </a>
-          <a href="https://trade.blockchainfx.io/en/login?redirect_url=traderoom" target="_blank" rel="noopener noreferrer">
+          <a href="https://trade.blockfx.com/traderoom" target="_blank" rel="noopener noreferrer">
           <button className="w-[135px] text-white bg-[#E5AE00] 2xl:px-[12px] xl:px-[12px] lg:px-[12px] md:px-[12px] sm:px-[10px] px-[10px] hover:text-black hover:bg-transparent 2xl:text-[18px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[14px] text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] 2xl:max-w-[179px] xl:max-w-[179px] lg:max-w-[179px] md:max-w-[179px] sm:max-w-[150px] max-w-[150px] 2xl:h-[40px] xl:h-[40px] lg:h-[40px] md:h-[40px] sm:h-[40px] h-[40px]">
             Register<span className="md:hidden"> Now</span>
           </button>
