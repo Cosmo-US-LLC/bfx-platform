@@ -90,12 +90,12 @@ function HowToStart() {
             </p>
           </div>
           <div className="flex justify-center items-center space-x-[17px] w-[40%]">
-            <a href="https://trade.blockchainfx.io/en/login?redirect_url=traderoom" target="_blank" rel="noopener noreferrer" className="max-w-[200px] w-[100%]">
+            <a href="https://trade.blockfx.com/traderoom" target="_blank" rel="noopener noreferrer" className="max-w-[200px] w-[100%]">
             <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] w-[100%] h-[50px]">
               Start Trading Now
             </button>
             </a>
-            <a href="https://trade.blockchainfx.io/en/login?redirect_url=traderoom" target="_blank" rel="noopener noreferrer" className="!w-[200px]">
+            <a href="https://trade.blockfx.com/traderoom" target="_blank" rel="noopener noreferrer" className="!w-[200px]">
             <button className="hover:text-white hover:bg-[#E5AE00] px-[6px] text-black bg-transparent text-[14px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px] !w-[100%]  h-[50px]">
               Free Demo Account
             </button>
