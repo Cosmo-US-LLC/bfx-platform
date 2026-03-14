@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useTranslation } from 'react-i18next';
 
 import icon1 from "../assets/Gateway/gticons (4).svg";
 import icon2 from "../assets/Gateway/gticons (3).svg";
@@ -9,6 +10,7 @@ import Iicon from "../assets/Gateway/i.svg";
 import cardicon2 from "../assets/Gateway/tblicn (1).svg";
 
 function GatewaySec() {
+  const { t } = useTranslation();
   const [showTooltip, setShowTooltip] = useState(false);
 
   return (
@@ -16,15 +18,10 @@ function GatewaySec() {
       <div className="max-w-[1230px] space-y-[45px] w-[100%] mx-auto ">
         <div className="space-y-[30px]">
           <h3 className="text-[50px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
-            The Gateway to Global Markets
+            {t('gateway.title')}
           </h3>
           <p className="text-[20px] font-[400] max-w-[881px] mx-auto w-[100%] text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">
-            Launching a new international multi-asset trading platform can take
-            up to three years and cost as much as $5 million, depending on the
-            jurisdiction. With BFX, however, accessing the world’s largest
-            markets has never been easier. In just 2 clicks, you can acquire
-            BFX, the native token of BlockchainFX, and participate in the
-            international financial market.
+            {t('gateway.description')}
           </p>
         </div>
         <div className="flex justify-between itees-center ">
@@ -36,7 +33,7 @@ function GatewaySec() {
                   <img src={icon1} alt="" />
                 </div>
                 <span className="text-[#181A20] text-[25px] font-[700] tracking-[-1px]">
-                  Costs
+                  {t('gateway.costLabel')}
                 </span>
               </li>
               <li className="flex space-x-3 px-[18px] py-[20px] border-t border-[#C2C2C2]">
@@ -44,7 +41,7 @@ function GatewaySec() {
                   <img src={icon2} alt="" />
                 </div>
                 <span className="text-[#181A20] text-[25px] font-[700] tracking-[-1px]">
-                  time{" "}
+                  {t('gateway.timeLabel')}{" "}
                 </span>
               </li>
               <li className="flex space-x-3 px-[18px] py-[20px] border-t border-[#C2C2C2]">
@@ -52,7 +49,7 @@ function GatewaySec() {
                   <img src={icon3} alt="" />
                 </div>
                 <span className="text-[#181A20] text-[25px] font-[700] tracking-[-1px]">
-                  Team
+                  {t('gateway.teamLabel')}
                 </span>
               </li>
               <li className="flex space-x-3 px-[18px] py-[20px] border-t border-[#C2C2C2]">
@@ -60,7 +57,7 @@ function GatewaySec() {
                   <img src={icon4} alt="" />
                 </div>
                 <span className="text-[#181A20] text-[25px] font-[700] tracking-[-1px]">
-                  Work Scope
+                  {t('gateway.workScopeLabel')}
                 </span>
               </li>
             </ul>
@@ -74,13 +71,13 @@ function GatewaySec() {
             <div className="flex justify-start pl-[19px] space-x-4 items-center">
               <img src={cardicon1} alt="" />
               <h4 className="text-[25px] text-[#181A20] font-[700] tacking-[-1px] leading-[100%]">
-                New Trading Platform
+                {t('gateway.newPlatformTitle')}
               </h4>
             </div>
             <ul>
               <li className="py-[27px] flex items-center space-x-2 border-b border-[#C2C2C2]">
                 <span className="text-[#181A20] text-[20px] font-[500] ">
-                  Up to $5 Million
+                  {t('gateway.costTraditional')}
                 </span>
                 <div
                   className="relative"
@@ -90,23 +87,19 @@ function GatewaySec() {
                   <img className="pt-1" src={Iicon} alt="Info Icon" />
                   {showTooltip && (
                     <div className="absolute left-0 top-6 bg-[#808080] w-[210px] text-center leading-[110%] text-[#fff] text-[10px] font-[400] rounded-md p-[6px] shadow-lg">
-                      This is the budget needed only to launch the platform in certain jurisdictions, excluding staff and marketing.
+                      {t('gateway.costTooltip')}
                     </div>
                   )}
                 </div>
               </li>
               <li className="text-[#181A20] text-[20px] font-[500] py-[27px] border-b border-[#C2C2C2]">
-                Up to 3 years
+                {t('gateway.timeTraditional')}
               </li>
               <li className="text-[#181A20] text-[20px] font-[500] py-[8px] border-b border-[#C2C2C2]">
-                Experienced multilingual team working in shifts, 24/7, 365 days
-                a year.
+                {t('gateway.teamTraditional')}
               </li>
               <li className="text-[#181A20] text-[20px] font-[500] py-[18px]">
-                Capital Requirements, Marketing & Branding, Liquidity Providers,
-                Risk Management Team, Customer Support, Technology
-                Infrastructure, Partnerships, Development, Hiring and Managing
-                Staff, and more.
+                {t('gateway.workScopeTraditional')}
               </li>
             </ul>
           </div>
@@ -119,21 +112,21 @@ function GatewaySec() {
             <div className="flex justify-start space-x-4 items-center">
               <img src={cardicon2} alt="" />
               <h4 className="text-[25px] text-[#181A20] font-[700] tacking-[-1px] leading-[100%]">
-                BlockchainFX
+                {t('gateway.blockchainFxTitle')}
               </h4>
             </div>
             <ul>
               <li className="text-[#181A20] text-[20px] font-[500] py-[27px] border-b border-[#C2C2C2]">
-                Up to you
+                {t('gateway.costBfx')}
               </li>
               <li className="text-[#181A20] text-[20px] font-[500] py-[27px] border-b border-[#C2C2C2]">
-                Buy $BFX in 2 clicks
+                {t('gateway.timeBfx')}
               </li>
               <li className="text-[#181A20] text-[20px] font-[500] py-[23px] border-b border-[#C2C2C2]">
-                No Team required
+                {t('gateway.teamBfx')}
               </li>
               <li className="text-[#181A20] text-[20px] font-[500] py-[27px]">
-                No Work Required
+                {t('gateway.workScopeBfx')}
               </li>
             </ul>
           </div>

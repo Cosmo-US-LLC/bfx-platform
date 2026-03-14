@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useTranslation } from 'react-i18next';
 import info from "../assets/wallet/i.svg";
 import arw from "../assets/navbar/arw.svg";
 import wltcoin1 from "../assets/wallet/wltcoin (6).svg";
@@ -29,6 +30,7 @@ const Dropcoins = [
 ];
 
 function MobileWalletSec() {
+  const { t } = useTranslation();
   const [activeIndex, setActiveIndex] = useState(null);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [selectedCoin, setSelectedCoin] = useState({
@@ -53,11 +55,11 @@ function MobileWalletSec() {
             background: "rgba(237, 237, 237, 0.40)",
           }}
         >
-          <h3 className="text-center text-[18px] font-[700]">$210,992 SOLD</h3>
+          <h3 className="text-center text-[18px] font-[700]">{t('wallet.soldAmount')}</h3>
           <div>
             <div className="flex justify-between items-center">
               <span className="text-[#444] text-[10px] font-[400] leading-[150%]">
-                78.92% of softcap raised
+                {t('wallet.softcapRaised')}
               </span>
               <img src={info} alt="" />
             </div>
@@ -66,7 +68,7 @@ function MobileWalletSec() {
             </div>
             <div>
               <p className="text-[#444] text-end text-[10px] font-[400] leading-[150%]">
-                $300,000
+                {t('wallet.softcapGoal')}
               </p>
             </div>
           </div>
@@ -78,7 +80,7 @@ function MobileWalletSec() {
           }}
         >
           <h4 className="text-center text-[#444] text-[10px] font-[700]">
-            Price Increase In
+            {t('wallet.priceIncreaseLabel')}
           </h4>
           <div className="flex justify-center space-x-[46px]">
             <div className=" space-y-[8px]">
@@ -86,7 +88,7 @@ function MobileWalletSec() {
                 00
               </p>
               <p className="text-center text-[#444] text-[10px] font-[700]">
-                DAYS
+                {t('wallet.days')}
               </p>
             </div>
             <div className=" space-y-[8px]">
@@ -94,7 +96,7 @@ function MobileWalletSec() {
                 20
               </p>
               <p className="text-center text-[#444] text-[10px] font-[700]">
-                HOURS
+                {t('wallet.hours')}
               </p>
             </div>
             <div className=" space-y-[8px]">
@@ -102,7 +104,7 @@ function MobileWalletSec() {
                 37
               </p>
               <p className="text-center text-[#444] text-[10px] font-[700]">
-                MINS
+                {t('wallet.mins')}
               </p>
             </div>
             <div className=" space-y-[8px]">
@@ -110,7 +112,7 @@ function MobileWalletSec() {
                 38
               </p>
               <p className="text-center text-[#444] text-[10px] font-[700]">
-                SECS
+                {t('wallet.secs')}
               </p>
             </div>
           </div>
@@ -122,7 +124,7 @@ function MobileWalletSec() {
           }}
         >
           <h4 className="text-center text-[#636363] text-[11px] leading-[75%] font-[700]">
-            $BFX Listing Price = $0.01
+            {t('wallet.listingPrice')}
           </h4>
         </div>
         <div
@@ -155,13 +157,13 @@ function MobileWalletSec() {
         <div className="flex justify-between items-center py-[0px] space-x-[15px]">
           <hr className="h-[1px] w-[30%]" />
           <span className="text-[#636363] text-end text-[11px] font-[700] leading-[75%]">
-            1 BFX = $0.002
+            {t('wallet.exchangeRate')}
           </span>
           <hr className="h-[1px] w-[30%]" />
         </div>
         <div className="space-y-[5px]">
           <label className="text-[#2F2F2F] text-[11px] font-[700] leading-[100%]">
-            You Pay in USDT:
+            {t('wallet.youPayLabel')}
           </label>
           <div className="border-[1px] border-[#454545] p-1 flex justify-between items-center">
             <div className="relative max-w-[75px] ">
@@ -204,14 +206,14 @@ function MobileWalletSec() {
             <div className="w-[80%] h-[34px] flex items-center justify-end space-x-2">
               <input type="text" className=" w-[80%] text-[13px] font-[700] outline-none text-end bg-[transparent] placeholder:text-[#000]" placeholder="1000" />
               <span className="text-[#545454] text-[8.054px] font-[700] leading-[50px]">
-                USDT
+                {t('wallet.payUnit')}
               </span>
             </div>
           </div>
         </div>
         <div className="space-y-[5px]">
           <label className="text-[#2F2F2F] text-[11px] font-[700] leading-[100%]">
-          You Receive $BFX + <span className="text-[#299A00]">Novice Trading NFT</span>
+          {t('wallet.youReceiveLabel')} <span className="text-[#299A00]">{t('wallet.noviceTradingNft')}</span>
           </label>
           <div className="border-[1px] border-[#454545] p-1 flex justify-between items-center">
             <div className="relative max-w-[75px] h-[34px]">
@@ -229,14 +231,14 @@ function MobileWalletSec() {
             <div className="w-[80%] flex h-[34px] items-center justify-end space-x-2">
               <input type="text" className="h-[34px] w-[80%] text-[13px] font-[700] outline-none text-end bg-[transparent] placeholder:text-[#000]" placeholder="26039.75" />
               <span className="text-[#545454] text-[8.054px] font-[700] leading-[50px]">
-              BFX
+              {t('wallet.receiveUnit')}
               </span>
             </div>
           </div>
         </div>
         <div>
           <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] w-[100%] h-[37px]">
-          Buy Now
+          {t('wallet.buyNow')}
           </button>
         </div>
         <div
@@ -246,16 +248,16 @@ function MobileWalletSec() {
           }}
         >
           <h4 className="text-center text-[#636363] text-[12px] leading-[75%] font-[700]">
-          You get 10% more tokens!
+          {t('wallet.bonusMessage')}
           </h4>
           <h4 className="text-center text-[#636363] text-[12px] leading-[75%] font-[700]">
-          Buy $1,500 more to unlock 20% bonus tokens
+          {t('wallet.unlockMessage')}
           </h4>
         </div>
         <div className="flex justify-center items-center space-x-[24px]">
-          <p className="text-[12px] font-[700] underline cursor-pointer">Bonus Code</p>
-          <p className="text-[12px] font-[700] underline cursor-pointer">Full Bonus Chart</p>
-          <p className="text-[12px] font-[700] underline cursor-pointer"> 5% Referral Link</p>
+          <p className="text-[12px] font-[700] underline cursor-pointer">{t('wallet.bonusCodeLink')}</p>
+          <p className="text-[12px] font-[700] underline cursor-pointer">{t('wallet.fullBonusChartLink')}</p>
+          <p className="text-[12px] font-[700] underline cursor-pointer">{t('wallet.referralLink')}</p>
         </div>
       </div>
       <div  className="space-y-[25px] px-[40px] pt-[20px] pb-[30px] border border-[#B0B0B0] w-[90%] mx-auto "
@@ -267,7 +269,7 @@ function MobileWalletSec() {
          
         >
           <h4 className="text-center text-[#808080] text-[15px] leading-[100%] font-[600]">
-          $BFX launches on Multiple Top-Tier Exchanges
+          {t('wallet.exchangeLaunchLabel')}
           </h4>
           <div className="grid grid-cols-3 gap-3">
             <div className="p-2 flex max-w-[129px] h-[36px] rounded-[9px] justify-center items-center space-x-[8px] border border-[#ABABAB]"
@@ -276,7 +278,7 @@ function MobileWalletSec() {
             }}
             >
               <img src={swpicon} className="w-[19.976px] h-[19.976px]" alt="" />
-              <h4 className="text-[9.322px] text-[#545454] font-[700] leading-[114.286%]">UNISWAP</h4>
+              <h4 className="text-[9.322px] text-[#545454] font-[700] leading-[114.286%]">{t('wallet.exchangeName')}</h4>
             </div>
             <div className="p-2 flex max-w-[129px] h-[36px] rounded-[9px] justify-center items-center space-x-[8px] border border-[#ABABAB]" 
             style={{
@@ -286,7 +288,7 @@ function MobileWalletSec() {
             }}
             >
              <div className="w-[19.976px] h-[19.976px] bg-[#F0B90B] rounded-full"></div>
-              <h4 className="text-[9.322px] text-[#545454] font-[700] leading-[114.286%]">UNISWAP</h4>
+              <h4 className="text-[9.322px] text-[#545454] font-[700] leading-[114.286%]">{t('wallet.exchangeName')}</h4>
             </div>
             <div className="p-2 flex max-w-[129px] h-[36px] rounded-[9px] justify-center items-center space-x-[8px] border border-[#ABABAB]"
           style={{
@@ -296,7 +298,7 @@ function MobileWalletSec() {
           }}
           >
            <div className="w-[19.976px] h-[19.976px] bg-[#0052FE] rounded-full"></div>
-              <h4 className="text-[9.322px] text-[#545454] font-[700] leading-[114.286%]">UNISWAP</h4>
+              <h4 className="text-[9.322px] text-[#545454] font-[700] leading-[114.286%]">{t('wallet.exchangeName')}</h4>
             </div>
             <div className="p-2 flex max-w-[129px] h-[36px] rounded-[9px] justify-center items-center space-x-[8px] border border-[#ABABAB]"
             style={{
@@ -306,7 +308,7 @@ function MobileWalletSec() {
             }}
             >
              <div className="w-[19.976px] h-[19.976px] bg-[#00F0FF] rounded-full"></div>
-              <h4 className="text-[9.322px] text-[#545454] font-[700] leading-[114.286%]">UNISWAP</h4>
+              <h4 className="text-[9.322px] text-[#545454] font-[700] leading-[114.286%]">{t('wallet.exchangeName')}</h4>
             </div>
             <div className="p-2 flex max-w-[129px] h-[36px] rounded-[9px] justify-center items-center space-x-[8px] border border-[#ABABAB]"
             style={{
@@ -316,7 +318,7 @@ function MobileWalletSec() {
             }}
             >
              <div className="w-[19.976px] h-[19.976px] bg-[#7635F5] rounded-full"></div>
-              <h4 className="text-[9.322px] text-[#545454] font-[700] leading-[114.286%]">UNISWAP</h4>
+              <h4 className="text-[9.322px] text-[#545454] font-[700] leading-[114.286%]">{t('wallet.exchangeName')}</h4>
             </div>
             <div className="p-2 flex max-w-[129px] h-[36px] rounded-[9px] justify-center items-center space-x-[8px] border border-[#ABABAB]"
             style={{
@@ -326,7 +328,7 @@ function MobileWalletSec() {
             }}
             >
              <div className="w-[19.976px] h-[19.976px] bg-[#35F535] rounded-full"></div>
-              <h4 className="text-[9.322px] text-[#545454] font-[700] leading-[114.286%]">UNISWAP</h4>
+              <h4 className="text-[9.322px] text-[#545454] font-[700] leading-[114.286%]">{t('wallet.exchangeName')}</h4>
             </div>
           </div>
         </div>
@@ -340,7 +342,7 @@ function MobileWalletSec() {
          
         >
           <h4 className="text-center text-[#808080] text-[15px] leading-[100%] font-[600]">
-          Audited by the Leading Blockchain Security Company  
+          {t('wallet.auditLabel')}
           </h4>
           <div>
             <img src={cer} className="w-[174px]"  alt="" />

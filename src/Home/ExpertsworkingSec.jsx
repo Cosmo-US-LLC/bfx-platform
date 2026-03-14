@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 
 import rwdimg1 from "../assets/OurAwardSec/rwdimg (1).png";
 import rwdimg2 from "../assets/OurAwardSec/rwdimg (2).png";
@@ -21,6 +22,8 @@ const cardData = [
 ]
 
 function ExpertsworkingSec() {
+  const { t } = useTranslation();
+
   return (
     <div className="pt-[77px] space-y-[35px] bg-[#FAFAFA] pb-[80px]"
     style={{
@@ -30,10 +33,10 @@ function ExpertsworkingSec() {
       <div className="max-w-[1222px] relative space-y-[40px] w-[100%] mx-auto ">
         <div className="space-y-[30px]">
           <h4 className="text-[35px] font-[400] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
-          25 Years of Experience
+          {t('expertsWorking.subtitle')}
           </h4>
           <h3 className="text-[50px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
-          Experts working on BlockchainFX
+          {t('expertsWorking.title')}
           </h3>
         </div>
         <div className="flex justify-between">
@@ -47,11 +50,11 @@ function ExpertsworkingSec() {
             >
                <div className="cardimg flex justify-end flex-col min-h-[370px]">
                    <div className="p-[20px]">
-                       <h4 className="text-[25px] text-[#FFF] font-[600]">Name Goes Here</h4>
-                       <p className="text-[16px] text-[#FFF] font-[400] tracking-[-0.32px]">Lorem Ipsum</p>
+                       <h4 className="text-[25px] text-[#FFF] font-[600]">{t('expertsWorking.placeholderName')}</h4>
+                       <p className="text-[16px] text-[#FFF] font-[400] tracking-[-0.32px]">{t('expertsWorking.placeholderRole')}</p>
                    </div>
                </div>
-               
+
             </div>
         ))
        }

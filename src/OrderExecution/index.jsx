@@ -1,7 +1,9 @@
 import { useEffect } from "react";
+import { useTranslation } from 'react-i18next';
 import { useLocation } from "react-router-dom";
 
 function OrderExecution() {
+  const { t } = useTranslation();
   const { pathname } = useLocation();
 
   useEffect(() => {
@@ -12,7 +14,7 @@ function OrderExecution() {
     <div className="max-w-[1100px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] space-y-[30px] mx-auto pt-[120px] pb-[50px]">
       <div className="space-y-[20px]">
         <h3 className="2xl:text-[30px] pb-[25px] xl:text-[30px] lg:text-[30px] md:text-[30px] sm:text-[24px] text-[24px] font-[700] leading-[130%]">
-          Order Execution Policy
+          {t('orderExecutionPage.title')}
         </h3>
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
           <span className="font-[600]">Digital Smart LLC</span> (hereinafter the
@@ -22,7 +24,7 @@ function OrderExecution() {
           reasonable steps to obtain the best possible result (or “best
           execution”) on behalf of Clients. <br />
           <br />
-          This Policy forms part of the Company’s Terms & Conditions (the{" "}
+          This Policy forms part of the Company's Terms & Conditions (the{" "}
           <span className="font-[600]">Agreement</span> or{" "}
           <span className="font-[600]">Terms and Conditions</span>). <br />
           <br />
@@ -33,14 +35,14 @@ function OrderExecution() {
           facility. <br />
           <br />
           Where this Policy refers to Financial Instruments, it shall be taken
-          to mean all the Company’s products (as these are listed below)
+          to mean all the Company's products (as these are listed below)
           collectively.
         </p>
         <h3 className="2xl:text-[20px] pt-[15px] pb-[10px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[18px] text-[18px] font-[700] leading-[130%]">
           Scope of Application
         </h3>
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-          The Company is executing Clients’ orders in relation to the following
+          The Company is executing Clients' orders in relation to the following
           Financial Instruments:
         </p>
         <ul className="pl-8 space-y-[15px] list-disc">
@@ -55,14 +57,14 @@ function OrderExecution() {
           </li>
         </ul>
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-          It is up to the Company’s sole discretion to decide which types of
+          It is up to the Company's sole discretion to decide which types of
           Financial Instruments to make available
         </p>
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
           It is understood that trades are placed with the Company via the
           online trading platform only and that the Company does not facilitate
           telephone orders or face-to-face trading, i.e. all trading activity is
-          100% automated. The Company is the counterparty to clients’ trades and
+          100% automated. The Company is the counterparty to clients' trades and
           transacts with clients as principal. The Company automatically records
           all orders and allocates them in sequential order, ensuring their fair
           and prompt execution.
@@ -74,7 +76,7 @@ function OrderExecution() {
         </p>
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
           The Company acts as the sole Execution Venue (as defined further
-          below) and as principal to the Clients’ trades. Clients’ positions are
+          below) and as principal to the Clients' trades. Clients' positions are
           not transferable, and Clients can only close their positions with the
           Company.
         </p>
@@ -84,7 +86,7 @@ function OrderExecution() {
           trade is reflected in the balance of your trading account.
         </p>
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-          This Policy ensures compliance with the Company’s obligation to
+          This Policy ensures compliance with the Company's obligation to
           execute orders on terms most favorable to Clients.
         </p>
       </div>
@@ -93,7 +95,7 @@ function OrderExecution() {
           Best Execution Factors & Criteria
         </h4>
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-          When executing Clients’ orders, the Company takes into account the
+          When executing Clients' orders, the Company takes into account the
           following “Execution Factors”, in order to obtain the best possible
           result for its Clients:
         </p>
@@ -135,7 +137,7 @@ function OrderExecution() {
         </p>
         <ul className="pl-8 space-y-[15px] list-disc">
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-            The Client’s order
+            The Client's order
           </li>
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
             The Financial Instruments that are the subject of that order, and
@@ -154,7 +156,7 @@ function OrderExecution() {
           third parties involved in the execution of the order (if applicable).
         </p>
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-          It is the Company’s policy to maintain such internal procedures and
+          It is the Company's policy to maintain such internal procedures and
           principles in order to determine and to act for the best interest of
           its Clients and provide them with the best possible result (or “best
           execution”) when dealing with them.
@@ -170,7 +172,7 @@ function OrderExecution() {
           price at which the Client can open an order. Prices for any given
           option are calculated by reference to the BID and ASK prices of the
           relevant underlying financial instrument and can be found on the
-          Company’s trading platform.
+          Company's trading platform.
         </p>
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
           Prices are updated frequently as the limitations of technology and
@@ -207,7 +209,7 @@ function OrderExecution() {
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
           The Company reserves the right to, at any time, apply such charges in
           the future with prior notice to the Client. Such notice may be sent
-          personally to the Client and/or posted on the Company’s website.
+          personally to the Client and/or posted on the Company's website.
           Should the Company at any period of time decide not to charge any
           costs, it shall not be construed as a waiver of its rights to apply
           them in the future.
@@ -216,7 +218,7 @@ function OrderExecution() {
           <span className="font-[600]">Speed of Execution:</span> The Company
           executes the Client orders as a principal to principal against the
           Client, i.e. the Company is the execution venue for the execution of
-          the Client’s Order. The Company strives to offer a high speed of
+          the Client's Order. The Company strives to offer a high speed of
           execution, however, in certain circumstances, for example low internet
           speed or market volatility, the quoted price may no longer be
           representative of the underlying market price and may result in the
@@ -227,7 +229,7 @@ function OrderExecution() {
 
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
           <span className="font-[600]">Likelihood of Execution:</span> The
-          Company acts as principal and not as an agent on the Client’s behalf.
+          Company acts as principal and not as an agent on the Client's behalf.
           The Company relies on its price fed providers for pricing, hence the
           execution of the Client orders shall depend on the availability of
           services of the price feed providers. Although the Company executes
@@ -244,7 +246,7 @@ function OrderExecution() {
           For clarification purposes, abnormal market conditions as indicated
           above, might include situations where the underlying asset might be
           subject to split and/or reverse split; in such instances the Company,
-          may decide (upon its absolute discretion) to close the client’s
+          may decide (upon its absolute discretion) to close the client's
           position(s) held in the referred asset with the last available price
           on the platform prior to the occurrence of the split and/or reverse
           split event, and the client will receive a notification in this regard
@@ -279,7 +281,7 @@ function OrderExecution() {
           placed in monetary values. The Client is able to place an order as
           long as they have enough balance in their trading account. The minimum
           size of an Order may be different for each type of Option, please
-          refer to the Company’s trading platform for the value of the minimum
+          refer to the Company's trading platform for the value of the minimum
           size of an Order in each Option, as well as the value of the maximum
           size of a single Order.
         </p>
@@ -292,7 +294,7 @@ function OrderExecution() {
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
           <span className="font-[600]">Market Impact:</span> Some factors may
           rapidly affect the price of the underlying instrument/product from
-          which the Company’s quoted price is derived, and may also affect other
+          which the Company's quoted price is derived, and may also affect other
           factors listed herein. The Company will take all reasonable steps to
           obtain the best possible result for its Clients.
         </p>
@@ -315,7 +317,7 @@ function OrderExecution() {
           </li>
         </ul>
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-          Further information can be found on the Company’s trading platform.
+          Further information can be found on the Company's trading platform.
         </p>
         <ul className="pl-8 space-y-[15px] list-disc">
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
@@ -335,7 +337,7 @@ function OrderExecution() {
 underlying financial instrument. For any given CFD, the Company will quote two prices: the
 higher price (ASK) at which the Client can buy (go long) that CFD, and the lower price (BID) at
 which the Client can sell (go short) that CFD. Collectively, the ASK and BID prices are referred
-to as the Company’s prices and can be found on the Company’s trading platform.
+to as the Company's prices and can be found on the Company's trading platform.
 
         </p>
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
@@ -376,13 +378,13 @@ position open overnight. This swap fee can be subject to changes in the future.
         </p>
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">The Company reserves the right to, at any time, apply such charges in the future with prior
 notice to the Client. Such notice may be sent personally to the Client and/or posted on the
-Company’s website. Should the Company at any period of time decide not to charge any costs,
+Company's website. Should the Company at any period of time decide not to charge any costs,
 it shall not be construed as a waiver of its rights to apply them in the future.
 </p>
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
           <span className="font-[600]">Speed of Execution:</span> The Company executes the Client orders in CFDs as a principal to
 principal against the Client, i.e. the Company is the execution venue for the execution of the
-Client’s Order. The Company strives to offer a high speed of execution, however, in certain
+Client's Order. The Company strives to offer a high speed of execution, however, in certain
 circumstances, for example low internet speed or market volatility, the quoted price may no
 longer be representative of the underlying market price and may result in the Client placing
 his/her Order at a delay, this may result in orders being executed at a better or worse prevailing
@@ -402,7 +404,7 @@ specific volume at the declared price or a force majeure event has occurred.
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
         For clarification purposes, abnormal market conditions as indicated above, might include
 situations where the underlying asset might be subject to split and/or reverse split; in such
-instances the Company, may decide (upon its absolute discretion) to close the client’s
+instances the Company, may decide (upon its absolute discretion) to close the client's
 position(s) held in the referred asset with the last available price on the platform prior to the
 occurrence of the split and/or reverse split event and the client will receive a notification in this
 regard.
@@ -435,7 +437,7 @@ time of expiration of the specific transaction.
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
           <span className="font-[600]">Size of Order:</span> All orders are placed in monetary values. The Client is able to place an order as
 long as they have enough balance in their trading account. The minimum size of an Order may
-be different for each type of CFD, please refer to the Company’s trading platform for the value of
+be different for each type of CFD, please refer to the Company's trading platform for the value of
 the minimum size of an Order in each CFD, as well as the value of the maximum size of a single
 Order.
 
@@ -447,7 +449,7 @@ large and cannot be filled by the Company.
         </p>
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
           <span className="font-[600]">Market Impact:</span> Some factors may rapidly affect the price of the underlying instrument/product
-from which the Company’s quoted price is derived, and may also affect other factors listed
+from which the Company's quoted price is derived, and may also affect other factors listed
 herein. The Company will take all reasonable steps to obtain the best possible result for its
 Clients.
 
@@ -495,7 +497,7 @@ price he specifies.
 difference between the expected price of an Order, and the price the Order is actually executed
 at. In some situations, at the time an Order is presented for execution, the specific price shown
 to the Client may not be available; therefore, the Order will be executed close to or a number of
-pips away from the Client’s requested price.
+pips away from the Client's requested price.
         </p>
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">Slippage can occur at times of low liquidity or high volatility (e.g. after economic events or news
 announcements) and is a normal element of trading in CFDs.
@@ -521,7 +523,7 @@ invested capital increased by the percentage move in the market multiplied by th
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">For short positions: i.e (1-closing price / opening price) x Multiplier x Investment Amount =
 Profit/Loss
         </p>
-        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">Without the use of the multiplier tool the trader’s profit would have been 4.1187947106 or €4.12
+        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">Without the use of the multiplier tool the trader's profit would have been 4.1187947106 or €4.12
         </p>
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">In the opposite scenario, if the market had moved against his/her position, the realized losses
 would have been larger with the use of the multiplier compared to a position opened without the
@@ -531,7 +533,7 @@ decrease by 50% (1% x 50)
         </p>
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">i.e. 1% x 50 x 1000 = €500
         </p>
-        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">Without the use of the multiplier tool, the trader’s losses would have been €10
+        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">Without the use of the multiplier tool, the trader's losses would have been €10
         </p>
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">If the trader had used a lower multiplier, both the profit and loss amount in the examples above,
 would have been smaller as well.</p>
@@ -555,7 +557,7 @@ multiplier of 50, the maintenance margin is calculated as 5% x €1,000 = €50.
 maximum loss the trader can occur, before their position is closed by the Company, is 95% or
 €950.
         </p>
-        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">The price when the position will be closed by the Company, and only if the trader hasn’t decided
+        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">The price when the position will be closed by the Company, and only if the trader hasn't decided
 to already close the position, is 1.131338. At this price, the remaining amount of the investment
 will have reached the maintenance margin.
 
@@ -642,9 +644,9 @@ the purpose of this policy, it is understood that the Company is the sole Execut
         </p>
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">Although the Company may at its own discretion transmit your orders for execution to third-party
 liquidity providers, contractually the Company is the counterparty to your trades and any
-execution of orders is done in the Company’s name; therefore, the Company is the sole
-Execution Venue for the execution of the clients’ orders and acts as a principal and not as an
-agent on the Clients’ behalf.
+execution of orders is done in the Company's name; therefore, the Company is the sole
+Execution Venue for the execution of the clients' orders and acts as a principal and not as an
+agent on the Clients' behalf.
 
         </p>
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">The client acknowledges that the transactions entered in Financial Instruments with the
@@ -661,7 +663,7 @@ Order, the Company shall execute the Order in accordance with that specific inst
 proceed in taking all reasonable steps to obtain the best possible result. It should be noted that
 specific instructions may prevent the Company from following this Policy.
         </p>
-        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">Where the client’s instruction relates to only part of the Order, the Company will continue to
+        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">Where the client's instruction relates to only part of the Order, the Company will continue to
 apply its Order Execution Policy to those aspects of the Order not covered by the specific
 instruction.
         </p>
@@ -681,7 +683,7 @@ quality of the procedures explained in this Policy, making any changes where app
         </p>
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">As part of the monitoring process, the Company will consider the following:
         </p>
-        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">Reconciliation of trades: As the Company executes the Client’s trades, it is the responsibility of
+        <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">Reconciliation of trades: As the Company executes the Client's trades, it is the responsibility of
 the Company to ensure that these orders are executed in line with this Policy. The Company
 monitors all best execution factors via numerous internal controls and processes.
         </p>
@@ -701,7 +703,7 @@ executed their orders in accordance with its Order Execution Policy.
         <h4 className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] ">Client Consent
         </h4>
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">When establishing a business relation with the Client, the Company is required to obtain the
-Client’s prior consent to this Policy.
+Client's prior consent to this Policy.
         </p>
         <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">The Client shall be deemed to have provided such consent to the Order Execution Policy, as in
 force and as amended from time to time, by accepting the Agreement or by effecting a

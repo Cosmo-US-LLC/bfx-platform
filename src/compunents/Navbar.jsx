@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 import logo from "../assets/navbar/logo.svg";
 import flag from "../assets/navbar/flg.svg";
@@ -21,31 +22,35 @@ import flag13 from "../assets/navbar/flg (13).svg";
 import flag14 from "../assets/navbar/flg (14).svg";
 
 const flags = [
-  { flag: flag1, abbreviation: "EN", name: "English" },
-  { flag: flag2, abbreviation: "VI", name: "Vietnamese" },
-  { flag: flag3, abbreviation: "DE", name: "German" },
-  { flag: flag4, abbreviation: "NL", name: "Dutch" },
-  { flag: flag5, abbreviation: "JA", name: "Japanese" },
-  { flag: flag6, abbreviation: "TR", name: "Turkish" },
-  { flag: flag7, abbreviation: "KO", name: "Korean" },
-  { flag: flag8, abbreviation: "IT", name: "Italian" },
-  { flag: flag9, abbreviation: "NO", name: "Norwegian" },
-  { flag: flag10, abbreviation: "ZH", name: "Chinese" },
-  { flag: flag11, abbreviation: "RU", name: "Russian" },
-  { flag: flag12, abbreviation: "FR", name: "French" },
-  { flag: flag13, abbreviation: "PT", name: "Portuguese" },
-  { flag: flag14, abbreviation: "ES", name: "Spanish" },
+  { flag: flag1, abbreviation: "EN", name: "English", code: "en" },
+  { flag: flag2, abbreviation: "VI", name: "Vietnamese", code: "vi" },
+  { flag: flag3, abbreviation: "DE", name: "German", code: "de" },
+  { flag: flag4, abbreviation: "NL", name: "Dutch", code: "nl" },
+  { flag: flag5, abbreviation: "JA", name: "Japanese", code: "ja" },
+  { flag: flag6, abbreviation: "TR", name: "Turkish", code: "tr" },
+  { flag: flag7, abbreviation: "KO", name: "Korean", code: "ko" },
+  { flag: flag8, abbreviation: "IT", name: "Italian", code: "it" },
+  { flag: flag9, abbreviation: "NO", name: "Norwegian", code: "no" },
+  { flag: flag10, abbreviation: "ZH", name: "Chinese", code: "zh" },
+  { flag: flag11, abbreviation: "RU", name: "Russian", code: "ru" },
+  { flag: flag12, abbreviation: "FR", name: "French", code: "fr" },
+  { flag: flag13, abbreviation: "PT", name: "Portuguese", code: "pt" },
+  { flag: flag14, abbreviation: "ES", name: "Spanish", code: "es" },
 ];
 
 function Navbar() {
+  const { t, i18n } = useTranslation();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef(null);
-  const [selectedLang, setSelectedLang] = useState({
-    flag: flags[0].flag,
-    abbreviation: flags[0].abbreviation,
-    name: flags[0].name,
-  });
+
+  // Initialize selected language from i18n's current language
+  const getInitialLang = () => {
+    const currentCode = i18n.language?.substring(0, 2) || 'en';
+    return flags.find(f => f.code === currentCode) || flags[0];
+  };
+
+  const [selectedLang, setSelectedLang] = useState(getInitialLang);
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen((prev) => !prev);
@@ -56,6 +61,7 @@ function Navbar() {
   const handleSelectLanguage = (lang) => {
     setSelectedLang(lang);
     setIsOpen(false);
+    i18n.changeLanguage(lang.code);
   };
 
   useEffect(() => {
@@ -116,21 +122,21 @@ function Navbar() {
             onClick={(e) => handleScroll(e, "start", 60)}
             href=""
           >
-            Quick Start
+            {t('navbar.quickStart')}
           </a>
           <a
             className="text-[14px] font-[500] text-[#000] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
             onClick={(e) => handleScroll(e, "demo", 60)}
             href=""
           >
-            Free Demo Account
+            {t('navbar.freeDemoAccount')}
           </a>
           <a
             className="text-[14px] font-[500] text-[#000] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
             onClick={(e) => handleScroll(e, "what-is-bfx", 20)}
             href=""
           >
-            Features
+            {t('navbar.features')}
           </a>
           {/* <a
             className="text-[14px] font-[500] text-[#000] border border-transparent hover:border-b-[#E5AE00] transition duration-300"
@@ -144,7 +150,7 @@ function Navbar() {
             onClick={(e) => handleScroll(e, "reviews", 60)}
             href=""
           >
-            Reviews
+            {t('navbar.reviews')}
           </a>
           <div
             ref={dropdownRef}
@@ -171,7 +177,7 @@ function Navbar() {
             {isOpen && (
               <div className="absolute !top-[43px] w-[439px] rounded-[13px] px-[55px] py-[41px] bg-white shadow-lg">
                 <h3 className="text-[20px] text-[#444] font-[700] mb-4">
-                  Languages
+                  {t('navbar.languages')}
                 </h3>
                 <div className="grid grid-cols-2">
                   {flags.map((lang, index) => (
@@ -204,21 +210,21 @@ function Navbar() {
               href=""
               onClick={(e) => handleScroll(e, "start", 90)}
             >
-              Quick Start
+              {t('navbar.quickStart')}
             </a><br />
             <a
               className="inline-block text-[16px] font-[500] text-[#000] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
               href=""
               onClick={(e) => handleScroll(e, "demo", 90)}
             >
-              Free Demo Account
+              {t('navbar.freeDemoAccount')}
             </a><br />
             <a
               className="inline-block text-[16px] font-[500] text-[#000] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
               href=""
               onClick={(e) => handleScroll(e, "features", 90)}
             >
-              Features
+              {t('navbar.features')}
             </a><br />
             {/* <a
               className="inline-block text-[16px] font-[500] text-[#000] border border-transparent hover:border-b-[#E5AE00] transition duration-300 mb-4"
@@ -232,7 +238,7 @@ function Navbar() {
               href=""
               onClick={(e) => handleScroll(e, "reviews", 90)}
             >
-              Reviews
+              {t('navbar.reviews')}
             </a><br />
             <div
               ref={dropdownRef}
@@ -259,7 +265,7 @@ function Navbar() {
               {isOpen && (
                 <div className="absolute !top-[30px] w-[300px] pb-2 rounded-[8px] px-[10px] bg-white shadow-lg">
                   <h3 className="text-[14px] text-[#444] font-[700] mb-1">
-                    Languages
+                    {t('navbar.languages')}
                   </h3>
                   <div className="grid grid-cols-2">
                     {flags.map((lang, index) => (
@@ -286,14 +292,14 @@ function Navbar() {
         )}
 
         <div className="flex gap-[15px]">
-          <a href="https://trade.blockchainfx.io/en/login?redirect_url=traderoom" target="_blank" rel="noopener noreferrer">
-          <button className="max-md:hidden w-[100px] hover:text-white hover:bg-[#E5AE00] px-[12px] text-black bg-transparent text-[18px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px] max-w-[152px] h-[40px]">
-            Log In
+          <a href="https://trade.blockfx.com/traderoom" target="_blank" rel="noopener noreferrer">
+          <button className="max-md:hidden min-w-[100px] w-auto hover:text-white hover:bg-[#E5AE00] px-[12px] text-black bg-transparent text-[18px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px] max-w-[152px] h-[40px] whitespace-nowrap">
+            {t('navbar.logIn')}
           </button>
           </a>
-          <a href="https://trade.blockchainfx.io/en/login?redirect_url=traderoom" target="_blank" rel="noopener noreferrer">
+          <a href="https://trade.blockfx.com/traderoom" target="_blank" rel="noopener noreferrer">
           <button className="w-[135px] text-white bg-[#E5AE00] 2xl:px-[12px] xl:px-[12px] lg:px-[12px] md:px-[12px] sm:px-[10px] px-[10px] hover:text-black hover:bg-transparent 2xl:text-[18px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[14px] text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] 2xl:max-w-[179px] xl:max-w-[179px] lg:max-w-[179px] md:max-w-[179px] sm:max-w-[150px] max-w-[150px] 2xl:h-[40px] xl:h-[40px] lg:h-[40px] md:h-[40px] sm:h-[40px] h-[40px]">
-            Register<span className="md:hidden"> Now</span>
+            {t('navbar.register')}<span className="md:hidden"> {t('navbar.now')}</span>
           </button>
           </a>
         </div>

@@ -1,49 +1,47 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 import takeimg1 from "../assets/TradeOver/takeimg (5).webp";
 import takeimg2 from "../assets/TradeOver/takeimg (1).png";
 import takeimg3 from "../assets/TradeOver/takeimg (2).webp";
 import takeimg4 from "../assets/TradeOver/takeimg (3).webp";
 import takeimg5 from "../assets/TradeOver/takeimg (4).webp";
 
-const cardData = [
-  {
-    img: takeimg1,
-    title: "Crypto",
-    subtitle:
-      "Trade BTC, ETH, SOL, PEPE, DOGE, TRUMP, and more with leverage and advanced trading tools.",
-  },
-  {
-    img: takeimg2,
-    title: "Stocks",
-    subtitle:
-      "Apple, Tesla, Nvidia, Netflix, Coca Cola and more. Buy your favorite stock in seconds. ",
-  },
-  {
-    img: takeimg3,
-    title: "Forex",
-    subtitle:
-      "USD, EUR, JPY, GBP, AUD, and more. Trade over 60 currency pairs in the dynamic forex market.",
-  },
-  {
-    img: takeimg4,
-    title: "Commodities",
-    subtitle:
-      "Gold, Silver, Oil, Sugar, and many more. Diversify your portfolio with a wide range of valuable raw materials.",
-  },
-  {
-    img: takeimg5,
-    title: "Indices",
-    subtitle:
-      "Dow Jones, S&P 500, Nasdaq, DAX, CAC, and many more. Trade the most popular indices.",
-  },
-];
-
 function TradeOverSec() {
+  const { t } = useTranslation();
+
+  const cardData = [
+    {
+      img: takeimg1,
+      title: t('tradeOver.cryptoTitle'),
+      subtitle: t('tradeOver.cryptoDesc'),
+    },
+    {
+      img: takeimg2,
+      title: t('tradeOver.stocksTitle'),
+      subtitle: t('tradeOver.stocksDesc'),
+    },
+    {
+      img: takeimg3,
+      title: t('tradeOver.forexTitle'),
+      subtitle: t('tradeOver.forexDesc'),
+    },
+    {
+      img: takeimg4,
+      title: t('tradeOver.commoditiesTitle'),
+      subtitle: t('tradeOver.commoditiesDesc'),
+    },
+    {
+      img: takeimg5,
+      title: t('tradeOver.indicesTitle'),
+      subtitle: t('tradeOver.indicesDesc'),
+    },
+  ];
+
   return (
     <div className="  bg-[#fff]">
       <div className="max-w-[1200px] h-[550px] w-[100%] flex flex-col justify-center mx-auto space-y-[46px]">
         <h3 className="text-[30px] font-[700] leading-[114%] text-center capitalize">
-          Trade over 500 different assets
+          {t('tradeOver.title')}
         </h3>
         <div className="flex justify-center space-x-[14px]">
           {cardData.map((item) => (

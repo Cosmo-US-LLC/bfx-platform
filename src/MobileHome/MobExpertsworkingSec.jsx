@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
@@ -25,6 +26,8 @@ const cardData = [
 ];
 
 function MobExpertsworkingSec() {
+  const { t } = useTranslation();
+
   return (
     <div
       className="pt-[24px]  bg-[#FAFAFA] pb-[24px]"
@@ -35,10 +38,10 @@ function MobExpertsworkingSec() {
       <div className="relative space-y-[15px] w-[90%] mx-auto ">
         <div className="space-y-[20px]">
           <h4 className="text-[20px] font-[400] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
-            25 Years of Experience
+            {t('expertsWorking.subtitle')}
           </h4>
           <h3 className="text-[32px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
-          Experts Working  <br /> On BlockchainFX
+          {t('expertsWorking.title')}
           </h3>
         </div>
         <div className="flex justify-between"></div>
@@ -66,10 +69,10 @@ function MobExpertsworkingSec() {
                   <div className="cardimg flex justify-end flex-col min-h-[370px]">
                     <div className="p-[20px]">
                       <h4 className="text-[22.845px] text-[#FFF] font-[600]">
-                        Name Goes Here
+                        {t('expertsWorking.placeholderName')}
                       </h4>
                       <p className="text-[14.621px] text-[#FFF] font-[400] tracking-[-0.32px]">
-                        Lorem Ipsum
+                        {t('expertsWorking.placeholderRole')}
                       </p>
                     </div>
                   </div>

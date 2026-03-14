@@ -1,17 +1,17 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 
 function MobileHowToStart() {
+  const { t } = useTranslation();
   return (
     <div id="start" className="space-y-[14px]">
       <div className="bg-white px-[18px] py-[24px] space-y-5">
         <div className="space-y-[12px] text-center">
           <h1 className="text-[32px] font-[700] leading-[40px]">
-            How To Start
+            {t('howToStart.title')}
           </h1>
           <p className="text-[15px] leading-[23px] text-[#181A20]">
-            Getting started with BlockchainFX is simple.
-            <br />
-            Here is what you need to do.
+            {t('howToStart.subtitle')}
           </p>
         </div>
 
@@ -24,12 +24,10 @@ function MobileHowToStart() {
             />
             <div className="space-y-[11px]">
               <h3 className="text-[18px] font-[600] leading-[28px]">
-                Register Your Account
+                {t('howToStart.step1Title')}
               </h3>
               <p className="text-[15px] leading-[23px]">
-                Register an account for free
-                <br />
-                to get access to the platform.
+                {t('howToStart.step1Desc')}
               </p>
             </div>
           </div>
@@ -42,12 +40,10 @@ function MobileHowToStart() {
             />
             <div className="space-y-[11px]">
               <h3 className="text-[18px] font-[600] leading-[28px]">
-                Practice with Demo
+                {t('howToStart.step2Title')}
               </h3>
               <p className="text-[15px] leading-[23px]">
-                Test strategies with a free
-                <br />
-                refillable demo account.
+                {t('howToStart.step2Desc')}
               </p>
             </div>
           </div>
@@ -60,12 +56,10 @@ function MobileHowToStart() {
             />
             <div className="space-y-[11px]">
               <h3 className="text-[18px] font-[600] leading-[28px]">
-                Start trading
+                {t('howToStart.step3Title')}
               </h3>
               <p className="text-[15px] leading-[23px]">
-                Make a deposit, start trading
-                <br />
-                and withdraw your first profit.
+                {t('howToStart.step3Desc')}
               </p>
             </div>
           </div>
@@ -77,12 +71,10 @@ function MobileHowToStart() {
             />
             <div className="space-y-[11px]">
               <h3 className="text-[18px] font-[600] leading-[28px]">
-              Withdraw Quickly
+              {t('howToStart.step4Title')}
               </h3>
               <p className="text-[15px] leading-[23px]">
-              Receive your profits 
-                <br />
-                quickly and securely.
+              {t('howToStart.step4Desc')}
               </p>
             </div>
           </div>
@@ -91,25 +83,25 @@ function MobileHowToStart() {
       <div id="demo" className="bg-[#FBFBFB] px-[19px] py-[30px]">
         <div className="space-y-[12px] text-center">
           <h2 className="text-[24px] font-[500] tracking-[-1px]">
-            Open A Demo Account{" "}
+            {t('howToStart.demoTitle')}{" "}
             <span className="text-[#E5AE00] font-[700]">
-              For Free
+              {t('howToStart.demoHighlight')}
             </span>
           </h2>
           <p className="text-[15px] leading-[10px]">
-          Make your first step into the world of trading.
+          {t('howToStart.demoSubtitle')}
           </p>
         </div>
-        
+
         <div className="flex justify-between items-center px-2 pt-[22px] pb-[12px] gap-[12px]">
-          <a href="https://trade.blockchainfx.io/en/login?redirect_url=traderoom" target="_blank" rel="noopener noreferrer" className="w-[100%]">
+          <a href="https://trade.blockfx.com/traderoom" target="_blank" rel="noopener noreferrer" className="w-[100%]">
           <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[700] border border-[#E5AE00] hover:border-[#000] m-0 rounded-[8px] w-[100%] h-[40px]">
-            Start Trading Now
+            {t('howToStart.demoCtaPrimary')}
           </button>
           </a>
-          <a href="https://trade.blockchainfx.io/en/login?redirect_url=traderoom" target="_blank" rel="noopener noreferrer" className="w-[100%]">
+          <a href="https://trade.blockfx.com/traderoom" target="_blank" rel="noopener noreferrer" className="w-[100%]">
           <button className="hover:text-white hover:bg-[#E5AE00] px-[6px] text-black bg-transparent text-[14px] font-[700] border hover:border-[#E5AE00] border-[#000] rounded-[8px] w-[100%] h-[40px]">
-            Free Demo Account
+            {t('howToStart.demoCtaSecondary')}
           </button>
           </a>
         </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 import herogif from "../assets/herosection/herogif.gif";
 import fobicn from "../assets/herosection/forbes-ar21 1.svg";
 import herobnr2 from "../assets/herosection/bnrhero (4).svg";
@@ -7,33 +8,31 @@ import herobnr4 from "../assets/herosection/bnrhero (2).svg";
 import herobnr5 from "../assets/herosection/binance.png";
 
 function MobileHero() {
+  const { t } = useTranslation();
   return (
     <div className="pt-[6rem] bg-[#FFFFFF]">
       <div className="w-[90%] mx-auto ">
         <div className="space-y-[20px]">
           <div>
             <h4 className="text-[16px]  leading-[100%] font-[400] text-center text-[#000] tracking-[-1px] capitalize">
-              Endless Opportunities Await
+              {t('hero.tagline')}
             </h4>
             <h2 className="pt-6 pb-8 text-[32px] font-[700] leading-[111.375%] tracking-[-1px] text-[#000] text-center">
-              The Ultimate Trading App
+              {t('hero.title')}
             </h2>
             <p className="px-4 text-[15px] max-w-[865px] w-[100%] mx-auto font-[400] leading-[153.667%] text-center text-[#000] tracking-[-0.32px] ">
-              BlockchainFX is a pioneering platform that bridges crypto and
-              traditional finance, giving you access to 500+ assets. Experience
-              lightning-fast trades and seamless access to the world's largest
-              financial markets.
+              {t('hero.description')}
             </p>
           </div>
           <div className="flex justify-center items-center space-x-[17px]">
-            <a href="https://trade.blockchainfx.io/en/login?redirect_url=traderoom" target="_blank" rel="noopener noreferrer">
+            <a href="https://trade.blockfx.com/traderoom" target="_blank" rel="noopener noreferrer">
             <button className="text-white bg-[#E5AE00] px-[14px] hover:text-black hover:bg-transparent text-[14px] font-[700] border border-[#E5AE00] hover:border-[#000] rounded-[8px]  h-[40px]">
-              Start Trading Now
+              {t('hero.ctaPrimary')}
             </button>
             </a>
-            <a href="https://trade.blockchainfx.io/en/login?redirect_url=traderoom" target="_blank" rel="noopener noreferrer">
+            <a href="https://trade.blockfx.com/traderoom" target="_blank" rel="noopener noreferrer">
             <button className="hover:text-white hover:bg-[#E5AE00] px-[14px] text-black bg-transparent text-[14px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px]  h-[40px]">
-              Free Demo Account
+              {t('hero.ctaSecondary')}
             </button>
             </a>
           </div>
@@ -47,7 +46,7 @@ function MobileHero() {
                 Featured In:
               </h3>
               <div className="flex justify-center items-center space-x-[10px]">
-                 
+
                 <img
                   className="h-[11px]"
                   src={"/mobile/featured/bloomberg.svg"}

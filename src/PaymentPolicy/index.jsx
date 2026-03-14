@@ -1,7 +1,9 @@
 import { useEffect } from "react";
+import { useTranslation } from 'react-i18next';
 import { useLocation } from "react-router-dom";
 
 function PaymentPolicy() {
+  const { t } = useTranslation();
   const { pathname } = useLocation();
 
   useEffect(() => {
@@ -12,7 +14,7 @@ function PaymentPolicy() {
     <div className="max-w-[1100px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] space-y-[30px] mx-auto pt-[120px] pb-[50px]">
       <div className="space-y-[10px]">
         <h3 className="2xl:text-[30px] pb-[25px] xl:text-[30px] lg:text-[30px] md:text-[30px] sm:text-[24px] text-[24px] font-[700] leading-[130%]">
-          Payment Policy
+          {t('paymentPolicyPage.title')}
         </h3>
         <h3 className="2xl:text-[20px] pb-[10px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[18px] text-[18px] font-[700] leading-[130%]">
           1. Payment Policy
@@ -23,8 +25,8 @@ function PaymentPolicy() {
             balance at any moment
           </li>
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-            1.2. The Company’s financial responsibility starts with the first
-            record about the Client’s deposit and continues up to the full
+            1.2. The Company's financial responsibility starts with the first
+            record about the Client's deposit and continues up to the full
             withdrawal of the funds.
           </li>
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
@@ -34,21 +36,21 @@ function PaymentPolicy() {
           </li>
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
             1.4. The only official deposit/withdrawal methods are the methods
-            that appear on the Company’s official Website. The Client is taking
+            that appear on the Company's official Website. The Client is taking
             all the risks related to the use of the payment methods unless these
-            payment methods are provided by the Company’s partners or are the
-            Company’s responsibility. The Company isn’t responsible for any
+            payment methods are provided by the Company's partners or are the
+            Company's responsibility. The Company isn't responsible for any
             delay or cancellation of financial transactions that may be caused
             by the selected payment system. In case where the Client has any
-            claims related to any of the payment systems, it’s their
+            claims related to any of the payment systems, it's their
             responsibility to contact the support service of the payment system
             and to notify the Company of their claims.
           </li>
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
             1.5. The Company shall not be responsible for the activities of any
             third-party service providers that the Client may use in order to
-            make any deposit/withdrawal. The Company’s financial responsibility
-            for the Client’s funds starts when the funds arrive to the Company’s
+            make any deposit/withdrawal. The Company's financial responsibility
+            for the Client's funds starts when the funds arrive to the Company's
             bank account or any other account related to the Company and this
             fact appears on the Payment Methods page of the Website. In case any
             fraud appears during the financial transaction or after it, the
@@ -56,32 +58,32 @@ function PaymentPolicy() {
             the Client's account.
           </li>
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-            1.6. The Company’s responsibility as to the Client’s funds ends when
-            the funds leave the Company’s bank account or any other account
+            1.6. The Company's responsibility as to the Client's funds ends when
+            the funds leave the Company's bank account or any other account
             related to the Company and this fact appears on the Payment Methods
             page of the Website.
           </li>
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
             1.7. In case of any technical errors that may appear when processing
             the financial transaction, the Company reserves the right to cancel
-            that transaction and all other Client’s financial activity on the
-            Company’s Website.
+            that transaction and all other Client's financial activity on the
+            Company's Website.
           </li>
         </ul>
       </div>
       <div className="space-y-[15px]">
         <h4 className="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] font-[600] ">
-          2. Client’s Registration
+          2. Client's Registration
         </h4>
         <ul className=" pl-5 space-y-[15px]">
           <li className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-            2.1. Client’s registration procedure is based on two main steps:
+            2.1. Client's registration procedure is based on two main steps:
             <ul className="pl-8">
               <li className=" list-disc 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                1.1. Client’s web registration
+                1.1. Client's web registration
               </li>
               <li className=" list-disc 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                1.2. Client’s identity verification
+                1.2. Client's identity verification
               </li>
             </ul>
           </li>
@@ -93,7 +95,7 @@ function PaymentPolicy() {
                 details.
               </li>
               <li className=" list-disc 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400]">
-                2.2. Accept the Company’s agreement and submit an application.
+                2.2. Accept the Company's agreement and submit an application.
               </li>
             </ul>
           </li>
@@ -178,10 +180,10 @@ other opportunities to cancel the payment. If you wish to reject to use Services
 purchases of goods and/or services or other facilities on the Website, you can do that by
 using your personal account/profile on the Website. The Payment Service Provider is not
 responsible for any failure to process the data related to your payment card, or for the
-issuing bank’s refusal to provide authorization for the payment with your payment card. The
+issuing bank's refusal to provide authorization for the payment with your payment card. The
 Payment Service Provider is not responsible for the quality, quantity, price, terms or
 conditions of any goods and/or services or other facilities offered to you or purchased by
-you from the Website by using your payment card. When you pay for any of the Website’s
+you from the Website by using your payment card. When you pay for any of the Website's
 goods and/or services, you are primarily bound by the Website Terms and Conditions. Please
 note that only you, as the cardholder, are responsible for paying for all goods and/or services
 you have ordered on the Website and for any additional expenses/fees that can be applied to

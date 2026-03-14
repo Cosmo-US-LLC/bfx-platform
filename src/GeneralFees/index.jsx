@@ -1,7 +1,9 @@
 import { useEffect } from "react";
+import { useTranslation } from 'react-i18next';
 import { useLocation } from "react-router-dom";
 
 function GeneralFees() {
+    const { t } = useTranslation();
     const { pathname } = useLocation();
 
     useEffect(() => {
@@ -12,7 +14,7 @@ function GeneralFees() {
     <div className="max-w-[1100px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] space-y-[30px] mx-auto py-[130px] pb-[50px]">
       <div className="space-y-[30px]">
         <h3 className="2xl:text-[30px] pb-[10px] xl:text-[30px] lg:text-[30px] md:text-[30px] sm:text-[24px] text-[24px] font-[700] leading-[130%]">
-          General Fees
+          {t('generalFeesPage.title')}
         </h3>
         <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]   font-[400]">
           This document outlines all relevant fees for Digital Smart LLC (the
@@ -71,7 +73,7 @@ function GeneralFees() {
                 of 0.01% – 0.5% and in extreme circumstances up to 1.7% of the
                 face value of the position for keeping a position open
                 overnight. The swap fee from Friday to Saturday will be 3
-                (‘’three’’) times higher than the normal swap fee. The swap fee
+                (''three'') times higher than the normal swap fee. The swap fee
                 can be subject to changes in the future.
               </td>
             </tr>
@@ -557,7 +559,7 @@ trading operation and/or trading operation that has remained open) for a period 
 be considered to be dormant and/or inactive. Furthermore, logging in and out of the trading
 account is not considered to be account activity
             </p>
-            <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]   font-[400] flex">The administration fee shall be deducted from the Client’s account on the 90th calendar day of
+            <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]   font-[400] flex">The administration fee shall be deducted from the Client's account on the 90th calendar day of
 inactivity when the account is considered dormant. Further to this, each month the Company will
 consider the activity over the past 90 days in determining if the administrative fee will be
 charged again.
@@ -583,7 +585,7 @@ dollars”) for the closure of their account, where it has been identified that 
 reached the age of maturity in the country, which the client is a citizen of or resides in
             </p>
             <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]   font-[400] flex">In case the remaining balance is less than 20 USD (“twenty dollars”), the Company shall reserve
-the right to charge up to 20 USD (“twenty dollars”) from the client’s account.
+the right to charge up to 20 USD (“twenty dollars”) from the client's account.
 
             </p>
             
@@ -599,7 +601,7 @@ Company are inauthentic and/or the client attempts to bypass any verification pr
 using fraudulent means).
             </p>
             <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]   font-[400] flex">In case the remaining balance is less than 20 USD (“twenty dollars”), the Company shall reserve
-            the right to charge a lower amount from the client’s account
+            the right to charge a lower amount from the client's account
             </p>
             <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]   font-[400] flex">The administrative fee, among others, represents an approximate and reasonable cost of the
 Company in such circumstances, including time spent for communication and/or actions that

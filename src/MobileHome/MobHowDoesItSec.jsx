@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
@@ -12,51 +13,48 @@ import cardicn4 from "../assets/HowDoesItSec/icns (4).svg";
 import cardicn5 from "../assets/HowDoesItSec/icns (5).svg";
 import cardicn6 from "../assets/HowDoesItSec/icns (6).svg";
 
-const cardItems = [
-  {
-    icon:cardicn1,
-    title: "01. Trading Platform",
-    description:
-      "BlockchainFX is a multi-asset trading platform that offers a wide range of trading options.",
-  },
-  {
-    icon:cardicn2,
-    title: "02. Fee Distribution",
-    description:
-      "Our wallet ensures your assets are stored securely with state-of-the-art encryption.",
-  },
-  {
-    icon:cardicn3,
-    title: "03. Daily Revenue (50%)",
-    description:
-      "50% of all fees collected will be shared with BFX holders and automatically airdropped every 24 hours.",
-  },
-  {
-    icon:cardicn4,
-    title: "04. Buybacks (20%)",
-    description:
-      "Our team is available around the clock to assist with any issues or questions.",
-  },
-  {
-    icon:cardicn5,
-    title: "05. Burn",
-    description:
-      "50% of buybacks will be automatically burned, continuously reducing the supply of $BFX..",
-  },
-  {
-    icon:cardicn6,
-    title: "06. Hyper Growth",
-    description: "Enjoy competitive fees that help you maximize your returns.",
-  },
-];
-
 function MobHowDoesItSec() {
+  const { t } = useTranslation();
+
+  const cardItems = [
+    {
+      icon:cardicn1,
+      title: t('howDoesIt.step1Title'),
+      description: t('howDoesIt.step1Desc'),
+    },
+    {
+      icon:cardicn2,
+      title: t('howDoesIt.step2Title'),
+      description: t('howDoesIt.step2Desc'),
+    },
+    {
+      icon:cardicn3,
+      title: t('howDoesIt.step3Title'),
+      description: t('howDoesIt.step3Desc'),
+    },
+    {
+      icon:cardicn4,
+      title: t('howDoesIt.step4Title'),
+      description: t('howDoesIt.step4Desc'),
+    },
+    {
+      icon:cardicn5,
+      title: t('howDoesIt.step5Title'),
+      description: t('howDoesIt.step5Desc'),
+    },
+    {
+      icon:cardicn6,
+      title: t('howDoesIt.step6Title'),
+      description: t('howDoesIt.step6Desc'),
+    },
+  ];
+
   return (
     <div className="pt-[24px] pb-[24px]">
       <div className="max-w-[1400px] w-[100%] mx-auto relative">
         <div>
           <h3 className="text-[32px] leading-[100%] text-[#181A20] text-center font-[700]">
-            How does it work?
+            {t('howDoesIt.title')}
           </h3>
         </div>
         <div className=" pt-[30px] w-[90%] mx-auto ">

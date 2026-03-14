@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
@@ -12,18 +13,20 @@ import medai3 from "../assets/Press&Media/medicn (1).svg";
 
 
 function MobPressMediaSec() {
+  const { t } = useTranslation();
+
   const press = [
     {
       img: medai1,
-      body: "BlockchainFX is quickly becoming the go-to trading platform in 2025, offering access to 500+ assets and rewarding benefits for users."
+      body: t('pressMedia.quote1')
     },
     {
       img: medai2,
-      body: "BlockchainFX is set to revolutionise the trading landscape as the first all-in-one crypto trading platform."
+      body: t('pressMedia.quote2')
     },
     {
       img: medai3,
-      body: "BlockchainFX is the first trading app that lets users earn daily USDT passive income directly from trading fees."
+      body: t('pressMedia.quote3')
     }
   ]
 
@@ -37,7 +40,7 @@ function MobPressMediaSec() {
       <div className=" relative space-y-[20px] w-[90%] mx-auto ">
         <div className="space-y-[20px]">
           <h3 className="text-[32px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
-            Press & Media
+            {t('pressMedia.title')}
           </h3>
         </div>
         <div className="relative">

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useTranslation } from 'react-i18next';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
@@ -16,6 +17,7 @@ import graph3 from "../assets/TopAssets/graph (2).png";
 import graph4 from "../assets/TopAssets/graph (1).png";
 
 function TopAssetsSec() {
+  const { t } = useTranslation();
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handleToggle = (index) => {
@@ -27,10 +29,10 @@ function TopAssetsSec() {
       <div className="max-w-[1100px] h-[558px] flex flex-col justify-center w-full mx-auto space-y-[30px]">
         <div className="space-y-[14px]">
           <h3 className="text-[30px] font-[700] text-center leading-[114%] text-[#181A20]">
-            Top Assets
+            {t('topAssets.title')}
           </h3>
           <p className="text-[14px] font-[400] max-w-[832px] mx-auto w-[100%] leading-[130%] text-[#181A20] tracking-[-0.32px] text-center">
-            Get a chance to trade the world's most popular financial assets.
+            {t('topAssets.subtitle')}
           </p>
         </div>
         <div className="flex justify-between items-center w-[100%] mx-auto ">
@@ -58,10 +60,10 @@ function TopAssetsSec() {
                 </div>
                 <div className="pt-2">
                   <h3 className="text-[27px] text-center font-[400] text-[#000]">
-                    1:20
+                    {t('topAssets.leverageValue')}
                   </h3>
                   <h4 className="text-[16px] text-[#000] text-center font-[400] ">
-                    Leverages up to
+                    {t('topAssets.leverageLabel')}
                   </h4>
                 </div>
               </div>
@@ -92,10 +94,10 @@ function TopAssetsSec() {
                 </div>
                 <div className="pt-2">
                   <h3 className="text-[27px] text-center font-[400] text-[#000]">
-                    1:20
+                    {t('topAssets.leverageValue')}
                   </h3>
                   <h4 className="text-[16px] text-[#000] text-center font-[400] ">
-                    Leverages up to
+                    {t('topAssets.leverageLabel')}
                   </h4>
                 </div>
               </div>
@@ -124,10 +126,10 @@ function TopAssetsSec() {
                 </div>
                 <div className="pt-2">
                   <h3 className="text-[27px] text-center font-[400] text-[#000]">
-                    1:20
+                    {t('topAssets.leverageValue')}
                   </h3>
                   <h4 className="text-[16px] text-[#000] text-center font-[400] ">
-                    Leverages up to
+                    {t('topAssets.leverageLabel')}
                   </h4>
                 </div>
               </div>
@@ -158,10 +160,10 @@ function TopAssetsSec() {
                 </div>
                 <div className="pt-2">
                   <h3 className="text-[27px] text-center font-[400] text-[#000]">
-                    1:20
+                    {t('topAssets.leverageValue')}
                   </h3>
                   <h4 className="text-[16px] text-[#000] text-center font-[400] ">
-                    Leverages up to
+                    {t('topAssets.leverageLabel')}
                   </h4>
                 </div>
               </div>

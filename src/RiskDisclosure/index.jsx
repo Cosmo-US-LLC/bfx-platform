@@ -1,7 +1,9 @@
 import { useEffect } from "react";
+import { useTranslation } from 'react-i18next';
 import { useLocation } from "react-router-dom";
 
 function RiskDisclosure() {
+  const { t } = useTranslation();
   const { pathname } = useLocation();
 
   useEffect(() => {
@@ -12,7 +14,7 @@ function RiskDisclosure() {
     <div className="max-w-[1100px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] space-y-[30px] mx-auto py-[130px] pb-[50px]">
       <div className="space-y-[10px]">
         <h3 className="2xl:text-[30px] pb-[10px] xl:text-[30px] lg:text-[30px] md:text-[30px] sm:text-[24px] text-[24px] font-[700] leading-[130%]">
-          Risk Disclosure
+          {t('riskDisclosurePage.title')}
         </h3>
         <p className="text-[14px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px]  font-[400]">
           Before you (our client and/or prospective client) apply for a trading
@@ -27,7 +29,7 @@ function RiskDisclosure() {
         </h4>
         <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
           The nancial products offered by the Company, including Contracts for
-          Difference (‘CFDs’) are complex nancial products, most of which have
+          Difference ('CFDs') are complex nancial products, most of which have
           no set maturity date. Therefore, a CFD position matures on the date
           you choose to close an existing open position. Trading CFDs carries a
           high level of risk since the multiplier tool (leverage) can work both
@@ -80,10 +82,10 @@ function RiskDisclosure() {
           </li>
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             Please note that CFDs are leveraged nancial products and therefore
-            as such, trading in CFDs using the Company’s ‘multiplier’ (leverage)
+            as such, trading in CFDs using the Company's 'multiplier' (leverage)
             tool involves high risk of loss as price movements are inuenced by
             the amount of multiplier (leverage) used. For more information,
-            please refer to the Company’s Order Execution Policy.
+            please refer to the Company's Order Execution Policy.
           </li>
         </ul>
       </div>
@@ -135,7 +137,7 @@ function RiskDisclosure() {
           and/or these tools. Such information may be indicative of trading
           trends or trading opportunities and it should be understood that, by
           taking any actions as a result of this information/tools, you accept
-          and understand that it can cause loss of all your capital. We don’t
+          and understand that it can cause loss of all your capital. We don't
           accept liability for any such losses resulting from actions taken by
           you based on information and or tools produced by third parties.
         </p>
@@ -273,7 +275,7 @@ function RiskDisclosure() {
                 losses resulting from errors in the operation of the client
                 terminal. <br />
                 You must understand that any third-party attacks against the
-                Company’s Systems which result in disruption of services or loss
+                Company's Systems which result in disruption of services or loss
                 of funds, are not the responsibility of the Company and any
                 liability for resulting losses will not be compensated by the
                 Company.
@@ -298,7 +300,7 @@ function RiskDisclosure() {
             3.5 You may suffer nancial losses caused by the materialization of
             the above-mentioned risks, and you understand that you shall be
             responsible for all related losses that you may suffer, assuming
-            that these are not owed to the Company’s gross negligence or willful
+            that these are not owed to the Company's gross negligence or willful
             default.
           </li>
         </ul>
@@ -427,7 +429,7 @@ function RiskDisclosure() {
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             9.1 It is understood that we will promptly place all funds received
             from clients into one or more segregated account(s) (denoted as
-            ‘clients’ accounts’) with reliable nancial institutions, such as a
+            'clients' accounts') with reliable nancial institutions, such as a
             credit institution or a bank. It should be noted that, whilst we
             shall exercise due skill, care and diligence (in accordance with
             applicable laws) when selecting the nancial institution in which
@@ -479,7 +481,7 @@ function RiskDisclosure() {
               </li>
               <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
                 10.2.2 we may pay inducements to third parties for the referral
-                of new clients or clients’ trading.
+                of new clients or clients' trading.
               </li>
             </ul>
           </li>

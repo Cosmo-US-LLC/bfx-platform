@@ -12,6 +12,7 @@ import DemoAccount from './DemoAccount';
 import PaymentPolicy from './PaymentPolicy';
 import OrderExecution from './OrderExecution';
 import TermsofService from './TermsofService';
+import PrivacyPolicy from './PrivacyPolicy/PrivacyPolicy';
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 700);
@@ -42,6 +43,8 @@ function App() {
           <Route path="/payment-policy" element={<PaymentPolicy />} />
           <Route path="/order-execution" element={<OrderExecution />} />
           <Route path="/terms-of-service" element={<TermsofService />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          
         </Routes>
         <Footer />
       </div>

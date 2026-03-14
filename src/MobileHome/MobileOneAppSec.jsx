@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useTranslation } from 'react-i18next';
 import oneicon1 from "../assets/OneAppSec/oneicon (1).svg";
 import oneicon2 from "../assets/OneAppSec/oneicon (4).svg";
 import oneicon3 from "../assets/OneAppSec/oneicon (2).svg";
@@ -7,38 +8,36 @@ import iconapon from "../assets/OneAppSec/iconopen (1).svg";
 import iconcls from "../assets/OneAppSec/iconopen (2).svg";
 import oneimg from "../assets/OneAppSec/imgonemob.png";
 
-const items = [
-  {
-    icon: oneicon1,
-    title: "Any Device",
-    description:
-      "Users can trade from any device, whether it's a PC, Mac, iOS, or Android.",
-  },
-  {
-    icon: oneicon2,
-    title: "Technical Tools",
-    description:
-      "Advanced technical tools designed to enhance market analysis and decision-making.",
-  },
-  {
-    icon: oneicon3,
-    title: "Risk Management",
-    description: "Comprehensive risk management features to minimize risks.",
-  },
-  {
-    icon: oneicon4,
-    title: "Multiple Charts",
-    description:
-      "Traders can use multiple charts at the same time for better market insights.",
-  },
-];
-
 function MobileOneAppSec() {
+  const { t } = useTranslation();
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handleToggle = (index) => {
     setActiveIndex(index === activeIndex ? -1 : index);
   };
+
+  const items = [
+    {
+      icon: oneicon1,
+      title: t('oneApp.feature1Title'),
+      description: t('oneApp.feature1Desc'),
+    },
+    {
+      icon: oneicon2,
+      title: t('oneApp.feature2Title'),
+      description: t('oneApp.feature2Desc'),
+    },
+    {
+      icon: oneicon3,
+      title: t('oneApp.feature3Title'),
+      description: t('oneApp.feature3Desc'),
+    },
+    {
+      icon: oneicon4,
+      title: t('oneApp.feature4Title'),
+      description: t('oneApp.feature4Desc'),
+    },
+  ];
 
   return (
     <div id="features" className="pt-[24px] pb-[24px] px-[18px]">
@@ -46,12 +45,12 @@ function MobileOneAppSec() {
         <div className="space-y-[10px]">
           <div className="space-y-[15px]">
             <h3 className="text-[32px] font-[700] leading-[114%] text-[#181A20] text-start">
-              Everything In One App
+              {t('oneApp.title')}
             </h3>
             <p className="text-[15px] text-[#181A20] font-[400] leading-[127.778%] text-start"
               style={{letterSpacing: '-0.32px' }}
             >
-              An innovative, modern and intuitive trading platform
+              {t('oneApp.subtitle')}
             </p>
           </div>
           <div className="w-[100%] space-y-[32px]">

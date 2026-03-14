@@ -1,7 +1,9 @@
 import { useEffect } from "react";
+import { useTranslation } from 'react-i18next';
 import { useLocation } from "react-router-dom";
 
 function DemoAccount() {
+    const { t } = useTranslation();
     const { pathname } = useLocation();
 
     useEffect(() => {
@@ -12,7 +14,7 @@ function DemoAccount() {
     <div className="max-w-[1100px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] space-y-[30px] mx-auto py-[130px] pb-[50px]">
       <div className="space-y-[10px]">
         <h3 className="2xl:text-[30px] pb-[10px] xl:text-[30px] lg:text-[30px] md:text-[30px] sm:text-[24px] text-[24px] font-[700] leading-[130%]">
-          Demo and Tournament Accounts
+          {t('demoAccountPage.title')}
         </h3>
         <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px] font-[600] ">
           Agreement for the provision of a practice account to a retail person
@@ -52,7 +54,7 @@ function DemoAccount() {
               the terms and conditions for the investment services.
               <br />
               c. To have acknowledged that he/she has read, understood and
-              accepted the provisions of the Privacy Policy on the Company’s
+              accepted the provisions of the Privacy Policy on the Company's
               website www.exnova.com (the Website) in which, among others, the
               terms of use by the Company of any data and/or information of the
               Client (personal or sensitive), is described and/or stated. The
@@ -98,12 +100,12 @@ function DemoAccount() {
           <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px] font-[400] ">
             Without derogation from the above, the Company reserves the right,
             acting reasonably, to suspend or refuse access to and use of the
-            Company’s trading platform to anyone at its sole and absolute
+            Company's trading platform to anyone at its sole and absolute
             discretion
           </p>
           <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px] font-[400] ">
             The Demo Account is provided to give Clients a demonstration of the
-            Company’s trading platform and to offer Clients the opportunity to
+            Company's trading platform and to offer Clients the opportunity to
             trade on simulated real trading conditions. This further allows the
             Client to gain more experience prior to trading with real funds and
             facing actual risk. Clients may test their trading strategies and
@@ -111,14 +113,14 @@ function DemoAccount() {
           </p>
           <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
             The Client is able to place trades and open positions (demo deals)
-            in the Company’s trading platform and these positions will be kept
+            in the Company's trading platform and these positions will be kept
             open for a maximum period of one (1) month, except where the number
-            of open positions exceeds the Company’s internal threshold. However,
+            of open positions exceeds the Company's internal threshold. However,
             it should be noted that these trades are not executed in the market.
           </p>
           <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
             The Client is able to use charts, follow market trends, utilize and
-            familiarize themselves with all the tools offered on the Company’s
+            familiarize themselves with all the tools offered on the Company's
             trading platform and participate in free of charge trading
             Tournaments offered by the Company (“Tournaments”). In case the
             Client participates in Tournaments, the provision of section 6 and
@@ -142,7 +144,7 @@ function DemoAccount() {
             modify, delete or add, at any time and without notice, to these
             Terms & Conditions and to the content and availability of the Demo
             Account (the Changes). The Company shall post such Changes and/or
-            add such Changes to the Terms & Conditions on the Company’s Website,
+            add such Changes to the Terms & Conditions on the Company's Website,
             and such notification shall be deemed as sufficient notice to the
             Client and the Changes shall be deemed as accepted by the Client
             upon the next time the Client shall log in to his Demo Account or
@@ -197,7 +199,7 @@ the Company immediately.
               <br />
                <br />
               i. The Client acknowledges that the Company relies on and takes into consideration the
-Client’s above warranties and representations in the offering of the services connected to
+Client's above warranties and representations in the offering of the services connected to
 a Demo Account, to the Client.
             </span>
           </p>
@@ -226,7 +228,7 @@ Company may also disclose such information to its auditors/consultants, provided
 and committed to the confidentiality of the information communicated.
           </p>
           <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">
-          The Company will handle all Clients’ personal data according to the relevant laws and regulations for the
+          The Company will handle all Clients' personal data according to the relevant laws and regulations for the
 protection of personal data, as this may be amended from time to time.
 
           </p>
@@ -263,14 +265,14 @@ and without justification, at its sole discretion, to cease offering Tournaments
 
           </p>
           <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">In the event that a technical misconfiguration or failure of any kind results in the incorrect reward being
-credited to a Client’s account, the Company reserves the right to correct this by removing any rewards and
+credited to a Client's account, the Company reserves the right to correct this by removing any rewards and
 accrued winnings, and re-adding the reward with the correct configuration. No consent will be required
 from the Client in order for the Company to proceed per this clause.
 
           </p>
-          <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">The Company reserves the right at its discretion to terminate the Client’s trading account where it has
+          <p className="2xl:text-[16px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px] font-[400] ">The Company reserves the right at its discretion to terminate the Client's trading account where it has
 identified that the Client has performed an act with the intention and/or effect of manipulating and/or
-abusing the Company’s Tournament scheme. The Company shall have no liability towards the Client and
+abusing the Company's Tournament scheme. The Company shall have no liability towards the Client and
 no obligation to pay the profit of the Client for such reasons.
           </p>
           

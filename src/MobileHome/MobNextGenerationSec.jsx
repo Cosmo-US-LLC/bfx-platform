@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 import nexticn1 from "../assets/NextGen/nwxticon (9).svg";
 import nexticn2 from "../assets/NextGen/nwxticon (8).svg";
 import nexticn3 from "../assets/NextGen/nwxticon (7).svg";
@@ -10,11 +11,12 @@ import nexticn8 from "../assets/NextGen/nwxticon (2).svg";
 import nexticn9 from "../assets/NextGen/nwxticon (1).svg";
 
 function MobNextGenerationSec() {
+  const { t } = useTranslation();
   return (
     <div className="pt-[24px] pb-[24px] bg-[#FBFBFB]">
       <div className="w-[90%] mx-auto space-y-[24px]">
         <h3 className="text-[32px] font-[700] leading-[114%] text-center">
-        Next Generation <br /> Trading Experience
+        {t('nextGeneration.title')}
         </h3>
         <div className="gap-y-[20px] grid grid-cols-2">
           <div className="flex flex-col min-w-[185px] items-center space-y-[10px]">
@@ -24,7 +26,7 @@ function MobNextGenerationSec() {
               className="h-[40px]"
             />
             <p className="text-[15px] text-[#000] text-center leading-[140%] font-[400] tracking-[-0.32px]">
-              25 Years <br /> Of Experience
+              {t('nextGeneration.feature1')}
             </p>
           </div>
           <div className="flex flex-col min-w-[122px] items-center space-y-[10px]">
@@ -34,7 +36,7 @@ function MobNextGenerationSec() {
               className="h-[40px]"
             />
             <p className="text-[15px] text-[#000] text-center leading-[140%] font-[400] tracking-[-0.32px]">
-              500+ <br /> Assets
+              {t('nextGeneration.feature2')}
             </p>
           </div>
           <div className="flex flex-col min-w-[137px] items-center space-y-[10px]">
@@ -44,7 +46,7 @@ function MobNextGenerationSec() {
               className="h-[30px]"
             />
             <p className="text-[15px] text-[#000] text-center leading-[140%] font-[400] tracking-[-0.32px]">
-              Ultra <br /> Tight Spreads
+              {t('nextGeneration.feature3')}
             </p>
           </div>
           <div className="flex flex-col items-center min-w-[145px] space-y-[10px]">
@@ -54,7 +56,7 @@ function MobNextGenerationSec() {
               className="h-[40px]"
             />
             <p className="text-[15px] text-[#000] text-center leading-[140%] font-[400] tracking-[-0.32px]">
-              24/7 Live <br /> Chat Support
+              {t('nextGeneration.feature4')}
             </p>
           </div>
           <div className="flex flex-col items-center min-w-[129px] space-y-[10px]">
@@ -64,7 +66,7 @@ function MobNextGenerationSec() {
               className="h-[40px]"
             />
             <p className="text-[15px] text-[#000] text-center leading-[140%] font-[400] tracking-[-0.32px]">
-              Register <br /> in 1 Min
+              {t('nextGeneration.feature5')}
             </p>
           </div>
           <div className="flex min-w-[185px] flex-col items-center space-y-[10px]">
@@ -74,7 +76,7 @@ function MobNextGenerationSec() {
               className="h-[40px]"
             />
             <p className="text-[15px] text-[#000] text-center leading-[140%] font-[400] tracking-[-0.32px]">
-              One-Click <br /> Trading
+              {t('nextGeneration.feature6')}
             </p>
           </div>
           <div className="flex flex-col min-w-[122px] items-center space-y-[10px]">
@@ -84,7 +86,7 @@ function MobNextGenerationSec() {
               className="h-[33px]"
             />
             <p className="text-[15px] text-[#000] text-center leading-[140%] font-[400] tracking-[-0.32px]">
-              Leverage <br /> Trading
+              {t('nextGeneration.feature7')}
             </p>
           </div>
           <div className="flex flex-col min-w-[137px] items-center space-y-[10px]">
@@ -94,7 +96,7 @@ function MobNextGenerationSec() {
               className="h-[40px]"
             />
             <p className="text-[15px] text-[#000] text-center leading-[140%] font-[400] tracking-[-0.32px]">
-              Up to 9 <br /> Charts
+              {t('nextGeneration.feature8')}
             </p>
           </div>
           <div className="flex flex-col min-w-[145px] items-center space-y-[10px]">
@@ -104,7 +106,7 @@ function MobNextGenerationSec() {
               className="h-[40px]"
             />
             <p className="text-[15px] text-[#000] text-center leading-[140%] font-[400] tracking-[-0.32px]">
-              100+ <br /> Indicators
+              {t('nextGeneration.feature9')}
             </p>
           </div>
           <div className="flex flex-col min-w-[129px] items-center space-y-[10px]">
@@ -114,19 +116,19 @@ function MobNextGenerationSec() {
               className="h-[40px]"
             />
             <p className="text-[15px] text-[#000] text-center leading-[140%] font-[400] tracking-[-0.32px]">
-              Monthly <br /> Tournaments
+              {t('nextGeneration.feature10')}
             </p>
           </div>
         </div>
         <div className="flex justify-center items-center pt-[10px] space-x-[12px]">
-          <a href="https://trade.blockchainfx.io/en/login?redirect_url=traderoom" target="_blank" rel="noopener noreferrer">
+          <a href="https://trade.blockfx.com/traderoom" target="_blank" rel="noopener noreferrer">
           <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] m-0 rounded-[8px] max-w-[152px] w-[100%] h-[40px]">
-            Start Trading Now
+            {t('nextGeneration.ctaPrimary')}
           </button>
           </a>
-          <a href="https://trade.blockchainfx.io/en/login?redirect_url=traderoom" target="_blank" rel="noopener noreferrer">
+          <a href="https://trade.blockfx.com/traderoom" target="_blank" rel="noopener noreferrer">
           <button className="hover:text-white hover:bg-[#E5AE00] px-[12px] text-black bg-transparent text-[14px] font-[500] border hover:border-[#E5AE00] border-[#000] rounded-[8px] max-w-[159px] w-[100%] h-[40px]">
-            Free Demo Account
+            {t('nextGeneration.ctaSecondary')}
           </button>
           </a>
         </div>

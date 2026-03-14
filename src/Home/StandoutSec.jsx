@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 
 import coin1 from "../assets/StandoutSec/tblcoins (1).svg";
 import coin2 from "../assets/StandoutSec/tblcoins (2).svg";
@@ -7,103 +8,98 @@ import coin4 from "../assets/StandoutSec/tblcoins (4).svg";
 import check1 from "../assets/StandoutSec/check (2).svg";
 import check2 from "../assets/StandoutSec/check (1).svg";
 
-const tableData = [
-  {
-    col1: "Token Name",
-    col2: "$BFX",
-    col3: "$BGB",
-    col4: "$HYPE",
-    col5: "$UNI",
-  },
-  {
-    col1: "Ranked",
-    col2: "-",
-    col3: "#24",
-    col4: "#27",
-    col5: "#28",
-  },
-  {
-    col1: "Marketcap",
-    col2: "-",
-    col3: "$12.26 Billion",
-    col4: "$8.77 Billion",
-    col5: "$8.08 Billion",
-  },
-  {
-    col1: "Trade Crypto",
-    col2: check1,
-    col3: check1,
-    col4: check1,
-    col5: check1,
-  },
-  {
-    col1: "Leverage Trading",
-    col2: check1,
-    col3: check1,
-    col4: check1,
-    col5: check2,
-  },
-  {
-    col1: "Risk Management",
-    col2: check1,
-    col3: check1,
-    col4: check2,
-    col5: check2,
-  },
-  {
-    col1: "Forex",
-    col2: check1,
-    col3: check2,
-    col4: check2,
-    col5: check2,
-  },
-  {
-    col1: "Commodities ",
-    col2: check1,
-    col3: check2,
-    col4: check2,
-    col5: check2,
-  },
-  {
-    col1: "Indices ",
-    col2: check1,
-    col3: check2,
-    col4: check2,
-    col5: check2,
-  },
-  {
-    col1: "CFDs",
-    col2: check1,
-    col3: check2,
-    col4: check2,
-    col5: check2,
-  },
-  {
-    col1: "ETFs",
-    col2: check1,
-    col3: check2,
-    col4: check2,
-    col5: check2,
-  },
-];
-
 function StandoutSec() {
+  const { t } = useTranslation();
+
+  const tableData = [
+    {
+      col1: t('standout.tokenName'),
+      col2: "$BFX",
+      col3: "$BGB",
+      col4: "$HYPE",
+      col5: "$UNI",
+    },
+    {
+      col1: t('standout.ranked'),
+      col2: "-",
+      col3: "#24",
+      col4: "#27",
+      col5: "#28",
+    },
+    {
+      col1: t('standout.marketcap'),
+      col2: "-",
+      col3: "$12.26 Billion",
+      col4: "$8.77 Billion",
+      col5: "$8.08 Billion",
+    },
+    {
+      col1: t('standout.tradeCrypto'),
+      col2: check1,
+      col3: check1,
+      col4: check1,
+      col5: check1,
+    },
+    {
+      col1: t('standout.leverageTrading'),
+      col2: check1,
+      col3: check1,
+      col4: check1,
+      col5: check2,
+    },
+    {
+      col1: t('standout.riskManagement'),
+      col2: check1,
+      col3: check1,
+      col4: check2,
+      col5: check2,
+    },
+    {
+      col1: t('standout.forex'),
+      col2: check1,
+      col3: check2,
+      col4: check2,
+      col5: check2,
+    },
+    {
+      col1: t('standout.commodities'),
+      col2: check1,
+      col3: check2,
+      col4: check2,
+      col5: check2,
+    },
+    {
+      col1: t('standout.indices'),
+      col2: check1,
+      col3: check2,
+      col4: check2,
+      col5: check2,
+    },
+    {
+      col1: t('standout.cfds'),
+      col2: check1,
+      col3: check2,
+      col4: check2,
+      col5: check2,
+    },
+    {
+      col1: t('standout.etfs'),
+      col2: check1,
+      col3: check2,
+      col4: check2,
+      col5: check2,
+    },
+  ];
+
   return (
     <div className="pt-[72px] space-y-[35px] pb-[71px]">
       <div className="max-w-[1220px] space-y-[60px] w-[100%] mx-auto ">
         <div className="space-y-[40px]">
           <h3 className="text-[50px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
-            Standout Features
+            {t('standout.title')}
           </h3>
           <p className="text-[20px] font-[400] max-w-[908px] mx-auto w-[100%] text-center leading-[130%] text-[#181A20] tracking-[-0.32px]">
-            Cryptocurrencies from exchanges and trading platforms have
-            historically performed well, fueled by a growing user base, an
-            active trading community driving organic trading volume, and
-            platform revenue reinvested into new features, continuous updates,
-            and consistent marketing. $BFX, the latest cryptocurrency in this
-            segment, stands out as the first token from a multi-asset trading
-            platform, offering innovative features that deliver significant
-            value to the market.
+            {t('standout.description')}
           </p>
         </div>
         <div className="">
@@ -122,7 +118,7 @@ function StandoutSec() {
                         />
                       </div>
                       <p className="text-[13.946px] text-[#545454] text-center font-[700] leading-[100%]">
-                        BlockchainFX
+                        {t('standout.blockchainFx')}
                       </p>
                     </div>
                   </th>
@@ -136,7 +132,7 @@ function StandoutSec() {
                         />
                       </div>
                       <p className="text-[13.946px] text-[#545454] text-center font-[700] leading-[100%]">
-                        BlockchainFX
+                        {t('standout.bitget')}
                       </p>
                     </div>
                   </th>
@@ -150,7 +146,7 @@ function StandoutSec() {
                         />
                       </div>
                       <p className="text-[13.946px] text-[#545454] text-center font-[700] leading-[100%]">
-                        BlockchainFX
+                        {t('standout.hyperliquid')}
                       </p>
                     </div>
                   </th>
@@ -164,7 +160,7 @@ function StandoutSec() {
                         />
                       </div>
                       <p className="text-[13.946px] text-[#545454] text-center font-[700] leading-[100%]">
-                        BlockchainFX
+                        {t('standout.uniswap')}
                       </p>
                     </div>
                   </th>
@@ -192,7 +188,7 @@ function StandoutSec() {
                             : ""
                         }`}
                       >
-                        {value.startsWith("/") ? (
+                        {typeof value === 'string' && value.startsWith("/") ? (
                           <img
                             src={value}
                             alt={`Row ${rowIndex + 1} Col ${colIndex + 1}`}

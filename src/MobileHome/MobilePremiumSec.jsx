@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
@@ -16,125 +17,118 @@ import cardimg5 from "../assets/PremiumSec/cardimg (5).png";
 import cardimg6 from "../assets/PremiumSec/cardimg (6).png";
 import cardimg7 from "../assets/PremiumSec/cardimg (7).png";
 
-const cardsmob = [
-  {
-    id: 1,
-    img: cardimg1,
-    title: "Novice",
-    price: "$1000",
-    reviews: [true, false, false, false, false],
-    points: ["Early Access", "10% BFX Bonus"],
-    buttonLabel: "Buy $BFX",
-  },
-  {
-    id: 2,
-    img: cardimg2,
-    title: "Advanced",
-    price: "$2500",
-    reviews: [true, true, false, false, false],
-    points: ["Early Access", "20% BFX Bonus", "$200 Trading Account"],
-    buttonLabel: "Buy $BFX",
-  },
-  {
-    id: 3,
-    img: cardimg3,
-    title: "Pro",
-    price: "$5000",
-    reviews: [true, true, true, false, false],
-    points: ["Early Access", "30% BFX Bonus", "$500 Trading Account"],
-    buttonLabel: "Buy $BFX",
-  },
-  {
-    id: 4,
-    img: cardimg4,
-    title: "Expert",
-    price: "$10,000+",
-
-    reviews: [true, true, true, true, false],
-    points: [
-      "Early Access",
-      "40% BFX Bonus",
-      "Daily USDT Rewards",
-      "$1200 Bonus Trading Funds",
-    ],
-    buttonLabel: "Buy $BFX",
-  },
-  {
-    id: 5,
-    img: cardimg5,
-    title: "Master",
-    price: "$25000+",
-
-    reviews: [true, true, true, true, true],
-    points: [
-      "Early Access",
-      "50% BFX Bonus",
-      "Daily USDT Rewards",
-      "$3000 Bonus Trading Funds",
-    ],
-    buttonLabel: "Buy $BFX",
-  },
-  {
-    id: 6,
-    img: cardimg6,
-    title: "Elite",
-    price: "$50,000+",
-
-    reviews: [true, true, true, true, true, true],
-    points: [
-      "Early Access",
-      "60% BFX Bonus",
-      "Daily USDT Rewards",
-      "$10,000 Bonus Trading Funds",
-    ],
-    buttonLabel: "Buy $BFX",
-  },
-  {
-    id: 7,
-    img: cardimg7,
-    title: "Legend",
-    price: "$100,000+",
-
-    reviews: [true, true, true, true, true, true, true],
-    points: [
-      "Early Access",
-      "80% BFX Bonus",
-      "Daily USDT Rewards",
-      "$25,000 Bonus Trading Funds",
-      "Personalised Portfolio Management",
-    ],
-    buttonLabel: "Buy $BFX",
-  },
-];
-const Bundles = [
-  {
-    id: 1,
-    question: "When will I get my Trading Bundle NFT?",
-    answer:
-      "You’ll receive your NFT automatically after purchasing the required amount of $BFX. It will appear in your personal dashboard and can be claimed once the pre-sale concludes.",
-  },
-  {
-    id: 2,
-    question: "When will I get my Bonuses?",
-    answer:
-      "Your BFX bonus will be added to your account immediately. Some of the other features will be available when you claim your NFT after the pre-sale ends. These bonuses are exclusive to the pre-sale and will not be available afterward.",
-  },
-  {
-    id: 3,
-    question: "Can I get a Trading Bundle with multiple purchases?",
-    answer:
-      "Yes, you can purchase $BFX in smaller amounts to reach the total required. For example, if you buy $200 worth of $BFX five times, you'll earn the Novice NFT (worth $1,000). You can also upgrade your NFT by purchasing more tokens to reach the next tier.",
-  },
-  {
-    id: 4,
-    question: "Can I upgrade my NFT?",
-    answer:
-      "Yes, you can upgrade your NFT while the pre-sale is still ongoing. For example, if you spend $1,000 on $BFX, you’ll receive the Novice NFT. To upgrade to the Advanced NFT, you’ll need to purchase an additional $1,500 worth of $BFX. You'll receive the rewards and NFT for the highest level you reach. After the pre-sale ends, upgrades will no longer be possible.",
-  },
-];
-
 function MobilePremiumSec() {
+  const { t } = useTranslation();
   const [openBundles, setOpenBundles] = useState(0);
+
+  const cardsmob = [
+    {
+      id: 1,
+      img: cardimg1,
+      title: t('premium.novice'),
+      price: t('premium.novicePrice'),
+      reviews: [true, false, false, false, false],
+      points: [t('premium.earlyAccess'), t('premium.bonus10')],
+      buttonLabel: t('premium.buyButton'),
+    },
+    {
+      id: 2,
+      img: cardimg2,
+      title: t('premium.advanced'),
+      price: t('premium.advancedPrice'),
+      reviews: [true, true, false, false, false],
+      points: [t('premium.earlyAccess'), t('premium.bonus20'), t('premium.tradingAccount200')],
+      buttonLabel: t('premium.buyButton'),
+    },
+    {
+      id: 3,
+      img: cardimg3,
+      title: t('premium.pro'),
+      price: t('premium.proPrice'),
+      reviews: [true, true, true, false, false],
+      points: [t('premium.earlyAccess'), t('premium.bonus30'), t('premium.tradingAccount500')],
+      buttonLabel: t('premium.buyButton'),
+    },
+    {
+      id: 4,
+      img: cardimg4,
+      title: t('premium.expert'),
+      price: t('premium.expertPrice'),
+      reviews: [true, true, true, true, false],
+      points: [
+        t('premium.earlyAccess'),
+        t('premium.bonus40'),
+        t('premium.dailyUsdtRewards'),
+        t('premium.bonusFunds1200'),
+      ],
+      buttonLabel: t('premium.buyButton'),
+    },
+    {
+      id: 5,
+      img: cardimg5,
+      title: t('premium.master'),
+      price: t('premium.masterPrice'),
+      reviews: [true, true, true, true, true],
+      points: [
+        t('premium.earlyAccess'),
+        t('premium.bonus50'),
+        t('premium.dailyUsdtRewards'),
+        t('premium.bonusFunds3000'),
+      ],
+      buttonLabel: t('premium.buyButton'),
+    },
+    {
+      id: 6,
+      img: cardimg6,
+      title: t('premium.elite'),
+      price: t('premium.elitePrice'),
+      reviews: [true, true, true, true, true, true],
+      points: [
+        t('premium.earlyAccess'),
+        t('premium.bonus60'),
+        t('premium.dailyUsdtRewards'),
+        t('premium.bonusFunds10000'),
+      ],
+      buttonLabel: t('premium.buyButton'),
+    },
+    {
+      id: 7,
+      img: cardimg7,
+      title: t('premium.legend'),
+      price: t('premium.legendPrice'),
+      reviews: [true, true, true, true, true, true, true],
+      points: [
+        t('premium.earlyAccess'),
+        t('premium.bonus80'),
+        t('premium.dailyUsdtRewards'),
+        t('premium.bonusFunds25000'),
+        t('premium.personalisedPortfolio'),
+      ],
+      buttonLabel: t('premium.buyButton'),
+    },
+  ];
+  const Bundles = [
+    {
+      id: 1,
+      question: t('premium.bundleFaq1Question'),
+      answer: t('premium.bundleFaq1Answer'),
+    },
+    {
+      id: 2,
+      question: t('premium.bundleFaq2Question'),
+      answer: t('premium.bundleFaq2Answer'),
+    },
+    {
+      id: 3,
+      question: t('premium.bundleFaq3Question'),
+      answer: t('premium.bundleFaq3Answer'),
+    },
+    {
+      id: 4,
+      question: t('premium.bundleFaq4Question'),
+      answer: t('premium.bundleFaq4Answer'),
+    },
+  ];
   const toggleBundles = (id) => {
     setOpenBundles(id === openBundles ? null : id);
   };
@@ -143,13 +137,10 @@ function MobilePremiumSec() {
       <div className="w-[90%] space-y-[20px] mx-auto relative">
         <div className="space-y-[12px]">
           <h3 className="text-[32px] leading-[100%] text-[#000] text-center font-[700]">
-            Premium Trading Bundles
+            {t('premium.title')}
           </h3>
           <p className="text-[15px] leading-[153.333%] max-w-[750px] mx-auto text-[#000] text-center font-[400] tracking-[-0.32px]">
-            Buy $BFX during the pre-sale to receive Limited Trading Bundle NFTs
-            starting at $1,000. Enjoy bonus $BFX, daily USDT rewards, early
-            access, and extra trading funds to jumpstart your BlockchainFX
-            journey. Available only during the pre-sale!
+            {t('premium.description')}
           </p>
         </div>
         <div className="w-[100%] mx-auto ">
@@ -228,7 +219,7 @@ function MobilePremiumSec() {
                     </div>
                     <div className="flex justify-start">
                       <button className="text-white bg-[#E5AE00] px-[12px] hover:text-black hover:bg-transparent text-[14px] font-[800] border border-[#E5AE00] hover:border-[#000] rounded-[8px] max-w-[100px] w-[100%] h-[40px]">
-                        Buy $BFX
+                        {t('premium.buyButton')}
                       </button>
                     </div>
                   </div>
@@ -260,70 +251,70 @@ function MobilePremiumSec() {
               <SwiperSlide>
               <div className="w-[100%] bg-[#F5F5F5] rounded-[3.585px] py-[10px]">
               <h4 className="text-[10px] text-[#000] font-[600] leading-[115%] text-center">
-                Novice
+                {t('premium.novice')}
               </h4>
               <p className="text-[#7C7C7C] font-[#7C7C7C] text-[9px] text-center">
-                $1000+
+                {t('premium.scaleNovicePrice')}
               </p>
             </div>
               </SwiperSlide>
               <SwiperSlide>
               <div className="w-[100%] bg-[#F5F5F5] rounded-[3.585px] py-[10px]">
               <h4 className="text-[10px] text-[#000] font-[600] leading-[115%] text-center">
-                Advanced
+                {t('premium.advanced')}
               </h4>
               <p className="text-[#7C7C7C] font-[#7C7C7C] text-[9px] text-center">
-                $$2500+
+                {t('premium.scaleAdvancedPrice')}
               </p>
             </div>
               </SwiperSlide>
               <SwiperSlide>
               <div className="w-[100%] bg-[#F5F5F5] rounded-[3.585px] py-[10px] ">
               <h4 className="text-[10px] text-[#000] font-[600] leading-[115%] text-center">
-                Pro
+                {t('premium.pro')}
               </h4>
               <p className="text-[#7C7C7C] font-[#7C7C7C] text-[9px] text-center">
-                $5000+
+                {t('premium.scaleProPrice')}
               </p>
             </div>
               </SwiperSlide>
               <SwiperSlide>
               <div className="w-[100%] bg-[#F5F5F5] rounded-[3.585px] py-[10px]">
               <h4 className="text-[10px] text-[#000] font-[600] leading-[115%] text-center">
-                Expert
+                {t('premium.expert')}
               </h4>
               <p className="text-[#7C7C7C] font-[#7C7C7C] text-[9px] text-center">
-                $$10,000+
+                {t('premium.scaleExpertPrice')}
               </p>
             </div>
               </SwiperSlide>
               <SwiperSlide>
               <div className="w-[100%] bg-[#F5F5F5] rounded-[3.585px] py-[10px]">
               <h4 className="text-[10px] text-[#000] font-[600] leading-[115%] text-center">
-                Master
+                {t('premium.master')}
               </h4>
               <p className="text-[#7C7C7C] font-[#7C7C7C] text-[9px] text-center">
-                $25,000+
+                {t('premium.scaleMasterPrice')}
               </p>
             </div>
               </SwiperSlide>
               <SwiperSlide>
               <div className="w-[100%] bg-[#F5F5F5] rounded-[3.585px] py-[10px]">
               <h4 className="text-[10px] text-[#000] font-[600] leading-[115%] text-center">
-                Elite
+                {t('premium.elite')}
               </h4>
               <p className="text-[#7C7C7C] font-[#7C7C7C] text-[9px] text-center">
-                $50,000+
+                {t('premium.scaleElitePrice')}
               </p>
             </div>
               </SwiperSlide>
               <SwiperSlide>
               <div className="w-[100%] bg-[#F5F5F5] rounded-[3.585px] py-[10px]">
               <h4 className="text-[10px] text-[#000] font-[600] leading-[115%] text-center">
-                Legend
+                {t('premium.legend')}
               </h4>
               <p className="text-[#7C7C7C] font-[#7C7C7C] text-[9px] text-center">
-                $100,000+
+                {t('premium.scaleLegendPrice')}
               </p>
             </div>
               </SwiperSlide>
@@ -392,7 +383,7 @@ function MobilePremiumSec() {
         <div className="w-[90%] mx-auto bg-[#F5F5F5] border border-[#797979] rounded-[13px] px-[12px]  py-[20px] space-y-[20px]">
           <div>
             <h3 className="text-[24px] text-center font-[700] text-[#181A20] tracking-[-1px]">
-              Questions About The Trading Bundles
+              {t('premium.bundleFaqTitle')}
             </h3>
           </div>
 

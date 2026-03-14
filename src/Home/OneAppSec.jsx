@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useTranslation } from 'react-i18next';
 import oneicon1 from "../assets/OneAppSec/oneicon (1).svg";
 import oneicon2 from "../assets/OneAppSec/oneicon (4).svg";
 import oneicon3 from "../assets/OneAppSec/oneicon (2).svg";
@@ -7,38 +8,36 @@ import iconapon from "../assets/OneAppSec/iconopen (1).svg";
 import iconcls from "../assets/OneAppSec/iconopen (2).svg";
 import oneimg from "../assets/OneAppSec/imgonecec1.png";
 
-const items = [
-  {
-    icon: oneicon1,
-    title: "Any Device",
-    description:
-      "Users can trade from any device, whether it's a PC, Mac, iOS, or Android.",
-  },
-  {
-    icon: oneicon2,
-    title: "Technical Tools",
-    description:
-      "Advanced technical tools designed to enhance market analysis and decision-making.",
-  },
-  {
-    icon: oneicon3,
-    title: "Risk Management",
-    description: "Comprehensive risk management features to minimize risks.",
-  },
-  {
-    icon: oneicon4,
-    title: "Multiple Charts",
-    description:
-      "Traders can use multiple charts at the same time for better market insights.",
-  },
-];
-
 function OneAppSec() {
+  const { t } = useTranslation();
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handleToggle = (index) => {
     setActiveIndex(index === activeIndex ? -1 : index);
   };
+
+  const items = [
+    {
+      icon: oneicon1,
+      title: t('oneApp.feature1Title'),
+      description: t('oneApp.feature1Desc'),
+    },
+    {
+      icon: oneicon2,
+      title: t('oneApp.feature2Title'),
+      description: t('oneApp.feature2Desc'),
+    },
+    {
+      icon: oneicon3,
+      title: t('oneApp.feature3Title'),
+      description: t('oneApp.feature3Desc'),
+    },
+    {
+      icon: oneicon4,
+      title: t('oneApp.feature4Title'),
+      description: t('oneApp.feature4Desc'),
+    },
+  ];
 
   return (
     <div className="py-[50px] bg-[#FBFBFB] overflow-hidden" id="what-is-bfx">
@@ -46,10 +45,10 @@ function OneAppSec() {
         <div className="max-w-[1200px] flex justify-between w-[100%] mx-auto space-y-[56px]">
           <div className="w-[50%] max-w-[473px] space-y-[6px]">
             <h3 className="text-[30px] capitalize font-[700] leading-normal text-[#181A20] tracking-[-1px] text-start">
-              Everything In One App
+              {t('oneApp.title')}
             </h3>
             <p className="text-[14px] text-[#181A20] font-[400] leading-[150%] leading-[-0.32px] text-start">
-              An innovative, modern, and intuitive trading platform
+              {t('oneApp.subtitle')}
             </p>
             <div className="">
               {items.map((item, index) => (

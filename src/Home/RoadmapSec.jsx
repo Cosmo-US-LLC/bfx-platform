@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 
 import vector1 from "../assets/Roadmap/vector (11).png";
 import vector2 from "../assets/Roadmap/vector (10).png";
@@ -13,13 +14,14 @@ import vector10 from "../assets/Roadmap/vector (2).png";
 import vector11 from "../assets/Roadmap/vector (1).png";
 
 function RoadmapSec() {
- 
+  const { t } = useTranslation();
+
   return (
     <div className="pt-[77px] space-y-[35px] pb-[80px]" id="roadmap">
       <div className="max-w-[1220px] relative space-y-[120px] w-[100%] mx-auto ">
         <div className="">
           <h3 className="text-[50px] font-[700] text-center leading-[114%] text-[#181A20] tracking-[-1px]">
-          Roadmap
+          {t('roadmap.title')}
           </h3>
         </div>
       <div className="space-y-[62px]">
@@ -32,19 +34,19 @@ function RoadmapSec() {
             <img src={vector1} className="border border-[#000]" alt="" />
         </div>
         <div className="w-[86%] space-y-[8px]">
-            <h3 className="text-[32px] font-[500] leading-[138%]">Preparation</h3>
+            <h3 className="text-[32px] font-[500] leading-[138%]">{t('roadmap.phase1Title')}</h3>
             <div className="grid grid-cols-2 gap-x-[13px] gap-y-[8px]">
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Idea + Concept</p>
+                    <p>{t('roadmap.phase1Item1')}</p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Raise Seed Funds</p>
+                    <p>{t('roadmap.phase1Item2')}</p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Onboard Team & Advisors</p>
+                    <p>{t('roadmap.phase1Item3')}</p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Trading Platform Beta Preparation </p>
+                    <p>{t('roadmap.phase1Item4')}</p>
                 </div>
             </div>
         </div>
@@ -60,19 +62,19 @@ function RoadmapSec() {
             <img src={vector1} className="border border-[#000]" alt="" />
         </div>
         <div className="w-[86%] space-y-[8px]">
-            <h3 className="text-[32px] font-[500] leading-[138%]">Execution</h3>
+            <h3 className="text-[32px] font-[500] leading-[138%]">{t('roadmap.phase2Title')}</h3>
             <div className="grid grid-cols-2 gap-x-[13px] gap-y-[8px]">
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Website, Tokenomics etc.</p>
+                    <p>{t('roadmap.phase2Item1')}</p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Create $BFX Token</p>
+                    <p>{t('roadmap.phase2Item2')}</p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Launch $BFX Pre-Sale </p>
+                    <p>{t('roadmap.phase2Item3')}</p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>CertiK Token Audit </p>
+                    <p>{t('roadmap.phase2Item4')}</p>
                 </div>
             </div>
         </div>
@@ -88,19 +90,19 @@ function RoadmapSec() {
             <img src={vector5} className="" alt="" />
         </div>
         <div className="w-[86%] space-y-[8px]">
-            <h3 className="text-[32px] font-[500] leading-[138%]">Launch</h3>
+            <h3 className="text-[32px] font-[500] leading-[138%]">{t('roadmap.phase3Title')}</h3>
             <div className="grid grid-cols-2 gap-x-[13px] gap-y-[8px]">
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Launch our Affiliate Program </p>
+                    <p>{t('roadmap.phase3Item1')}</p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Sell Out the Pre-Sale</p>
+                    <p>{t('roadmap.phase3Item2')}</p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Launch $BFX on Uniswap and CEX</p>
+                    <p>{t('roadmap.phase3Item3')}</p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Achieving 10’000 BFX Holders  </p>
+                    <p>{t('roadmap.phase3Item4')}</p>
                 </div>
             </div>
         </div>
@@ -116,19 +118,19 @@ function RoadmapSec() {
             <img src={vector5} className="" alt="" />
         </div>
         <div className="w-[86%] space-y-[8px]">
-            <h3 className="text-[32px] font-[500] leading-[138%]">Performance</h3>
+            <h3 className="text-[32px] font-[500] leading-[138%]">{t('roadmap.phase4Title')}</h3>
             <div className="grid grid-cols-2 gap-x-[13px] gap-y-[8px]">
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Cashback System for Traders</p>
+                    <p>{t('roadmap.phase4Item1')}</p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Public Chats for Trading Platform</p>
+                    <p>{t('roadmap.phase4Item2')}</p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Add Copy Trading Feature</p>
+                    <p>{t('roadmap.phase4Item3')}</p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Launch iOS and Android App </p>
+                    <p>{t('roadmap.phase4Item4')}</p>
                 </div>
             </div>
         </div>
@@ -145,19 +147,19 @@ function RoadmapSec() {
             <img src={vector5} className="" alt="" />
         </div>
         <div className="w-[86%] space-y-[8px]">
-            <h3 className="text-[32px] font-[500] leading-[138%]">Expansion</h3>
+            <h3 className="text-[32px] font-[500] leading-[138%]">{t('roadmap.phase5Title')}</h3>
             <div className="grid grid-cols-2 gap-x-[13px] gap-y-[8px]">
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Multiple CEX Listing</p>
+                    <p>{t('roadmap.phase5Item1')}</p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Reach $100M Daily Trading Volume</p>
+                    <p>{t('roadmap.phase5Item2')}</p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Achieving 100’000 BFX Holders</p>
+                    <p>{t('roadmap.phase5Item3')}</p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Trading Leaderboard & VIP accounts</p>
+                    <p>{t('roadmap.phase5Item4')}</p>
                 </div>
             </div>
         </div>
@@ -173,19 +175,19 @@ function RoadmapSec() {
             <img src={vector1} className="border border-[#000]" alt="" />
         </div>
         <div className="w-[86%] space-y-[8px]">
-            <h3 className="text-[32px] font-[500] leading-[138%]">Global Reach</h3>
+            <h3 className="text-[32px] font-[500] leading-[138%]">{t('roadmap.phase6Title')}</h3>
             <div className="grid grid-cols-2 gap-x-[13px] gap-y-[8px]">
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>US License </p>
+                    <p>{t('roadmap.phase6Item1')}</p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Global Marketing Campaigns </p>
+                    <p>{t('roadmap.phase6Item2')}</p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Achieving 1’000’000 BFX Holders </p>
+                    <p>{t('roadmap.phase6Item3')}</p>
                 </div>
                 <div className="max-w-[324px] flex items-center px-[12px] w-[100%] h-[44px] bg-[#DDD]">
-                    <p>Major Partnerships </p>
+                    <p>{t('roadmap.phase6Item4')}</p>
                 </div>
             </div>
         </div>

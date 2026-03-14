@@ -1,7 +1,9 @@
 import { useEffect } from "react";
+import { useTranslation } from 'react-i18next';
 import { useLocation } from "react-router-dom";
 
 function AntiMoney() {
+    const { t } = useTranslation();
     const { pathname } = useLocation();
 
     useEffect(() => {
@@ -12,7 +14,7 @@ function AntiMoney() {
     <div className="max-w-[1100px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] space-y-[30px] mx-auto py-[130px] pb-[50px]">
       <div className="space-y-[10px]">
         <h3 className="2xl:text-[30px] pb-[10px] xl:text-[30px] lg:text-[30px] md:text-[30px] sm:text-[24px] text-[24px] font-[700] leading-[130%]">
-          Anti Money Laundering (AML) and Know Your Customer (KYC) Policy
+          {t('antiMoney.title')}
         </h3>
      
         <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]   font-[400]">
@@ -65,7 +67,7 @@ Banking Supervision, Forty Recommendations for Money Laundering of FATF, USA Pat
 maintains an ongoing program for the purpose of assuring compliance with the relevant laws and
 regulations and the prevention of money laundering. This program seeks to coordinate the specific
 regulatory requirements throughout the group within a consolidated framework in order to effectively
-manage the group’s risk of exposure to money laundering and terrorist financing across all business
+manage the group's risk of exposure to money laundering and terrorist financing across all business
 units, functions, and legal entities.
         </p>
         <p className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]   font-[400]">Each of the affiliates of the Company are required to comply with AML and KYC policies.

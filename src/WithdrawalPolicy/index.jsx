@@ -1,7 +1,9 @@
 import { useEffect } from "react";
+import { useTranslation } from 'react-i18next';
 import { useLocation } from "react-router-dom";
 
 function WithdrawalPolicy() {
+    const { t } = useTranslation();
     const { pathname } = useLocation();
 
     useEffect(() => {
@@ -12,7 +14,7 @@ function WithdrawalPolicy() {
     <div className="max-w-[1100px] 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[90%] w-[90%] space-y-[30px] mx-auto py-[130px] pb-[50px]">
       <div className="space-y-[10px]">
         <h3 className="2xl:text-[30px] pb-[10px] xl:text-[30px] lg:text-[30px] md:text-[30px] sm:text-[24px] text-[24px] font-[700] leading-[130%]">
-          Withdrawal Policy
+          {t('withdrawalPolicyPage.title')}
         </h3>
       </div>
       <div className="space-y-[15px]">
@@ -48,11 +50,11 @@ function WithdrawalPolicy() {
           <li className="2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]  font-[400] ">
             The Company reserves the right to increase the processing time
             and/or cancel withdrawal requests submitted by the Client, without
-            prior notice, during an internal risk assessment of the Client’s
+            prior notice, during an internal risk assessment of the Client's
             account in relation to activities which insinuates the following
             (this list is not exhaustive): <br />
             <span className="ml-5 block">
-              i. Fraud; <br /> ii. Money laundering; <br /> iii. Unfair usage of the Company’s
+              i. Fraud; <br /> ii. Money laundering; <br /> iii. Unfair usage of the Company's
               General Fees Policy and the Terms of the Agreement; <br /> iv. other
               activities by the Client which may indicate breach of provisions
               of the Agreement and/or the applicable law; <br /> For the purpose of the
